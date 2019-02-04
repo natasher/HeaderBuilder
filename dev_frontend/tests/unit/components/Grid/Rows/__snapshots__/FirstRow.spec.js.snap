@@ -1,0 +1,313 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FirstRow.vue snapshots: should match if grid status is not custom 1`] = `
+<section
+  class="hb-row hbr-first"
+  name="fade"
+>
+  <header
+    class="hbr-header"
+  >
+    <span
+      class="hbr-title"
+    >
+      First Row
+    </span>
+     
+    <!---->
+  </header>
+   
+  <div
+    class="hbr-container"
+  >
+    <gridrowcell-stub
+      cellpos="left"
+      row="firstRow"
+    />
+     
+    <cellfooter-stub
+      pos="left"
+    >
+      
+        align: left
+    
+    </cellfooter-stub>
+     
+    <gridrowcell-stub
+      cellpos="center"
+      row="firstRow"
+    />
+     
+    <cellfooter-stub
+      pos="center"
+    >
+      
+        align: center
+    
+    </cellfooter-stub>
+     
+    <gridrowcell-stub
+      cellpos="right"
+      row="firstRow"
+    />
+     
+    <cellfooter-stub
+      pos="right"
+    >
+      
+        align: right
+    
+    </cellfooter-stub>
+  </div>
+</section>
+`;
+
+exports[`FirstRow.vue snapshots: should match if the layout position is bottom 1`] = `
+<section
+  class="hb-row hbr-first"
+  name="fade"
+>
+  <header
+    class="hbr-header"
+  >
+    <span
+      class="hbr-title"
+    >
+      First Row
+    </span>
+     
+    <a
+      class="icon-edit"
+      href="#"
+    >
+      <i
+        aria-hidden="true"
+        class="icon-pencil"
+      />
+    </a>
+  </header>
+   
+  <div
+    class="hbr-container"
+  >
+    <gridrowcell-stub
+      cellpos="left"
+      row="firstRow"
+    />
+     
+    <cellfooter-stub
+      pos="left"
+    >
+      
+        align: left
+    
+    </cellfooter-stub>
+     
+    <gridrowcell-stub
+      cellpos="center"
+      row="firstRow"
+    />
+     
+    <cellfooter-stub
+      pos="center"
+    >
+      
+        align: center
+    
+    </cellfooter-stub>
+     
+    <gridrowcell-stub
+      cellpos="right"
+      row="firstRow"
+    />
+     
+    <cellfooter-stub
+      pos="right"
+    >
+      
+        align: right
+    
+    </cellfooter-stub>
+  </div>
+</section>
+`;
+
+exports[`FirstRow.vue snapshots: should match if the layout position is left 1`] = `
+<section
+  class="hb-row hbr-first"
+  name="fade"
+>
+  <header
+    class="hbr-header"
+  >
+    <span
+      class="hbr-title"
+    >
+      First Row
+    </span>
+     
+    <a
+      class="icon-edit"
+      href="#"
+    >
+      <i
+        aria-hidden="true"
+        class="icon-pencil"
+      />
+    </a>
+  </header>
+   
+  <div
+    class="hbr-container"
+  >
+    <gridrowcell-stub
+      cellpos="left"
+      row="firstRow"
+    />
+     
+    <cellfooter-stub
+      pos="left"
+    >
+      
+        align: middle
+    
+    </cellfooter-stub>
+     
+    <gridrowcell-stub
+      cellpos="center"
+      row="firstRow"
+    />
+      
+    <gridrowcell-stub
+      cellpos="right"
+      row="firstRow"
+    />
+     
+  </div>
+</section>
+`;
+
+exports[`FirstRow.vue snapshots: should match if the layout position is right 1`] = `
+<section
+  class="hb-row hbr-first"
+  name="fade"
+>
+  <header
+    class="hbr-header"
+  >
+    <span
+      class="hbr-title"
+    >
+      First Row
+    </span>
+     
+    <a
+      class="icon-edit"
+      href="#"
+    >
+      <i
+        aria-hidden="true"
+        class="icon-pencil"
+      />
+    </a>
+  </header>
+   
+  <div
+    class="hbr-container"
+  >
+    <gridrowcell-stub
+      cellpos="left"
+      row="firstRow"
+    />
+     
+    <cellfooter-stub
+      pos="left"
+    >
+      
+        align: middle
+    
+    </cellfooter-stub>
+     
+    <gridrowcell-stub
+      cellpos="center"
+      row="firstRow"
+    />
+      
+    <gridrowcell-stub
+      cellpos="right"
+      row="firstRow"
+    />
+     
+  </div>
+</section>
+`;
+
+exports[`FirstRow.vue snapshots: should match if the layout position is top 1`] = `
+<section
+  class="hb-row hbr-first"
+  name="fade"
+>
+  <header
+    class="hbr-header"
+  >
+    <span
+      class="hbr-title"
+    >
+      First Row
+    </span>
+     
+    <a
+      class="icon-edit"
+      href="#"
+    >
+      <i
+        aria-hidden="true"
+        class="icon-pencil"
+      />
+    </a>
+  </header>
+   
+  <div
+    class="hbr-container"
+  >
+    <gridrowcell-stub
+      cellpos="left"
+      row="firstRow"
+    />
+     
+    <cellfooter-stub
+      pos="left"
+    >
+      
+        align: left
+    
+    </cellfooter-stub>
+     
+    <gridrowcell-stub
+      cellpos="center"
+      row="firstRow"
+    />
+     
+    <cellfooter-stub
+      pos="center"
+    >
+      
+        align: center
+    
+    </cellfooter-stub>
+     
+    <gridrowcell-stub
+      cellpos="right"
+      row="firstRow"
+    />
+     
+    <cellfooter-stub
+      pos="right"
+    >
+      
+        align: right
+    
+    </cellfooter-stub>
+  </div>
+</section>
+`;

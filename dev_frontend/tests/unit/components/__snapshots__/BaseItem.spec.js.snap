@@ -1,0 +1,89 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BaseItem.vue snapshots: when item is dragged 1`] = `
+<div
+  class="hb-item hb-item-placeholder"
+  data-type="testName"
+>
+  <span
+    class="icons"
+  >
+    <a
+      class="icon-edit"
+    >
+      <i
+        class="icon-pencil"
+      />
+    </a>
+     
+    <a
+      class="icon-delete"
+    >
+      <i
+        class="icon-cancel"
+      />
+    </a>
+  </span>
+   
+  <div
+    class="image"
+    style="display: none;"
+  >
+    <fonticon-stub
+      icon="testIcon"
+    />
+  </div>
+   
+  <span
+    class="title"
+    style="display: none;"
+  >
+    
+      Test Name
+  
+  </span>
+</div>
+`;
+
+exports[`BaseItem.vue snapshots: with only required props 1`] = `
+<div
+  class="hb-item"
+  data-type="testName"
+>
+  <span
+    class="icons"
+  >
+    <a
+      class="icon-edit"
+    >
+      <i
+        class="icon-pencil"
+      />
+    </a>
+     
+    <a
+      class="icon-delete"
+    >
+      <i
+        class="icon-cancel"
+      />
+    </a>
+  </span>
+   
+  <div
+    class="image"
+  >
+    <fonticon-stub
+      icon="testIcon"
+    />
+  </div>
+   
+  <span
+    class="title"
+  >
+    
+      Test Name
+  
+  </span>
+</div>
+`;

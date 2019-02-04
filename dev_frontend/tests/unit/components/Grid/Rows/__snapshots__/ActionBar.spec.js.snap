@@ -1,0 +1,295 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ActionBar.vue snapshots: should match if grid status is not custom 1`] = `
+<section
+  class="hb-row hbr-action"
+  name="fade"
+>
+  <header
+    class="hbr-header"
+  >
+    <span
+      class="hbr-title"
+    >
+      Action Bar
+    </span>
+     
+    <!---->
+  </header>
+   
+  <div
+    class="hbr-container"
+  >
+    <gridrowcell-stub
+      cellpos="left"
+      row="actionBar"
+    />
+     
+    <cellfooter-stub
+      pos="left"
+    >
+      
+          align: left
+      
+    </cellfooter-stub>
+     
+    <gridrowcell-stub
+      cellpos="center"
+      row="actionBar"
+    />
+     
+    <cellfooter-stub
+      pos="center"
+    >
+      
+          align: center
+      
+    </cellfooter-stub>
+     
+    <gridrowcell-stub
+      cellpos="right"
+      row="actionBar"
+    />
+     
+    <cellfooter-stub
+      pos="right"
+    >
+      
+          align: right
+      
+    </cellfooter-stub>
+  </div>
+</section>
+`;
+
+exports[`ActionBar.vue snapshots: should match if the layout position is bottom 1`] = `
+<section
+  class="hb-row hbr-action"
+  name="fade"
+>
+  <header
+    class="hbr-header"
+  >
+    <span
+      class="hbr-title"
+    >
+      Action Bar
+    </span>
+     
+    <a
+      class="icon-edit"
+      href="#"
+    >
+      <i
+        aria-hidden="true"
+        class="icon-pencil"
+      />
+    </a>
+  </header>
+   
+  <div
+    class="hbr-container"
+  >
+    <gridrowcell-stub
+      cellpos="left"
+      row="actionBar"
+    />
+     
+    <cellfooter-stub
+      pos="left"
+    >
+      
+          align: left
+      
+    </cellfooter-stub>
+     
+    <gridrowcell-stub
+      cellpos="center"
+      row="actionBar"
+    />
+     
+    <cellfooter-stub
+      pos="center"
+    >
+      
+          align: center
+      
+    </cellfooter-stub>
+     
+    <gridrowcell-stub
+      cellpos="right"
+      row="actionBar"
+    />
+     
+    <cellfooter-stub
+      pos="right"
+    >
+      
+          align: right
+      
+    </cellfooter-stub>
+  </div>
+</section>
+`;
+
+exports[`ActionBar.vue snapshots: should match if the layout position is left 1`] = `
+<section
+  class="hb-row hbr-action"
+  name="fade"
+>
+  <header
+    class="hbr-header"
+  >
+    <span
+      class="hbr-title"
+    >
+      Action Bar
+    </span>
+     
+    <a
+      class="icon-edit"
+      href="#"
+    >
+      <i
+        aria-hidden="true"
+        class="icon-pencil"
+      />
+    </a>
+  </header>
+   
+  <div
+    class="hbr-container"
+  >
+    <gridrowcell-stub
+      cellpos="all"
+      row="actionBar"
+    />
+     
+    <cellfooter-stub
+      pos="left"
+    >
+      
+          align: top
+      
+    </cellfooter-stub>
+        
+  </div>
+</section>
+`;
+
+exports[`ActionBar.vue snapshots: should match if the layout position is right 1`] = `
+<section
+  class="hb-row hbr-action"
+  name="fade"
+>
+  <header
+    class="hbr-header"
+  >
+    <span
+      class="hbr-title"
+    >
+      Action Bar
+    </span>
+     
+    <a
+      class="icon-edit"
+      href="#"
+    >
+      <i
+        aria-hidden="true"
+        class="icon-pencil"
+      />
+    </a>
+  </header>
+   
+  <div
+    class="hbr-container"
+  >
+    <gridrowcell-stub
+      cellpos="all"
+      row="actionBar"
+    />
+     
+    <cellfooter-stub
+      pos="left"
+    >
+      
+          align: top
+      
+    </cellfooter-stub>
+        
+  </div>
+</section>
+`;
+
+exports[`ActionBar.vue snapshots: should match if the layout position is top 1`] = `
+<section
+  class="hb-row hbr-action"
+  name="fade"
+>
+  <header
+    class="hbr-header"
+  >
+    <span
+      class="hbr-title"
+    >
+      Action Bar
+    </span>
+     
+    <a
+      class="icon-edit"
+      href="#"
+    >
+      <i
+        aria-hidden="true"
+        class="icon-pencil"
+      />
+    </a>
+  </header>
+   
+  <div
+    class="hbr-container"
+  >
+    <gridrowcell-stub
+      cellpos="left"
+      row="actionBar"
+    />
+     
+    <cellfooter-stub
+      pos="left"
+    >
+      
+          align: left
+      
+    </cellfooter-stub>
+     
+    <gridrowcell-stub
+      cellpos="center"
+      row="actionBar"
+    />
+     
+    <cellfooter-stub
+      pos="center"
+    >
+      
+          align: center
+      
+    </cellfooter-stub>
+     
+    <gridrowcell-stub
+      cellpos="right"
+      row="actionBar"
+    />
+     
+    <cellfooter-stub
+      pos="right"
+    >
+      
+          align: right
+      
+    </cellfooter-stub>
+  </div>
+</section>
+`;
+
+exports[`ActionBar.vue snapshots: should match if the row is NOT active 1`] = `<!---->`;

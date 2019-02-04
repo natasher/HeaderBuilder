@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AppScaffold.vue should match snapshot 1`] = `
+<div
+  class="clearfix mfn-hb"
+  data-device="test-view"
+  data-position="test-position"
+  data-type="test-flag"
+  id="mfn-wrapper"
+>
+  <div
+    class="clearfix"
+    id="mfn-hb-header"
+  >
+    <div
+      class="test-header"
+    >
+      HEADER SLOT
+    </div>
+  </div>
+   
+  <div
+    class="test-main"
+  >
+    MAIN SLOT
+  </div>
+   
+  <modalslist-stub />
+</div>
+`;

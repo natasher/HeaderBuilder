@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ModalList.vue should match snapshot 1`] = `
+<section
+  name="modals"
+>
+  <mfngenericmodal-stub />
+   
+  <modalbutton-stub />
+   
+  <modalgrid-stub />
+   
+  <modalactionbar-stub />
+   
+  <modalfirstrow-stub />
+   
+  <modalsecondrow-stub />
+   
+  <modalextras-stub />
+   
+  <modalicon-stub />
+   
+  <modalimage-stub />
+   
+  <modallogo-stub />
+   
+  <modalmenu-stub />
+   
+  <modalmenuicon-stub />
+   
+  <modalsocialmedia-stub />
+   
+  <modaltext-stub />
+</section>
+`;

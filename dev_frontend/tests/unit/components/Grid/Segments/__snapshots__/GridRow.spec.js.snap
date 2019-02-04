@@ -1,0 +1,126 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GridRow.vue snapshots: should match snapshot with slots and when grid status is NOT custom 1`] = `
+<section
+  class="hb-row"
+  name="fade"
+>
+  <header
+    class="hbr-header"
+  >
+    <span
+      class="hbr-title"
+    >
+      Test Name
+    </span>
+     
+    <!---->
+  </header>
+   
+  <div
+    class="hbr-container"
+  >
+    <div
+      class="left"
+    >
+      LEFT
+    </div>
+     
+    <div
+      class="footer-left"
+    >
+      FOOTER LEFT
+    </div>
+     
+    <div
+      class="center"
+    >
+      CENTER
+    </div>
+     
+    <div
+      class="footer-center"
+    >
+      FOOTER CENTER
+    </div>
+     
+    <div
+      class="right"
+    >
+      RIGHT
+    </div>
+     
+    <div
+      class="footer-right"
+    >
+      FOOTER RIGHT
+    </div>
+  </div>
+</section>
+`;
+
+exports[`GridRow.vue snapshots: should match snapshot with slots and when grid status is custom 1`] = `
+<section
+  class="hb-row"
+  name="fade"
+>
+  <header
+    class="hbr-header"
+  >
+    <span
+      class="hbr-title"
+    >
+      Test Name
+    </span>
+     
+    <a
+      class="icon-edit"
+      href="#"
+    >
+      <fonticon-stub
+        icon="pencil"
+      />
+    </a>
+  </header>
+   
+  <div
+    class="hbr-container"
+  >
+    <div
+      class="left"
+    >
+      LEFT
+    </div>
+     
+    <div
+      class="footer-left"
+    >
+      FOOTER LEFT
+    </div>
+     
+    <div
+      class="center"
+    >
+      CENTER
+    </div>
+     
+    <div
+      class="footer-center"
+    >
+      FOOTER CENTER
+    </div>
+     
+    <div
+      class="right"
+    >
+      RIGHT
+    </div>
+     
+    <div
+      class="footer-right"
+    >
+      FOOTER RIGHT
+    </div>
+  </div>
+</section>
+`;

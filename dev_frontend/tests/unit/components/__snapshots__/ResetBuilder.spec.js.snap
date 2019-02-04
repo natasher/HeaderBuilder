@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ResetBuilder.vue should match snapshot 1`] = `
+<a
+  id="reset-builder"
+>
+  
+  Reset builder
+
+</a>
+`;

@@ -1,0 +1,114 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ItemsTray: snapshots: should match if item is dragged 1`] = `
+<section
+  id="mfn-hb-items"
+>
+  <div
+    class="header"
+  >
+    <span
+      class="title"
+    >
+      
+      Drag item and drop into workspace
+    
+    </span>
+  </div>
+   
+  <draggable-stub
+    class="hb-items clearfix"
+    clone="function _default(original) {
+          return original;
+        }"
+    element="div"
+    options="[object Object]"
+    value="[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]"
+  >
+    <baseitem-stub
+      item="[object Object]"
+    />
+    <baseitem-stub
+      item="[object Object]"
+    />
+    <baseitem-stub
+      item="[object Object]"
+    />
+    <baseitem-stub
+      item="[object Object]"
+      placeholder="true"
+    />
+    <baseitem-stub
+      item="[object Object]"
+    />
+    <baseitem-stub
+      item="[object Object]"
+    />
+    <baseitem-stub
+      item="[object Object]"
+    />
+    <baseitem-stub
+      item="[object Object]"
+    />
+    <baseitem-stub
+      item="[object Object]"
+    />
+  </draggable-stub>
+</section>
+`;
+
+exports[`ItemsTray: snapshots: should match when no item is dragged 1`] = `
+<section
+  id="mfn-hb-items"
+>
+  <div
+    class="header"
+  >
+    <span
+      class="title"
+    >
+      
+      Drag item and drop into workspace
+    
+    </span>
+  </div>
+   
+  <draggable-stub
+    class="hb-items clearfix"
+    clone="function _default(original) {
+          return original;
+        }"
+    element="div"
+    options="[object Object]"
+    value="[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]"
+  >
+    <baseitem-stub
+      item="[object Object]"
+    />
+    <baseitem-stub
+      item="[object Object]"
+    />
+    <baseitem-stub
+      item="[object Object]"
+    />
+    <baseitem-stub
+      item="[object Object]"
+    />
+    <baseitem-stub
+      item="[object Object]"
+    />
+    <baseitem-stub
+      item="[object Object]"
+    />
+    <baseitem-stub
+      item="[object Object]"
+    />
+    <baseitem-stub
+      item="[object Object]"
+    />
+    <baseitem-stub
+      item="[object Object]"
+    />
+  </draggable-stub>
+</section>
+`;

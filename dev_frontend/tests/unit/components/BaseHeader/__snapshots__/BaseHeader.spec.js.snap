@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BaseHeader.vue should match snapshot 1`] = `
+<header
+  class="header"
+>
+  <div
+    class="left"
+  >
+    <mfnlogo-stub />
+     
+    <basetitle-stub
+      title="Header Builder"
+    />
+  </div>
+   
+  <div
+    class="center"
+  >
+    <navselectdevice-stub />
+  </div>
+   
+  <div
+    class="right"
+  >
+    <a
+      class="mfn-button mfn-button-primary"
+      id="header-builder-submit"
+    >
+      
+      Save changes
+    
+    </a>
+  </div>
+</header>
+`;

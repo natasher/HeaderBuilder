@@ -1,0 +1,105 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TextField.vue snapshots: should match snapshot when field is narrow 1`] = `
+<div
+  class="row"
+>
+  <div
+    class="col col-left"
+  >
+    <span
+      class="title"
+    >
+      Test Field
+    </span>
+     
+    <!---->
+  </div>
+   
+  <div
+    class="col col-right"
+  >
+    <div
+      class="mfn-field mfnf-text narrow"
+    >
+      <input
+        name="testField"
+        placeholder=""
+        type="text"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`TextField.vue snapshots: should match snapshot when field is wide 1`] = `
+<div
+  class="row"
+>
+  <div
+    class="col col-left"
+  >
+    <span
+      class="title"
+    >
+      Test Field
+    </span>
+     
+    <span
+      class="desc"
+    >
+      Lorem ipsum dolor sit amet consectetur.
+    </span>
+  </div>
+   
+  <div
+    class="col col-right"
+  >
+    <div
+      class="mfn-field mfnf-text"
+    >
+      <input
+        name="testField"
+        placeholder=""
+        type="text"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`TextField.vue snapshots: should match snapshot when placeholder is provided 1`] = `
+<div
+  class="row"
+>
+  <div
+    class="col col-left"
+  >
+    <span
+      class="title"
+    >
+      Test Field
+    </span>
+     
+    <span
+      class="desc"
+    >
+      
+    </span>
+  </div>
+   
+  <div
+    class="col col-right"
+  >
+    <div
+      class="mfn-field mfnf-text"
+    >
+      <input
+        name="testField"
+        placeholder="Lorem, ipsum dolor."
+        type="text"
+      />
+    </div>
+  </div>
+</div>
+`;

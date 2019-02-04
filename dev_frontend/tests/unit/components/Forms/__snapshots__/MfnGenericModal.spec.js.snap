@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MfnGenericModal.vue should match snapshot 1`] = `
+<modal-stub
+  classes="info-modal,v--modal"
+  delay="0"
+  height="auto"
+  maxheight="Infinity"
+  maxwidth="Infinity"
+  minheight="0"
+  minwidth="0"
+  name="MfnGenericModal"
+  pivotx="0.5"
+  pivoty="0.5"
+  width="600"
+>
+  <div
+    class="header"
+  >
+    <div
+      class="left"
+    >
+      <div
+        class="title"
+      >
+        
+      </div>
+    </div>
+  </div>
+   
+  <div
+    class="content"
+  />
+   
+</modal-stub>
+`;

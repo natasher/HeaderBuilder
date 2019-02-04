@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DefaultStickyFlag.vue snapshots: should match if both button are visible 1`] = `
+<ul>
+  <li
+    class=""
+  >
+    <a
+      data-type="default"
+    >
+      
+      Default
+    
+    </a>
+  </li>
+   
+  <li
+    class="active"
+  >
+    <a
+      data-type="sticky"
+    >
+      
+      Sticky
+    
+    </a>
+  </li>
+</ul>
+`;
+
+exports[`DefaultStickyFlag.vue snapshots: should match if only default button is visible 1`] = `
+<ul>
+  <li
+    class="active"
+  >
+    <a
+      data-type="default"
+    >
+      
+      Default
+    
+    </a>
+  </li>
+   
+  <!---->
+</ul>
+`;

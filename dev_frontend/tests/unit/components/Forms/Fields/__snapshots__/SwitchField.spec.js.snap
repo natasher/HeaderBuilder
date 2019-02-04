@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SwitchField.vue should match snapshot 1`] = `
+<div
+  class="row"
+>
+  <div
+    class="col col-left"
+  >
+    <span
+      class="title"
+    >
+      Test Field
+    </span>
+  </div>
+   
+  <div
+    class="col col-right"
+  >
+    <baseswitch-stub
+      fieldname="Test Field"
+      isactive="true"
+      label="test label"
+      wpid="testField"
+    />
+  </div>
+</div>
+`;

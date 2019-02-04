@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TextAreaField.vue should match snapshot 1`] = `
+<div
+  class="row"
+>
+  <div
+    class="col col-left"
+  >
+    <div
+      class="title"
+    >
+      Test Field
+    </div>
+  </div>
+   
+  <div
+    class="col col-right"
+  >
+    <div
+      class="mfn-field"
+    >
+      <textarea
+        id="testField"
+        name="Test Field"
+      />
+    </div>
+  </div>
+</div>
+`;

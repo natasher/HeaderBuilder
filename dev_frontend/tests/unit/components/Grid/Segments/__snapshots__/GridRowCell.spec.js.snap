@@ -1,0 +1,69 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GridRowCell.vue snapshots: should match with three items 1`] = `
+<div
+  class="hb-col hbc-center"
+  data-placeholder="Drop item here"
+  data-title="align center"
+>
+  <baseitem-stub
+    cellid="0"
+    cellpos="center"
+    class=""
+    item="[object Object]"
+    row="actionBar"
+  />
+  <baseitem-stub
+    cellid="1"
+    cellpos="center"
+    class=""
+    item="[object Object]"
+    row="actionBar"
+  />
+  <baseitem-stub
+    cellid="2"
+    cellpos="center"
+    class=""
+    item="[object Object]"
+    row="actionBar"
+  />
+</div>
+`;
+
+exports[`GridRowCell.vue snapshots: should match with three items and grid status is \`off\` 1`] = `
+<div
+  class="hb-col hbc-center"
+  data-placeholder="Drop item here"
+  data-title="align center"
+>
+  <baseitem-stub
+    cellid="0"
+    cellpos="center"
+    class="disabled"
+    item="[object Object]"
+    row="actionBar"
+  />
+  <baseitem-stub
+    cellid="1"
+    cellpos="center"
+    class="disabled"
+    item="[object Object]"
+    row="actionBar"
+  />
+  <baseitem-stub
+    cellid="2"
+    cellpos="center"
+    class="disabled"
+    item="[object Object]"
+    row="actionBar"
+  />
+</div>
+`;
+
+exports[`GridRowCell.vue snapshots: should match without items 1`] = `
+<div
+  class="hb-col hbc-center"
+  data-placeholder="Drop item here"
+  data-title="align center"
+/>
+`;

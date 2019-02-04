@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GridTools.vue should match snapshot if grid status is \`custom\` 1`] = `
+<div
+  class="tools"
+>
+  <a
+    href="#"
+  >
+    <fonticon-stub
+      icon="pencil"
+    />
+  </a>
+</div>
+`;
+
+exports[`GridTools.vue should match snapshot if grid status is NOT \`custom\` 1`] = `
+<div
+  class="tools"
+>
+  <!---->
+</div>
+`;

@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Grid.vue snapshots: should match snapshot if grid status is \`auto\` 1`] = `
+<div
+  class="grid"
+  data-status="auto"
+>
+  <wrapperclearfix-stub
+    class="window primary"
+  >
+    <gridheader-stub />
+     
+    <wrapperclearfix-stub
+      class="main"
+    >
+      <actionbar-stub />
+       
+      <firstrow-stub />
+       
+      <secondrow-stub />
+    </wrapperclearfix-stub>
+     
+    <div
+      class="grid-auto"
+    >
+      
+      You're in Auto Mode
+    
+    </div>
+  </wrapperclearfix-stub>
+</div>
+`;
+
+exports[`Grid.vue snapshots: should match snapshot if grid status is other then \`auto\` 1`] = `
+<div
+  class="grid"
+  data-status="custom"
+>
+  <wrapperclearfix-stub
+    class="window primary"
+  >
+    <gridheader-stub />
+     
+    <wrapperclearfix-stub
+      class="main"
+    >
+      <actionbar-stub />
+       
+      <firstrow-stub />
+       
+      <secondrow-stub />
+    </wrapperclearfix-stub>
+     
+    <!---->
+  </wrapperclearfix-stub>
+</div>
+`;

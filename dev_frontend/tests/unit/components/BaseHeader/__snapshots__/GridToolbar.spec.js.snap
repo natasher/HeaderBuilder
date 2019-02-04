@@ -1,0 +1,122 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GridToolbar.vue snapshots: should match if device is \`desktop\` 1`] = `
+<wrapperclearfix-stub
+  class="general"
+>
+  <defaultstickytabs-stub
+    class="tabs"
+  />
+   
+  <wrappersection-stub
+    class="rows"
+    title="Show rows"
+  >
+    <div
+      class="mfn-field mfnf-checkbox"
+    >
+      <div
+        class="switch"
+      >
+        <span
+          class="path"
+        />
+         
+        <span
+          class="handle"
+        />
+      </div>
+       
+      <label>
+        Action bar
+      </label>
+    </div>
+     
+    <div
+      class="mfn-field mfnf-checkbox"
+    >
+      <div
+        class="switch"
+      >
+        <span
+          class="path"
+        />
+         
+        <span
+          class="handle"
+        />
+      </div>
+       
+      <label>
+        Second row
+      </label>
+    </div>
+  </wrappersection-stub>
+   
+  <wrappersection-stub
+    class="layouts"
+    title="Layouts"
+  >
+    <layouttabs-stub
+      class="select-position"
+    />
+  </wrappersection-stub>
+</wrapperclearfix-stub>
+`;
+
+exports[`GridToolbar.vue snapshots: should match if device is NOT \`desktop\` 1`] = `
+<wrapperclearfix-stub
+  class="general"
+>
+  <defaultstickytabs-stub
+    class="tabs"
+  />
+   
+  <wrappersection-stub
+    class="rows"
+    title="Show rows"
+  >
+    <div
+      class="mfn-field mfnf-checkbox"
+    >
+      <div
+        class="switch"
+      >
+        <span
+          class="path"
+        />
+         
+        <span
+          class="handle"
+        />
+      </div>
+       
+      <label>
+        Action bar
+      </label>
+    </div>
+     
+    <div
+      class="mfn-field mfnf-checkbox"
+    >
+      <div
+        class="switch"
+      >
+        <span
+          class="path"
+        />
+         
+        <span
+          class="handle"
+        />
+      </div>
+       
+      <label>
+        Second row
+      </label>
+    </div>
+  </wrappersection-stub>
+   
+  <!---->
+</wrapperclearfix-stub>
+`;

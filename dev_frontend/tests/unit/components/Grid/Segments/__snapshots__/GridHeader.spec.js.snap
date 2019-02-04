@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GridHeader.vue should match snapshot 1`] = `
+<header
+  class="header"
+>
+  <dots-stub />
+   
+  <viewwithresolution-stub />
+   
+  <gridstatus-stub />
+   
+  <gridtools-stub />
+</header>
+`;

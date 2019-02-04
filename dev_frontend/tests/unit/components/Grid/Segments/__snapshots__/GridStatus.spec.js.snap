@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GridStatus.vue should match snapshot if grid status is \`custom\` and header is \`sticky\`, device \`mobile\` 1`] = `
+<div
+  class="status"
+>
+  <span
+    class="label"
+  >
+    Status
+  </span>
+   
+  <ul>
+    <li
+      class=""
+    >
+      
+        Off
+    
+    </li>
+     
+    <li
+      class="active"
+    >
+      
+        Custom
+    
+    </li>
+     
+    <li
+      class=""
+    >
+      
+        Auto
+    
+    </li>
+  </ul>
+</div>
+`;

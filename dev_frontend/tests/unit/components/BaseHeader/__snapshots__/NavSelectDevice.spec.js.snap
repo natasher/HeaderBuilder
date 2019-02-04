@@ -1,0 +1,223 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NavSelectDevice.vue snapshots: should match if \`desktop\` device is selected 1`] = `
+<nav>
+  <ul
+    class="tabs select-device"
+  >
+    <li
+      class="active"
+    >
+      <a
+        data-type="desktop"
+      >
+        <span
+          class="icon"
+        >
+          <fonticon-stub
+            icon="monitor"
+          />
+        </span>
+         
+        <span
+          class="text"
+        >
+          Desktop
+        </span>
+      </a>
+    </li>
+     
+    <li
+      class=""
+    >
+      <a
+        data-type="tablet"
+      >
+        <span
+          class="icon"
+        >
+          <fonticon-stub
+            icon="mobile-line"
+          />
+        </span>
+         
+        <span
+          class="text"
+        >
+          Tablet
+        </span>
+      </a>
+    </li>
+     
+    <li
+      class=""
+    >
+      <a
+        data-type="mobile"
+      >
+        <span
+          class="icon"
+        >
+          <fonticon-stub
+            icon="mobile"
+          />
+        </span>
+         
+        <span
+          class="text"
+        >
+          Mobile
+        </span>
+      </a>
+    </li>
+  </ul>
+</nav>
+`;
+
+exports[`NavSelectDevice.vue snapshots: should match if \`mobile\` device is selected 1`] = `
+<nav>
+  <ul
+    class="tabs select-device"
+  >
+    <li
+      class=""
+    >
+      <a
+        data-type="desktop"
+      >
+        <span
+          class="icon"
+        >
+          <fonticon-stub
+            icon="monitor"
+          />
+        </span>
+         
+        <span
+          class="text"
+        >
+          Desktop
+        </span>
+      </a>
+    </li>
+     
+    <li
+      class=""
+    >
+      <a
+        data-type="tablet"
+      >
+        <span
+          class="icon"
+        >
+          <fonticon-stub
+            icon="mobile-line"
+          />
+        </span>
+         
+        <span
+          class="text"
+        >
+          Tablet
+        </span>
+      </a>
+    </li>
+     
+    <li
+      class="active"
+    >
+      <a
+        data-type="mobile"
+      >
+        <span
+          class="icon"
+        >
+          <fonticon-stub
+            icon="mobile"
+          />
+        </span>
+         
+        <span
+          class="text"
+        >
+          Mobile
+        </span>
+      </a>
+    </li>
+  </ul>
+</nav>
+`;
+
+exports[`NavSelectDevice.vue snapshots: should match if \`tablet\` device is selected 1`] = `
+<nav>
+  <ul
+    class="tabs select-device"
+  >
+    <li
+      class=""
+    >
+      <a
+        data-type="desktop"
+      >
+        <span
+          class="icon"
+        >
+          <fonticon-stub
+            icon="monitor"
+          />
+        </span>
+         
+        <span
+          class="text"
+        >
+          Desktop
+        </span>
+      </a>
+    </li>
+     
+    <li
+      class="active"
+    >
+      <a
+        data-type="tablet"
+      >
+        <span
+          class="icon"
+        >
+          <fonticon-stub
+            icon="mobile-line"
+          />
+        </span>
+         
+        <span
+          class="text"
+        >
+          Tablet
+        </span>
+      </a>
+    </li>
+     
+    <li
+      class=""
+    >
+      <a
+        data-type="mobile"
+      >
+        <span
+          class="icon"
+        >
+          <fonticon-stub
+            icon="mobile"
+          />
+        </span>
+         
+        <span
+          class="text"
+        >
+          Mobile
+        </span>
+      </a>
+    </li>
+  </ul>
+</nav>
+`;

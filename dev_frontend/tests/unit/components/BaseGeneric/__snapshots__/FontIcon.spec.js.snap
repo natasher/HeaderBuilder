@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FontIcon.vue should match snapshot 1`] = `
+<i
+  aria-hidden="true"
+  class="icon-poop"
+/>
+`;

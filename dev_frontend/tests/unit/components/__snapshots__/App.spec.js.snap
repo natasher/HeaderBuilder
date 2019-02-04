@@ -1,0 +1,67 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App.vue snapshots should dispay \`inactive items\` if current device is \`mobile\` 1`] = `
+<div
+  class="clearfix mfn-hb"
+  data-device="mobile"
+  data-position="top"
+  data-type="default"
+  id="mfn-wrapper"
+>
+  <div
+    class="clearfix"
+    id="mfn-hb-header"
+  >
+    <baseheader-stub />
+  </div>
+   
+  <section
+    id="mfn-hb-main"
+  >
+    <gridtoolbar-stub />
+     
+    <grid-stub />
+     
+    <inactiveitems-stub />
+     
+    <itemstray-stub />
+     
+    <footerlinks-stub />
+  </section>
+   
+  <modalslist-stub />
+</div>
+`;
+
+exports[`App.vue snapshots should match snapshot if current device is NOT \`mobile\` 1`] = `
+<div
+  class="clearfix mfn-hb"
+  data-device="desktop"
+  data-position="top"
+  data-type="default"
+  id="mfn-wrapper"
+>
+  <div
+    class="clearfix"
+    id="mfn-hb-header"
+  >
+    <baseheader-stub />
+  </div>
+   
+  <section
+    id="mfn-hb-main"
+  >
+    <gridtoolbar-stub />
+     
+    <grid-stub />
+     
+    <!---->
+     
+    <itemstray-stub />
+     
+    <footerlinks-stub />
+  </section>
+   
+  <modalslist-stub />
+</div>
+`;

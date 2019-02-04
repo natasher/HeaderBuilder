@@ -1,0 +1,165 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LayoutTabs.vue snapshots: should match if layout position is \`bottom\` 1`] = `
+<div>
+  <ul
+    class="small"
+  >
+    <li
+      class=""
+      data-position="top"
+    >
+      <span
+        class="icon"
+      />
+    </li>
+    <li
+      class="active"
+      data-position="bottom"
+    >
+      <span
+        class="icon"
+      />
+    </li>
+    <li
+      class=""
+      data-position="left"
+    >
+      <span
+        class="icon"
+      />
+    </li>
+    <li
+      class=""
+      data-position="right"
+    >
+      <span
+        class="icon"
+      />
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`LayoutTabs.vue snapshots: should match if layout position is \`left\` 1`] = `
+<div>
+  <ul
+    class="small"
+  >
+    <li
+      class=""
+      data-position="top"
+    >
+      <span
+        class="icon"
+      />
+    </li>
+    <li
+      class=""
+      data-position="bottom"
+    >
+      <span
+        class="icon"
+      />
+    </li>
+    <li
+      class="active"
+      data-position="left"
+    >
+      <span
+        class="icon"
+      />
+    </li>
+    <li
+      class=""
+      data-position="right"
+    >
+      <span
+        class="icon"
+      />
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`LayoutTabs.vue snapshots: should match if layout position is \`right\` 1`] = `
+<div>
+  <ul
+    class="small"
+  >
+    <li
+      class=""
+      data-position="top"
+    >
+      <span
+        class="icon"
+      />
+    </li>
+    <li
+      class=""
+      data-position="bottom"
+    >
+      <span
+        class="icon"
+      />
+    </li>
+    <li
+      class=""
+      data-position="left"
+    >
+      <span
+        class="icon"
+      />
+    </li>
+    <li
+      class="active"
+      data-position="right"
+    >
+      <span
+        class="icon"
+      />
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`LayoutTabs.vue snapshots: should match if layout position is \`top\` 1`] = `
+<div>
+  <ul
+    class="small"
+  >
+    <li
+      class="active"
+      data-position="top"
+    >
+      <span
+        class="icon"
+      />
+    </li>
+    <li
+      class=""
+      data-position="bottom"
+    >
+      <span
+        class="icon"
+      />
+    </li>
+    <li
+      class=""
+      data-position="left"
+    >
+      <span
+        class="icon"
+      />
+    </li>
+    <li
+      class=""
+      data-position="right"
+    >
+      <span
+        class="icon"
+      />
+    </li>
+  </ul>
+</div>
+`;

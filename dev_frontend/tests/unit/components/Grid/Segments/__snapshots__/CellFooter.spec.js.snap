@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CellFooter.vue snapshots: should match if position is \`test\` and slot contain some content 1`] = `
+<footer
+  class="hbr-footer"
+>
+  <span
+    class="hbr-title-test"
+  >
+    <div>
+      DEFAULT SLOT
+    </div>
+  </span>
+</footer>
+`;
+
+exports[`CellFooter.vue snapshots: should match if position is \`test\` and slot is empty 1`] = `
+<footer
+  class="hbr-footer"
+>
+  <span
+    class="hbr-title-test"
+  />
+</footer>
+`;

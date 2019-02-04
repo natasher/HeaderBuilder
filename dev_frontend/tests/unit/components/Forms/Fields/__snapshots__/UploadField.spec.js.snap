@@ -1,0 +1,79 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TextField.vue snapshots: should match snapshot if field contain image url 1`] = `
+<div
+  class="row"
+>
+  <div
+    class="col col-left"
+  >
+    <span
+      class="title"
+    >
+      Test Field
+    </span>
+  </div>
+   
+  <div
+    class="col col-right"
+  >
+    <div
+      class="mfn-field mfnf-upload"
+    >
+      <input
+        type="text"
+      />
+       
+      <button
+        class="mfn-button-generic remove"
+      >
+        
+          Remove
+      
+      </button>
+       
+      <img
+        src="https://lorem.test/shitty.png"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`TextField.vue snapshots: should match snapshot if field does NOT contain image url 1`] = `
+<div
+  class="row"
+>
+  <div
+    class="col col-left"
+  >
+    <span
+      class="title"
+    >
+      Test Field
+    </span>
+  </div>
+   
+  <div
+    class="col col-right"
+  >
+    <div
+      class="mfn-field mfnf-upload"
+    >
+      <input
+        type="text"
+      />
+       
+      <button
+        class="mfn-button-generic add"
+      >
+        
+          Add Image
+      
+      </button>
+       
+      <!---->
+    </div>
+  </div>
+</div>
+`;

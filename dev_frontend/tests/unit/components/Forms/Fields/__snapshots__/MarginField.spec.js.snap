@@ -1,0 +1,169 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TextField.vue snapshots: should match snapshot if located in grid form 1`] = `
+<div
+  class="row"
+>
+  <div
+    class="col col-left"
+  >
+    <span
+      class="title"
+    >
+      gridMargin
+    </span>
+  </div>
+   
+  <div
+    class="col col-right"
+  >
+    <div
+      class="mfn-field mfnf-margin"
+    >
+      <div
+        class="container"
+      >
+        <input
+          class="top"
+          name="testFieldTop"
+          placeholder="px"
+          type="text"
+        />
+         
+        <input
+          class="right"
+          name="testFieldRight"
+          placeholder="px"
+          type="text"
+        />
+         
+        <input
+          class="bottom"
+          name="testFieldBottom"
+          placeholder="px"
+          type="text"
+        />
+         
+        <input
+          class="left"
+          name="testFieldLeft"
+          placeholder="px"
+          type="text"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`TextField.vue snapshots: should match snapshot if located in item form 1`] = `
+<div
+  class="row"
+>
+  <div
+    class="col col-left"
+  >
+    <span
+      class="title"
+    >
+      Test Field
+    </span>
+  </div>
+   
+  <div
+    class="col col-right"
+  >
+    <div
+      class="mfn-field mfnf-margin"
+    >
+      <div
+        class="container"
+      >
+        <input
+          class="top"
+          name="testFieldTop"
+          placeholder="px"
+          type="text"
+        />
+         
+        <input
+          class="right"
+          name="testFieldRight"
+          placeholder="px"
+          type="text"
+        />
+         
+        <input
+          class="bottom"
+          name="testFieldBottom"
+          placeholder="px"
+          type="text"
+        />
+         
+        <input
+          class="left"
+          name="testFieldLeft"
+          placeholder="px"
+          type="text"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`TextField.vue snapshots: should match snapshot if located in row form 1`] = `
+<div
+  class="row"
+>
+  <div
+    class="col col-left"
+  >
+    <span
+      class="title"
+    >
+      Test Field
+    </span>
+  </div>
+   
+  <div
+    class="col col-right"
+  >
+    <div
+      class="mfn-field mfnf-margin"
+    >
+      <div
+        class="container"
+      >
+        <input
+          class="top"
+          name="testFieldTop"
+          placeholder="px"
+          type="text"
+        />
+         
+        <input
+          class="right"
+          name="testFieldRight"
+          placeholder="px"
+          type="text"
+        />
+         
+        <input
+          class="bottom"
+          name="testFieldBottom"
+          placeholder="px"
+          type="text"
+        />
+         
+        <input
+          class="left"
+          name="testFieldLeft"
+          placeholder="px"
+          type="text"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;

@@ -12,7 +12,7 @@
         :wpId         = "wpId"
         :label        = "label"
         :isActive     = "getSwitchFieldValue( wpId, as )"
-        @click.native = "toggleSwitchState({ name: wpId })" />
+        @click.native = "toggleSwitchState({ name: wpId, as: 'grid' })" />
 
     </div>
 

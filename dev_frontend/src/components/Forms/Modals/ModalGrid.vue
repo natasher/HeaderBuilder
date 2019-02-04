@@ -29,6 +29,12 @@
         fieldName = "Background Image"
         wpId      = "backgroundImage"
         as        = "grid" />
+
+      <switch-field
+        as        = "grid"
+        fieldName = "Minimalist"
+        wpId      = "minimalist"
+        label     = "minimalist label" />
     </template>
 
   </modal-scaffold>
@@ -39,6 +45,7 @@ import ModalScaffold        from '../../BaseGeneric/ModalScaffold.vue'
 import SelectField          from '../Fields/SelectField.vue'
 import ColorField           from '../Fields/ColorField.vue'
 import BackgroundImageField from '../Fields/BackgroundImageField.vue'
+import SwitchField          from '../Fields/SwitchField.vue'
 
 export default {
 
@@ -49,6 +56,7 @@ export default {
     SelectField,
     ColorField,
     BackgroundImageField,
+    SwitchField,
   },
 
 }

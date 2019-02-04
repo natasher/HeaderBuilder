@@ -5,7 +5,7 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "build:wp": "vue-cli-service build && cp -R ~/muffinheaderbuilder/dist/js/* -t /srv/http/wordpress/wp-content/plugins/mfn-header-builder/admin/dist/js",
+    "build:wp": "vue-cli-service build && cp -R ~/HeaderBuilder/dev_frontend/dist/js/* -t /srv/http/wordpress/wp-content/plugins/mfn-header-builder/admin/dist/js",
     "build:repo": "vue-cli-service build && cp -R ./dist/js/* -t ../mfn-header-builder/admin/dist/js",
     "lint": "vue-cli-service lint",
     "test:unit": "vue-cli-service test:unit",

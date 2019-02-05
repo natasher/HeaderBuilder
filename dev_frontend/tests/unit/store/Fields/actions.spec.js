@@ -197,7 +197,7 @@ describe('ACTIONS Fields:', () => {
     })
 
     test('should change value of the switch field on grid option to opposite', async () => {
-      const field = "minimalist"
+      const field = "headerOnTop"
       const fvalue = false
 
       store.commit('DesktopModule/SET_GRID_OPTIONS_VALUE', {
@@ -217,7 +217,7 @@ describe('ACTIONS Fields:', () => {
     })
 
     test('should also change switch value for sticky version', async () => {
-      const field = "minimalist"
+      const field = "headerOnTop"
       const fvalue = false
 
       store.commit('DesktopModule/SET_GRID_OPTIONS_VALUE', {

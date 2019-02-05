@@ -33,9 +33,9 @@
       <switch-field
         v-if      = "showSwitchField"
         as        = "grid"
-        fieldName = "Minimalist"
-        wpId      = "minimalist"
-        label     = "minimalist label" />
+        fieldName = "Header layered on top of content"
+        wpId      = "headerOnTop"
+        label     = "" />
     </template>
 
   </modal-scaffold>

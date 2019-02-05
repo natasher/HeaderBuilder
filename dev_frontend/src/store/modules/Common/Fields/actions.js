@@ -108,8 +108,14 @@ export default {
       return new Promise(( resolve ) => {
         const currentStoreModule = rootState.general.currentStoreModule
         const beforeValue        = getters.getGridOptionValue( payload.name )
+        const stickyStoreModule  = currentStoreModule.split( 'Module' )[ 0 ] + 'StickyModule'
 
         commit( `${ currentStoreModule }/SET_GRID_OPTIONS_VALUE`, {
+          name : payload.name,
+          value: !beforeValue
+        }, { root: true })
+
+        commit( `${ stickyStoreModule }/SET_GRID_OPTIONS_VALUE`, {
           name : payload.name,
           value: !beforeValue
         }, { root: true })

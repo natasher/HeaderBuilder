@@ -31,6 +31,7 @@
         as        = "grid" />
 
       <switch-field
+        v-if      = "showSwitchField"
         as        = "grid"
         fieldName = "Minimalist"
         wpId      = "minimalist"
@@ -41,6 +42,8 @@
 </template>
 
 <script>
+import { mapState } from 'vuex'
+
 import ModalScaffold        from '../../BaseGeneric/ModalScaffold.vue'
 import SelectField          from '../Fields/SelectField.vue'
 import ColorField           from '../Fields/ColorField.vue'
@@ -57,6 +60,18 @@ export default {
     ColorField,
     BackgroundImageField,
     SwitchField,
+  },
+
+  computed: {
+    ...mapState( 'general', {
+      getCurrentStoreModule: state => state.currentStoreModule,
+    }),
+
+    showSwitchField() {
+      return ( this.getCurrentStoreModule === 'DesktopModule'
+            || this.getCurrentStoreModule === 'TabletModule'
+            || this.getCurrentStoreModule === 'MobileModule' ) ? true : false
+    },
   },
 
 }

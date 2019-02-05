@@ -27,7 +27,7 @@ export default {
           label: 'auto',
           value: 'auto',
         },
-      }
+      },
       minimalist: false,
     }
   },

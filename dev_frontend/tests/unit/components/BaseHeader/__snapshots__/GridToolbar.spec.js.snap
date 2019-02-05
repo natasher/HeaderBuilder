@@ -1,14 +1,14 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`GridToolbar.vue snapshots: should match if device is \`desktop\` 1`] = `
-<wrapperclearfix-stub
+<wrapper-clearfix-stub
   class="general"
 >
-  <defaultstickytabs-stub
+  <default-sticky-tabs-stub
     class="tabs"
   />
    
-  <wrappersection-stub
+  <wrapper-section-stub
     class="rows"
     title="Show rows"
   >
@@ -51,28 +51,28 @@ exports[`GridToolbar.vue snapshots: should match if device is \`desktop\` 1`] = 
         Second row
       </label>
     </div>
-  </wrappersection-stub>
+  </wrapper-section-stub>
    
-  <wrappersection-stub
+  <wrapper-section-stub
     class="layouts"
     title="Layouts"
   >
-    <layouttabs-stub
+    <layout-tabs-stub
       class="select-position"
     />
-  </wrappersection-stub>
-</wrapperclearfix-stub>
+  </wrapper-section-stub>
+</wrapper-clearfix-stub>
 `;
 
 exports[`GridToolbar.vue snapshots: should match if device is NOT \`desktop\` 1`] = `
-<wrapperclearfix-stub
+<wrapper-clearfix-stub
   class="general"
 >
-  <defaultstickytabs-stub
+  <default-sticky-tabs-stub
     class="tabs"
   />
    
-  <wrappersection-stub
+  <wrapper-section-stub
     class="rows"
     title="Show rows"
   >
@@ -115,8 +115,8 @@ exports[`GridToolbar.vue snapshots: should match if device is NOT \`desktop\` 1`
         Second row
       </label>
     </div>
-  </wrappersection-stub>
+  </wrapper-section-stub>
    
   <!---->
-</wrapperclearfix-stub>
+</wrapper-clearfix-stub>
 `;

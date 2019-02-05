@@ -6,21 +6,21 @@ exports[`GridRowCell.vue snapshots: should match with three items 1`] = `
   data-placeholder="Drop item here"
   data-title="align center"
 >
-  <baseitem-stub
+  <base-item-stub
     cellid="0"
     cellpos="center"
     class=""
     item="[object Object]"
     row="actionBar"
   />
-  <baseitem-stub
+  <base-item-stub
     cellid="1"
     cellpos="center"
     class=""
     item="[object Object]"
     row="actionBar"
   />
-  <baseitem-stub
+  <base-item-stub
     cellid="2"
     cellpos="center"
     class=""
@@ -36,21 +36,21 @@ exports[`GridRowCell.vue snapshots: should match with three items and grid statu
   data-placeholder="Drop item here"
   data-title="align center"
 >
-  <baseitem-stub
+  <base-item-stub
     cellid="0"
     cellpos="center"
     class="disabled"
     item="[object Object]"
     row="actionBar"
   />
-  <baseitem-stub
+  <base-item-stub
     cellid="1"
     cellpos="center"
     class="disabled"
     item="[object Object]"
     row="actionBar"
   />
-  <baseitem-stub
+  <base-item-stub
     cellid="2"
     cellpos="center"
     class="disabled"

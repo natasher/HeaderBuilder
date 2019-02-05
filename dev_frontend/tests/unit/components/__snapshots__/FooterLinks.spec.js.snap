@@ -7,7 +7,7 @@ exports[`FooterLinks.vue should match snapshot 1`] = `
   <a
     href="#"
   >
-    <fonticon-stub
+    <font-icon-stub
       icon="info-circled"
     />
     
@@ -15,6 +15,6 @@ exports[`FooterLinks.vue should match snapshot 1`] = `
   
   </a>
    
-  <resetbuilder-stub />
+  <reset-builder-stub />
 </footer>
 `;

@@ -20,44 +20,44 @@ exports[`FirstRow.vue snapshots: should match if grid status is not custom 1`] =
   <div
     class="hbr-container"
   >
-    <gridrowcell-stub
+    <grid-row-cell-stub
       cellpos="left"
       row="firstRow"
     />
      
-    <cellfooter-stub
+    <cell-footer-stub
       pos="left"
     >
       
         align: left
     
-    </cellfooter-stub>
+    </cell-footer-stub>
      
-    <gridrowcell-stub
+    <grid-row-cell-stub
       cellpos="center"
       row="firstRow"
     />
      
-    <cellfooter-stub
+    <cell-footer-stub
       pos="center"
     >
       
         align: center
     
-    </cellfooter-stub>
+    </cell-footer-stub>
      
-    <gridrowcell-stub
+    <grid-row-cell-stub
       cellpos="right"
       row="firstRow"
     />
      
-    <cellfooter-stub
+    <cell-footer-stub
       pos="right"
     >
       
         align: right
     
-    </cellfooter-stub>
+    </cell-footer-stub>
   </div>
 </section>
 `;
@@ -80,9 +80,8 @@ exports[`FirstRow.vue snapshots: should match if the layout position is bottom 1
       class="icon-edit"
       href="#"
     >
-      <i
-        aria-hidden="true"
-        class="icon-pencil"
+      <font-icon-stub
+        icon="pencil"
       />
     </a>
   </header>
@@ -90,44 +89,44 @@ exports[`FirstRow.vue snapshots: should match if the layout position is bottom 1
   <div
     class="hbr-container"
   >
-    <gridrowcell-stub
+    <grid-row-cell-stub
       cellpos="left"
       row="firstRow"
     />
      
-    <cellfooter-stub
+    <cell-footer-stub
       pos="left"
     >
       
         align: left
     
-    </cellfooter-stub>
+    </cell-footer-stub>
      
-    <gridrowcell-stub
+    <grid-row-cell-stub
       cellpos="center"
       row="firstRow"
     />
      
-    <cellfooter-stub
+    <cell-footer-stub
       pos="center"
     >
       
         align: center
     
-    </cellfooter-stub>
+    </cell-footer-stub>
      
-    <gridrowcell-stub
+    <grid-row-cell-stub
       cellpos="right"
       row="firstRow"
     />
      
-    <cellfooter-stub
+    <cell-footer-stub
       pos="right"
     >
       
         align: right
     
-    </cellfooter-stub>
+    </cell-footer-stub>
   </div>
 </section>
 `;
@@ -150,9 +149,8 @@ exports[`FirstRow.vue snapshots: should match if the layout position is left 1`]
       class="icon-edit"
       href="#"
     >
-      <i
-        aria-hidden="true"
-        class="icon-pencil"
+      <font-icon-stub
+        icon="pencil"
       />
     </a>
   </header>
@@ -160,25 +158,25 @@ exports[`FirstRow.vue snapshots: should match if the layout position is left 1`]
   <div
     class="hbr-container"
   >
-    <gridrowcell-stub
+    <grid-row-cell-stub
       cellpos="left"
       row="firstRow"
     />
      
-    <cellfooter-stub
+    <cell-footer-stub
       pos="left"
     >
       
         align: middle
     
-    </cellfooter-stub>
+    </cell-footer-stub>
      
-    <gridrowcell-stub
+    <grid-row-cell-stub
       cellpos="center"
       row="firstRow"
     />
       
-    <gridrowcell-stub
+    <grid-row-cell-stub
       cellpos="right"
       row="firstRow"
     />
@@ -205,9 +203,8 @@ exports[`FirstRow.vue snapshots: should match if the layout position is right 1`
       class="icon-edit"
       href="#"
     >
-      <i
-        aria-hidden="true"
-        class="icon-pencil"
+      <font-icon-stub
+        icon="pencil"
       />
     </a>
   </header>
@@ -215,25 +212,25 @@ exports[`FirstRow.vue snapshots: should match if the layout position is right 1`
   <div
     class="hbr-container"
   >
-    <gridrowcell-stub
+    <grid-row-cell-stub
       cellpos="left"
       row="firstRow"
     />
      
-    <cellfooter-stub
+    <cell-footer-stub
       pos="left"
     >
       
         align: middle
     
-    </cellfooter-stub>
+    </cell-footer-stub>
      
-    <gridrowcell-stub
+    <grid-row-cell-stub
       cellpos="center"
       row="firstRow"
     />
       
-    <gridrowcell-stub
+    <grid-row-cell-stub
       cellpos="right"
       row="firstRow"
     />
@@ -260,9 +257,8 @@ exports[`FirstRow.vue snapshots: should match if the layout position is top 1`] 
       class="icon-edit"
       href="#"
     >
-      <i
-        aria-hidden="true"
-        class="icon-pencil"
+      <font-icon-stub
+        icon="pencil"
       />
     </a>
   </header>
@@ -270,44 +266,44 @@ exports[`FirstRow.vue snapshots: should match if the layout position is top 1`] 
   <div
     class="hbr-container"
   >
-    <gridrowcell-stub
+    <grid-row-cell-stub
       cellpos="left"
       row="firstRow"
     />
      
-    <cellfooter-stub
+    <cell-footer-stub
       pos="left"
     >
       
         align: left
     
-    </cellfooter-stub>
+    </cell-footer-stub>
      
-    <gridrowcell-stub
+    <grid-row-cell-stub
       cellpos="center"
       row="firstRow"
     />
      
-    <cellfooter-stub
+    <cell-footer-stub
       pos="center"
     >
       
         align: center
     
-    </cellfooter-stub>
+    </cell-footer-stub>
      
-    <gridrowcell-stub
+    <grid-row-cell-stub
       cellpos="right"
       row="firstRow"
     />
      
-    <cellfooter-stub
+    <cell-footer-stub
       pos="right"
     >
       
         align: right
     
-    </cellfooter-stub>
+    </cell-footer-stub>
   </div>
 </section>
 `;

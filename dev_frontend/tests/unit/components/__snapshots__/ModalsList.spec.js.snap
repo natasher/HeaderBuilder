@@ -4,32 +4,32 @@ exports[`ModalList.vue should match snapshot 1`] = `
 <section
   name="modals"
 >
-  <mfngenericmodal-stub />
+  <mfn-generic-modal-stub />
    
-  <modalbutton-stub />
+  <modal-button-stub />
    
-  <modalgrid-stub />
+  <modal-grid-stub />
    
-  <modalactionbar-stub />
+  <modal-action-bar-stub />
    
-  <modalfirstrow-stub />
+  <modal-first-row-stub />
    
-  <modalsecondrow-stub />
+  <modal-second-row-stub />
    
-  <modalextras-stub />
+  <modal-extras-stub />
    
-  <modalicon-stub />
+  <modal-icon-stub />
    
-  <modalimage-stub />
+  <modal-image-stub />
    
-  <modallogo-stub />
+  <modal-logo-stub />
    
-  <modalmenu-stub />
+  <modal-menu-stub />
    
-  <modalmenuicon-stub />
+  <modal-menu-icon-stub />
    
-  <modalsocialmedia-stub />
+  <modal-social-media-stub />
    
-  <modaltext-stub />
+  <modal-text-stub />
 </section>
 `;

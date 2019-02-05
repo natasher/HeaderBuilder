@@ -6,10 +6,10 @@ exports[`GridHeader.vue should match snapshot 1`] = `
 >
   <dots-stub />
    
-  <viewwithresolution-stub />
+  <view-with-resolution-stub />
    
-  <gridstatus-stub />
+  <grid-status-stub />
    
-  <gridtools-stub />
+  <grid-tools-stub />
 </header>
 `;

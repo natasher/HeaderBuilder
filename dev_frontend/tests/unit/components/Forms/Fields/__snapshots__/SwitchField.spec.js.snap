@@ -17,7 +17,7 @@ exports[`SwitchField.vue should match snapshot 1`] = `
   <div
     class="col col-right"
   >
-    <baseswitch-stub
+    <base-switch-stub
       fieldname="Test Field"
       isactive="true"
       label="test label"

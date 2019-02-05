@@ -77,7 +77,7 @@ exports[`GridRow.vue snapshots: should match snapshot with slots and when grid s
       class="icon-edit"
       href="#"
     >
-      <fonticon-stub
+      <font-icon-stub
         icon="pencil"
       />
     </a>

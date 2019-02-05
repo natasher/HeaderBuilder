@@ -20,44 +20,44 @@ exports[`SecondRow.vue snapshots: should match if grid status is not custom 1`] 
   <div
     class="hbr-container"
   >
-    <gridrowcell-stub
+    <grid-row-cell-stub
       cellpos="left"
       row="secondRow"
     />
      
-    <cellfooter-stub
+    <cell-footer-stub
       pos="left"
     >
       
         align: left
     
-    </cellfooter-stub>
+    </cell-footer-stub>
      
-    <gridrowcell-stub
+    <grid-row-cell-stub
       cellpos="center"
       row="secondRow"
     />
      
-    <cellfooter-stub
+    <cell-footer-stub
       pos="center"
     >
       
         align: center
     
-    </cellfooter-stub>
+    </cell-footer-stub>
      
-    <gridrowcell-stub
+    <grid-row-cell-stub
       cellpos="right"
       row="secondRow"
     />
      
-    <cellfooter-stub
+    <cell-footer-stub
       pos="right"
     >
       
         align: right
     
-    </cellfooter-stub>
+    </cell-footer-stub>
   </div>
 </section>
 `;
@@ -80,9 +80,8 @@ exports[`SecondRow.vue snapshots: should match if the layout position is bottom 
       class="icon-edit"
       href="#"
     >
-      <i
-        aria-hidden="true"
-        class="icon-pencil"
+      <font-icon-stub
+        icon="pencil"
       />
     </a>
   </header>
@@ -90,44 +89,44 @@ exports[`SecondRow.vue snapshots: should match if the layout position is bottom 
   <div
     class="hbr-container"
   >
-    <gridrowcell-stub
+    <grid-row-cell-stub
       cellpos="left"
       row="secondRow"
     />
      
-    <cellfooter-stub
+    <cell-footer-stub
       pos="left"
     >
       
         align: left
     
-    </cellfooter-stub>
+    </cell-footer-stub>
      
-    <gridrowcell-stub
+    <grid-row-cell-stub
       cellpos="center"
       row="secondRow"
     />
      
-    <cellfooter-stub
+    <cell-footer-stub
       pos="center"
     >
       
         align: center
     
-    </cellfooter-stub>
+    </cell-footer-stub>
      
-    <gridrowcell-stub
+    <grid-row-cell-stub
       cellpos="right"
       row="secondRow"
     />
      
-    <cellfooter-stub
+    <cell-footer-stub
       pos="right"
     >
       
         align: right
     
-    </cellfooter-stub>
+    </cell-footer-stub>
   </div>
 </section>
 `;
@@ -150,9 +149,8 @@ exports[`SecondRow.vue snapshots: should match if the layout position is left 1`
       class="icon-edit"
       href="#"
     >
-      <i
-        aria-hidden="true"
-        class="icon-pencil"
+      <font-icon-stub
+        icon="pencil"
       />
     </a>
   </header>
@@ -160,18 +158,18 @@ exports[`SecondRow.vue snapshots: should match if the layout position is left 1`
   <div
     class="hbr-container"
   >
-    <gridrowcell-stub
+    <grid-row-cell-stub
       cellpos="all"
       row="secondRow"
     />
      
-    <cellfooter-stub
+    <cell-footer-stub
       pos="left"
     >
       
         align: bottom
     
-    </cellfooter-stub>
+    </cell-footer-stub>
         
   </div>
 </section>
@@ -195,9 +193,8 @@ exports[`SecondRow.vue snapshots: should match if the layout position is right 1
       class="icon-edit"
       href="#"
     >
-      <i
-        aria-hidden="true"
-        class="icon-pencil"
+      <font-icon-stub
+        icon="pencil"
       />
     </a>
   </header>
@@ -205,18 +202,18 @@ exports[`SecondRow.vue snapshots: should match if the layout position is right 1
   <div
     class="hbr-container"
   >
-    <gridrowcell-stub
+    <grid-row-cell-stub
       cellpos="all"
       row="secondRow"
     />
      
-    <cellfooter-stub
+    <cell-footer-stub
       pos="left"
     >
       
         align: bottom
     
-    </cellfooter-stub>
+    </cell-footer-stub>
         
   </div>
 </section>
@@ -240,9 +237,8 @@ exports[`SecondRow.vue snapshots: should match if the layout position is top 1`]
       class="icon-edit"
       href="#"
     >
-      <i
-        aria-hidden="true"
-        class="icon-pencil"
+      <font-icon-stub
+        icon="pencil"
       />
     </a>
   </header>
@@ -250,44 +246,44 @@ exports[`SecondRow.vue snapshots: should match if the layout position is top 1`]
   <div
     class="hbr-container"
   >
-    <gridrowcell-stub
+    <grid-row-cell-stub
       cellpos="left"
       row="secondRow"
     />
      
-    <cellfooter-stub
+    <cell-footer-stub
       pos="left"
     >
       
         align: left
     
-    </cellfooter-stub>
+    </cell-footer-stub>
      
-    <gridrowcell-stub
+    <grid-row-cell-stub
       cellpos="center"
       row="secondRow"
     />
      
-    <cellfooter-stub
+    <cell-footer-stub
       pos="center"
     >
       
         align: center
     
-    </cellfooter-stub>
+    </cell-footer-stub>
      
-    <gridrowcell-stub
+    <grid-row-cell-stub
       cellpos="right"
       row="secondRow"
     />
      
-    <cellfooter-stub
+    <cell-footer-stub
       pos="right"
     >
       
         align: right
     
-    </cellfooter-stub>
+    </cell-footer-stub>
   </div>
 </section>
 `;

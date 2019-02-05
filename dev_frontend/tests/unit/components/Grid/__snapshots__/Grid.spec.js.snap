@@ -5,20 +5,20 @@ exports[`Grid.vue snapshots: should match snapshot if grid status is \`auto\` 1`
   class="grid"
   data-status="auto"
 >
-  <wrapperclearfix-stub
+  <wrapper-clearfix-stub
     class="window primary"
   >
-    <gridheader-stub />
+    <grid-header-stub />
      
-    <wrapperclearfix-stub
+    <wrapper-clearfix-stub
       class="main"
     >
-      <actionbar-stub />
+      <action-bar-stub />
        
-      <firstrow-stub />
+      <first-row-stub />
        
-      <secondrow-stub />
-    </wrapperclearfix-stub>
+      <second-row-stub />
+    </wrapper-clearfix-stub>
      
     <div
       class="grid-auto"
@@ -27,7 +27,7 @@ exports[`Grid.vue snapshots: should match snapshot if grid status is \`auto\` 1`
       You're in Auto Mode
     
     </div>
-  </wrapperclearfix-stub>
+  </wrapper-clearfix-stub>
 </div>
 `;
 
@@ -36,22 +36,22 @@ exports[`Grid.vue snapshots: should match snapshot if grid status is other then 
   class="grid"
   data-status="custom"
 >
-  <wrapperclearfix-stub
+  <wrapper-clearfix-stub
     class="window primary"
   >
-    <gridheader-stub />
+    <grid-header-stub />
      
-    <wrapperclearfix-stub
+    <wrapper-clearfix-stub
       class="main"
     >
-      <actionbar-stub />
+      <action-bar-stub />
        
-      <firstrow-stub />
+      <first-row-stub />
        
-      <secondrow-stub />
-    </wrapperclearfix-stub>
+      <second-row-stub />
+    </wrapper-clearfix-stub>
      
     <!---->
-  </wrapperclearfix-stub>
+  </wrapper-clearfix-stub>
 </div>
 `;

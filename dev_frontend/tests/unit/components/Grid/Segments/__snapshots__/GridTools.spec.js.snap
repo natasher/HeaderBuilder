@@ -7,7 +7,7 @@ exports[`GridTools.vue should match snapshot if grid status is \`custom\` 1`] = 
   <a
     href="#"
   >
-    <fonticon-stub
+    <font-icon-stub
       icon="pencil"
     />
   </a>

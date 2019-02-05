@@ -65,7 +65,7 @@ describe('SwitchField.vue', () => {
       }
     })
     const wrapper = createWrapper({ store, })
-    const sw      = wrapper.find('baseswitch-stub')
+    const sw      = wrapper.find('base-switch-stub')
     sw.trigger( 'click' )
 
     expect(toggleSwitchState).toBeCalledWith(
@@ -95,7 +95,7 @@ describe('SwitchField.vue', () => {
         as: 'grid'
       }
     })
-    const sw = wrapper.find('baseswitch-stub')
+    const sw = wrapper.find('base-switch-stub')
     sw.trigger( 'click' )
 
     expect(toggleSwitchState).toBeCalledWith(

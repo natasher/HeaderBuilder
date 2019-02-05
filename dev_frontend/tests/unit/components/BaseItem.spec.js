@@ -350,7 +350,7 @@ describe('BaseItem.vue', () => {
       })
       await flushPromises()
 
-      expect( wrapper.find( FontIcon ).props( 'icon' ) ).toEqual({ icon: item.icon })
+      expect( wrapper.find( FontIcon ).props( 'icon' ) ).toEqual(item.icon)
     })
 
   })

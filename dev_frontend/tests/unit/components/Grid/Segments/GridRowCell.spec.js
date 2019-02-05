@@ -157,7 +157,7 @@ describe('GridRowCell.vue', () => {
         }
       })
       const wrapper = createWrapper({ store, })
-      const items = wrapper.findAll('baseitem-stub')
+      const items = wrapper.findAll('base-item-stub')
 
       expect( items.length ).toBe( testItems.length )
     })
@@ -182,7 +182,7 @@ describe('GridRowCell.vue', () => {
           row,
         }
       })
-      const items = wrapper.findAll('baseitem-stub')
+      const items = wrapper.findAll('base-item-stub')
 
       for (let i = 0; i < testItems.length; i++) {
         expect( items.at( i ).attributes().row ).toBe( row )
@@ -209,7 +209,7 @@ describe('GridRowCell.vue', () => {
           cellPos,
         }
       })
-      const items = wrapper.findAll('baseitem-stub')
+      const items = wrapper.findAll('base-item-stub')
 
       for (let i = 0; i < testItems.length; i++) {
         expect( items.at( i ).attributes().cellpos ).toBe( cellPos )
@@ -230,7 +230,7 @@ describe('GridRowCell.vue', () => {
         }
       })
       const wrapper = createWrapper({ store, })
-      const items = wrapper.findAll('baseitem-stub')
+      const items = wrapper.findAll('base-item-stub')
 
       for (let i = 0; i < testItems.length; i++) {
         expect( items.at( i ).attributes().item ).toBe( "[object Object]" )
@@ -251,7 +251,7 @@ describe('GridRowCell.vue', () => {
         }
       })
       const wrapper = createWrapper({ store, })
-      const items = wrapper.findAll('baseitem-stub')
+      const items = wrapper.findAll('base-item-stub')
 
       for (let i = 0; i < testItems.length; i++) {
         expect( items.at( i ).attributes().cellid ).toBe( `${ i }` )
@@ -276,7 +276,7 @@ describe('GridRowCell.vue', () => {
         }
       })
       const wrapper = createWrapper({ store, })
-      const items = wrapper.findAll('baseitem-stub')
+      const items = wrapper.findAll('base-item-stub')
 
       for (let i = 0; i < testItems.length; i++) {
         expect( items.at( i ).classes() ).toContain( 'disabled' )

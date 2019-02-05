@@ -14,7 +14,7 @@ exports[`NavSelectDevice.vue snapshots: should match if \`desktop\` device is se
         <span
           class="icon"
         >
-          <fonticon-stub
+          <font-icon-stub
             icon="monitor"
           />
         </span>
@@ -36,7 +36,7 @@ exports[`NavSelectDevice.vue snapshots: should match if \`desktop\` device is se
         <span
           class="icon"
         >
-          <fonticon-stub
+          <font-icon-stub
             icon="mobile-line"
           />
         </span>
@@ -58,7 +58,7 @@ exports[`NavSelectDevice.vue snapshots: should match if \`desktop\` device is se
         <span
           class="icon"
         >
-          <fonticon-stub
+          <font-icon-stub
             icon="mobile"
           />
         </span>
@@ -88,7 +88,7 @@ exports[`NavSelectDevice.vue snapshots: should match if \`mobile\` device is sel
         <span
           class="icon"
         >
-          <fonticon-stub
+          <font-icon-stub
             icon="monitor"
           />
         </span>
@@ -110,7 +110,7 @@ exports[`NavSelectDevice.vue snapshots: should match if \`mobile\` device is sel
         <span
           class="icon"
         >
-          <fonticon-stub
+          <font-icon-stub
             icon="mobile-line"
           />
         </span>
@@ -132,7 +132,7 @@ exports[`NavSelectDevice.vue snapshots: should match if \`mobile\` device is sel
         <span
           class="icon"
         >
-          <fonticon-stub
+          <font-icon-stub
             icon="mobile"
           />
         </span>
@@ -162,7 +162,7 @@ exports[`NavSelectDevice.vue snapshots: should match if \`tablet\` device is sel
         <span
           class="icon"
         >
-          <fonticon-stub
+          <font-icon-stub
             icon="monitor"
           />
         </span>
@@ -184,7 +184,7 @@ exports[`NavSelectDevice.vue snapshots: should match if \`tablet\` device is sel
         <span
           class="icon"
         >
-          <fonticon-stub
+          <font-icon-stub
             icon="mobile-line"
           />
         </span>
@@ -206,7 +206,7 @@ exports[`NavSelectDevice.vue snapshots: should match if \`tablet\` device is sel
         <span
           class="icon"
         >
-          <fonticon-stub
+          <font-icon-stub
             icon="mobile"
           />
         </span>

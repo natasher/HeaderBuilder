@@ -22,17 +22,17 @@ exports[`InactiveItems.vue snapshots: should match if 3 items is inactive 1`] = 
     <div
       class="hb-col"
     >
-      <baseitem-stub
+      <base-item-stub
         cellid="0"
         item="[object Object]"
         row="inactiveItems"
       />
-      <baseitem-stub
+      <base-item-stub
         cellid="1"
         item="[object Object]"
         row="inactiveItems"
       />
-      <baseitem-stub
+      <base-item-stub
         cellid="2"
         item="[object Object]"
         row="inactiveItems"

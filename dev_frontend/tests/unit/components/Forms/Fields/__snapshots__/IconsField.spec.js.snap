@@ -4637,1673 +4637,839 @@ exports[`IconsField.vue snapshots: should match snapshot if 3 icons has been add
     <div class="col col-right">
       <div class="mfn-field mfnf-icon">
         <div class="icon-select clearfix">
-          <div data-rel="icon-acrobat" class="mfn-icon">
-            <i data-rel="icon-acrobat" class="icon-acrobat"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-address" class="mfn-icon">
-            <i data-rel="icon-address" class="icon-address"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-adjust" class="mfn-icon">
-            <i data-rel="icon-adjust" class="icon-adjust"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-aim" class="mfn-icon">
-            <i data-rel="icon-aim" class="icon-aim"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-air" class="mfn-icon">
-            <i data-rel="icon-air" class="icon-air"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-alert" class="mfn-icon">
-            <i data-rel="icon-alert" class="icon-alert"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-amazon" class="mfn-icon">
-            <i data-rel="icon-amazon" class="icon-amazon"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-android" class="mfn-icon">
-            <i data-rel="icon-android" class="icon-android"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-angellist" class="mfn-icon">
-            <i data-rel="icon-angellist" class="icon-angellist"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-appnet" class="mfn-icon">
-            <i data-rel="icon-appnet" class="icon-appnet"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-appstore" class="mfn-icon">
-            <i data-rel="icon-appstore" class="icon-appstore"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-archive" class="mfn-icon">
-            <i data-rel="icon-archive" class="icon-archive"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-arrow-combo" class="mfn-icon">
-            <i data-rel="icon-arrow-combo" class="icon-arrow-combo"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-arrows-ccw" class="mfn-icon">
-            <i data-rel="icon-arrows-ccw" class="icon-arrows-ccw"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-attach" class="mfn-icon">
-            <i data-rel="icon-attach" class="icon-attach"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-attach-line" class="mfn-icon">
-            <i data-rel="icon-attach-line" class="icon-attach-line"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-attention" class="mfn-icon">
-            <i data-rel="icon-attention" class="icon-attention"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-back" class="mfn-icon">
-            <i data-rel="icon-back" class="icon-back"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-back-in-time" class="mfn-icon">
-            <i data-rel="icon-back-in-time" class="icon-back-in-time"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-bag" class="mfn-icon">
-            <i data-rel="icon-bag" class="icon-bag"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-bag-fine" class="mfn-icon">
-            <i data-rel="icon-bag-fine" class="icon-bag-fine"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-basket" class="mfn-icon">
-            <i data-rel="icon-basket" class="icon-basket"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-battery" class="mfn-icon">
-            <i data-rel="icon-battery" class="icon-battery"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-beaker-line" class="mfn-icon">
-            <i data-rel="icon-beaker-line" class="icon-beaker-line"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-behance" class="mfn-icon">
-            <i data-rel="icon-behance" class="icon-behance"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-bell" class="mfn-icon">
-            <i data-rel="icon-bell" class="icon-bell"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-bitbucket" class="mfn-icon">
-            <i data-rel="icon-bitbucket" class="icon-bitbucket"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-bitcoin" class="mfn-icon">
-            <i data-rel="icon-bitcoin" class="icon-bitcoin"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-block" class="mfn-icon">
-            <i data-rel="icon-block" class="icon-block"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-blogger" class="mfn-icon">
-            <i data-rel="icon-blogger" class="icon-blogger"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-book" class="mfn-icon">
-            <i data-rel="icon-book" class="icon-book"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-book-open" class="mfn-icon">
-            <i data-rel="icon-book-open" class="icon-book-open"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-bookmark" class="mfn-icon">
-            <i data-rel="icon-bookmark" class="icon-bookmark"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-bookmarks" class="mfn-icon">
-            <i data-rel="icon-bookmarks" class="icon-bookmarks"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-box" class="mfn-icon">
-            <i data-rel="icon-box" class="icon-box"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-briefcase" class="mfn-icon">
-            <i data-rel="icon-briefcase" class="icon-briefcase"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-brush" class="mfn-icon">
-            <i data-rel="icon-brush" class="icon-brush"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-bucket" class="mfn-icon">
-            <i data-rel="icon-bucket" class="icon-bucket"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-buffer" class="mfn-icon">
-            <i data-rel="icon-buffer" class="icon-buffer"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-calendar" class="mfn-icon">
-            <i data-rel="icon-calendar" class="icon-calendar"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-calendar-line" class="mfn-icon">
-            <i data-rel="icon-calendar-line" class="icon-calendar-line"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-call" class="mfn-icon">
-            <i data-rel="icon-call" class="icon-call"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-camera" class="mfn-icon">
-            <i data-rel="icon-camera" class="icon-camera"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-camera-line" class="mfn-icon">
-            <i data-rel="icon-camera-line" class="icon-camera-line"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-cancel" class="mfn-icon">
-            <i data-rel="icon-cancel" class="icon-cancel"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-cancel-fine" class="mfn-icon">
-            <i data-rel="icon-cancel-fine" class="icon-cancel-fine"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-cancel-circled" class="mfn-icon">
-            <i data-rel="icon-cancel-circled" class="icon-cancel-circled"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-cancel-squared" class="mfn-icon">
-            <i data-rel="icon-cancel-squared" class="icon-cancel-squared"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-cart" class="mfn-icon">
-            <i data-rel="icon-cart" class="icon-cart"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-cc" class="mfn-icon">
-            <i data-rel="icon-cc" class="icon-cc"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-cc-by" class="mfn-icon">
-            <i data-rel="icon-cc-by" class="icon-cc-by"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-cc-nc" class="mfn-icon">
-            <i data-rel="icon-cc-nc" class="icon-cc-nc"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-cc-nc-eu" class="mfn-icon">
-            <i data-rel="icon-cc-nc-eu" class="icon-cc-nc-eu"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-cc-nc-jp" class="mfn-icon">
-            <i data-rel="icon-cc-nc-jp" class="icon-cc-nc-jp"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-cc-nd" class="mfn-icon">
-            <i data-rel="icon-cc-nd" class="icon-cc-nd"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-cc-pd" class="mfn-icon">
-            <i data-rel="icon-cc-pd" class="icon-cc-pd"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-cc-remix" class="mfn-icon">
-            <i data-rel="icon-cc-remix" class="icon-cc-remix"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-cc-sa" class="mfn-icon">
-            <i data-rel="icon-cc-sa" class="icon-cc-sa"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-cc-share" class="mfn-icon">
-            <i data-rel="icon-cc-share" class="icon-cc-share"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-cc-zero" class="mfn-icon">
-            <i data-rel="icon-cc-zero" class="icon-cc-zero"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-ccw" class="mfn-icon">
-            <i data-rel="icon-ccw" class="icon-ccw"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-cd" class="mfn-icon">
-            <i data-rel="icon-cd" class="icon-cd"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-cd-line" class="mfn-icon">
-            <i data-rel="icon-cd-line" class="icon-cd-line"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-chart-area" class="mfn-icon">
-            <i data-rel="icon-chart-area" class="icon-chart-area"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-chart-bar" class="mfn-icon">
-            <i data-rel="icon-chart-bar" class="icon-chart-bar"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-chart-line" class="mfn-icon">
-            <i data-rel="icon-chart-line" class="icon-chart-line"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-chart-pie" class="mfn-icon">
-            <i data-rel="icon-chart-pie" class="icon-chart-pie"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-chat" class="mfn-icon">
-            <i data-rel="icon-chat" class="icon-chat"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-check" class="mfn-icon">
-            <i data-rel="icon-check" class="icon-check"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-chrome" class="mfn-icon">
-            <i data-rel="icon-chrome" class="icon-chrome"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-clipboard" class="mfn-icon">
-            <i data-rel="icon-clipboard" class="icon-clipboard"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-clock" class="mfn-icon">
-            <i data-rel="icon-clock" class="icon-clock"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-clock-line" class="mfn-icon">
-            <i data-rel="icon-clock-line" class="icon-clock-line"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-cloud" class="mfn-icon">
-            <i data-rel="icon-cloud" class="icon-cloud"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-cloud-line" class="mfn-icon">
-            <i data-rel="icon-cloud-line" class="icon-cloud-line"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-cloud-thunder" class="mfn-icon">
-            <i data-rel="icon-cloud-thunder" class="icon-cloud-thunder"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-cloudapp" class="mfn-icon">
-            <i data-rel="icon-cloudapp" class="icon-cloudapp"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-code" class="mfn-icon">
-            <i data-rel="icon-code" class="icon-code"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-cog" class="mfn-icon">
-            <i data-rel="icon-cog" class="icon-cog"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-cog-line" class="mfn-icon">
-            <i data-rel="icon-cog-line" class="icon-cog-line"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-comment-empty-fa" class="mfn-icon">
-            <i data-rel="icon-comment-empty-fa" class="icon-comment-empty-fa"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-comment-fa" class="mfn-icon">
-            <i data-rel="icon-comment-fa" class="icon-comment-fa"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-comment-line" class="mfn-icon">
-            <i data-rel="icon-comment-line" class="icon-comment-line"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-compass" class="mfn-icon">
-            <i data-rel="icon-compass" class="icon-compass"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-credit-card" class="mfn-icon">
-            <i data-rel="icon-credit-card" class="icon-credit-card"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-cup" class="mfn-icon">
-            <i data-rel="icon-cup" class="icon-cup"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-cup-line" class="mfn-icon">
-            <i data-rel="icon-cup-line" class="icon-cup-line"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-cw" class="mfn-icon">
-            <i data-rel="icon-cw" class="icon-cw"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-database" class="mfn-icon">
-            <i data-rel="icon-database" class="icon-database"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-database-line" class="mfn-icon">
-            <i data-rel="icon-database-line" class="icon-database-line"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-db-shape" class="mfn-icon">
-            <i data-rel="icon-db-shape" class="icon-db-shape"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-delicious" class="mfn-icon">
-            <i data-rel="icon-delicious" class="icon-delicious"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-desktop-line" class="mfn-icon">
-            <i data-rel="icon-desktop-line" class="icon-desktop-line"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-diamond-line" class="mfn-icon">
-            <i data-rel="icon-diamond-line" class="icon-diamond-line"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-digg" class="mfn-icon">
-            <i data-rel="icon-digg" class="icon-digg"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-direction" class="mfn-icon">
-            <i data-rel="icon-direction" class="icon-direction"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-disqus" class="mfn-icon">
-            <i data-rel="icon-disqus" class="icon-disqus"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-doc" class="mfn-icon">
-            <i data-rel="icon-doc" class="icon-doc"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-doc-landscape" class="mfn-icon">
-            <i data-rel="icon-doc-landscape" class="icon-doc-landscape"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-doc-line" class="mfn-icon">
-            <i data-rel="icon-doc-line" class="icon-doc-line"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-doc-text" class="mfn-icon">
-            <i data-rel="icon-doc-text" class="icon-doc-text"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-doc-text-inv" class="mfn-icon">
-            <i data-rel="icon-doc-text-inv" class="icon-doc-text-inv"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-docs" class="mfn-icon">
-            <i data-rel="icon-docs" class="icon-docs"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-dot" class="mfn-icon">
-            <i data-rel="icon-dot" class="icon-dot"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-dot-2" class="mfn-icon">
-            <i data-rel="icon-dot-2" class="icon-dot-2"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-dot-3" class="mfn-icon">
-            <i data-rel="icon-dot-3" class="icon-dot-3"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-down" class="mfn-icon">
-            <i data-rel="icon-down" class="icon-down"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-down-bold" class="mfn-icon">
-            <i data-rel="icon-down-bold" class="icon-down-bold"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-down-circled" class="mfn-icon">
-            <i data-rel="icon-down-circled" class="icon-down-circled"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-down-dir" class="mfn-icon">
-            <i data-rel="icon-down-dir" class="icon-down-dir"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-down-open" class="mfn-icon">
-            <i data-rel="icon-down-open" class="icon-down-open"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-down-open-big" class="mfn-icon">
-            <i data-rel="icon-down-open-big" class="icon-down-open-big"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-down-open-mini" class="mfn-icon">
-            <i data-rel="icon-down-open-mini" class="icon-down-open-mini"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-down-thin" class="mfn-icon">
-            <i data-rel="icon-down-thin" class="icon-down-thin"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-download" class="mfn-icon">
-            <i data-rel="icon-download" class="icon-download"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-dribbble" class="mfn-icon">
-            <i data-rel="icon-dribbble" class="icon-dribbble"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-dribbble-circled" class="mfn-icon">
-            <i data-rel="icon-dribbble-circled" class="icon-dribbble-circled"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-drive" class="mfn-icon">
-            <i data-rel="icon-drive" class="icon-drive"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-dropbox" class="mfn-icon">
-            <i data-rel="icon-dropbox" class="icon-dropbox"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-droplet" class="mfn-icon">
-            <i data-rel="icon-droplet" class="icon-droplet"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-drupal" class="mfn-icon">
-            <i data-rel="icon-drupal" class="icon-drupal"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-duckduckgo" class="mfn-icon">
-            <i data-rel="icon-duckduckgo" class="icon-duckduckgo"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-dwolla" class="mfn-icon">
-            <i data-rel="icon-dwolla" class="icon-dwolla"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-ebay" class="mfn-icon">
-            <i data-rel="icon-ebay" class="icon-ebay"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-email" class="mfn-icon">
-            <i data-rel="icon-email" class="icon-email"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-erase" class="mfn-icon">
-            <i data-rel="icon-erase" class="icon-erase"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-eventasaurus" class="mfn-icon">
-            <i data-rel="icon-eventasaurus" class="icon-eventasaurus"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-eventbrite" class="mfn-icon">
-            <i data-rel="icon-eventbrite" class="icon-eventbrite"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-eventful" class="mfn-icon">
-            <i data-rel="icon-eventful" class="icon-eventful"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-evernote" class="mfn-icon">
-            <i data-rel="icon-evernote" class="icon-evernote"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-export" class="mfn-icon">
-            <i data-rel="icon-export" class="icon-export"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-eye" class="mfn-icon">
-            <i data-rel="icon-eye" class="icon-eye"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-eye-line" class="mfn-icon">
-            <i data-rel="icon-eye-line" class="icon-eye-line"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-facebook" class="mfn-icon">
-            <i data-rel="icon-facebook" class="icon-facebook"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-facebook-circled" class="mfn-icon">
-            <i data-rel="icon-facebook-circled" class="icon-facebook-circled"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-facebook-squared" class="mfn-icon">
-            <i data-rel="icon-facebook-squared" class="icon-facebook-squared"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-fast-backward" class="mfn-icon">
-            <i data-rel="icon-fast-backward" class="icon-fast-backward"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-fast-forward" class="mfn-icon">
-            <i data-rel="icon-fast-forward" class="icon-fast-forward"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-feather" class="mfn-icon">
-            <i data-rel="icon-feather" class="icon-feather"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-fire-line" class="mfn-icon">
-            <i data-rel="icon-fire-line" class="icon-fire-line"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-fivehundredpx" class="mfn-icon">
-            <i data-rel="icon-fivehundredpx" class="icon-fivehundredpx"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-flag" class="mfn-icon">
-            <i data-rel="icon-flag" class="icon-flag"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-flash" class="mfn-icon">
-            <i data-rel="icon-flash" class="icon-flash"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-flashlight" class="mfn-icon">
-            <i data-rel="icon-flashlight" class="icon-flashlight"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-flattr" class="mfn-icon">
-            <i data-rel="icon-flattr" class="icon-flattr"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-flickr" class="mfn-icon">
-            <i data-rel="icon-flickr" class="icon-flickr"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-flickr-circled" class="mfn-icon">
-            <i data-rel="icon-flickr-circled" class="icon-flickr-circled"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-flight" class="mfn-icon">
-            <i data-rel="icon-flight" class="icon-flight"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-floppy" class="mfn-icon">
-            <i data-rel="icon-floppy" class="icon-floppy"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-flow-branch" class="mfn-icon">
-            <i data-rel="icon-flow-branch" class="icon-flow-branch"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-flow-cascade" class="mfn-icon">
-            <i data-rel="icon-flow-cascade" class="icon-flow-cascade"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-flow-line" class="mfn-icon">
-            <i data-rel="icon-flow-line" class="icon-flow-line"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-flow-parallel" class="mfn-icon">
-            <i data-rel="icon-flow-parallel" class="icon-flow-parallel"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-flow-tree" class="mfn-icon">
-            <i data-rel="icon-flow-tree" class="icon-flow-tree"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-folder" class="mfn-icon">
-            <i data-rel="icon-folder" class="icon-folder"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-food-line" class="mfn-icon">
-            <i data-rel="icon-food-line" class="icon-food-line"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-forrst" class="mfn-icon">
-            <i data-rel="icon-forrst" class="icon-forrst"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-forward" class="mfn-icon">
-            <i data-rel="icon-forward" class="icon-forward"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-foursquare" class="mfn-icon">
-            <i data-rel="icon-foursquare" class="icon-foursquare"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-gauge" class="mfn-icon">
-            <i data-rel="icon-gauge" class="icon-gauge"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-github" class="mfn-icon">
-            <i data-rel="icon-github" class="icon-github"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-github-circled" class="mfn-icon">
-            <i data-rel="icon-github-circled" class="icon-github-circled"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-globe" class="mfn-icon">
-            <i data-rel="icon-globe" class="icon-globe"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-globe-line" class="mfn-icon">
-            <i data-rel="icon-globe-line" class="icon-globe-line"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-gmail" class="mfn-icon">
-            <i data-rel="icon-gmail" class="icon-gmail"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-google" class="mfn-icon">
-            <i data-rel="icon-google" class="icon-google"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-google-circles" class="mfn-icon">
-            <i data-rel="icon-google-circles" class="icon-google-circles"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-googleplay" class="mfn-icon">
-            <i data-rel="icon-googleplay" class="icon-googleplay"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-gowalla" class="mfn-icon">
-            <i data-rel="icon-gowalla" class="icon-gowalla"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-gplus" class="mfn-icon">
-            <i data-rel="icon-gplus" class="icon-gplus"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-gplus-circled" class="mfn-icon">
-            <i data-rel="icon-gplus-circled" class="icon-gplus-circled"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-graduation-cap" class="mfn-icon">
-            <i data-rel="icon-graduation-cap" class="icon-graduation-cap"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-graduation-cap-line" class="mfn-icon">
-            <i data-rel="icon-graduation-cap-line" class="icon-graduation-cap-line"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-grooveshark" class="mfn-icon">
-            <i data-rel="icon-grooveshark" class="icon-grooveshark"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-guest" class="mfn-icon">
-            <i data-rel="icon-guest" class="icon-guest"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-hackernews" class="mfn-icon">
-            <i data-rel="icon-hackernews" class="icon-hackernews"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-heart-empty-fa" class="mfn-icon">
-            <i data-rel="icon-heart-empty-fa" class="icon-heart-empty-fa"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-heart-fa" class="mfn-icon">
-            <i data-rel="icon-heart-fa" class="icon-heart-fa"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-heart-line" class="mfn-icon">
-            <i data-rel="icon-heart-line" class="icon-heart-line"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-help" class="mfn-icon">
-            <i data-rel="icon-help" class="icon-help"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-help-circled" class="mfn-icon">
-            <i data-rel="icon-help-circled" class="icon-help-circled"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-home" class="mfn-icon">
-            <i data-rel="icon-home" class="icon-home"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-hourglass" class="mfn-icon">
-            <i data-rel="icon-hourglass" class="icon-hourglass"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-html5" class="mfn-icon">
-            <i data-rel="icon-html5" class="icon-html5"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-ie" class="mfn-icon">
-            <i data-rel="icon-ie" class="icon-ie"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-inbox" class="mfn-icon">
-            <i data-rel="icon-inbox" class="icon-inbox"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-inbox-line" class="mfn-icon">
-            <i data-rel="icon-inbox-line" class="icon-inbox-line"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-infinity" class="mfn-icon">
-            <i data-rel="icon-infinity" class="icon-infinity"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-info" class="mfn-icon">
-            <i data-rel="icon-info" class="icon-info"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-info-circled" class="mfn-icon">
-            <i data-rel="icon-info-circled" class="icon-info-circled"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-instagram" class="mfn-icon">
-            <i data-rel="icon-instagram" class="icon-instagram"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-install" class="mfn-icon">
-            <i data-rel="icon-install" class="icon-install"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-instapaper" class="mfn-icon">
-            <i data-rel="icon-instapaper" class="icon-instapaper"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-intensedebate" class="mfn-icon">
-            <i data-rel="icon-intensedebate" class="icon-intensedebate"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-itunes" class="mfn-icon">
-            <i data-rel="icon-itunes" class="icon-itunes"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-key" class="mfn-icon">
-            <i data-rel="icon-key" class="icon-key"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-key-line" class="mfn-icon">
-            <i data-rel="icon-key-line" class="icon-key-line"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-keyboard" class="mfn-icon">
-            <i data-rel="icon-keyboard" class="icon-keyboard"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-klout" class="mfn-icon">
-            <i data-rel="icon-klout" class="icon-klout"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-lamp" class="mfn-icon">
-            <i data-rel="icon-lamp" class="icon-lamp"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-language" class="mfn-icon">
-            <i data-rel="icon-language" class="icon-language"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-lanyrd" class="mfn-icon">
-            <i data-rel="icon-lanyrd" class="icon-lanyrd"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-lastfm" class="mfn-icon">
-            <i data-rel="icon-lastfm" class="icon-lastfm"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-lastfm-circled" class="mfn-icon">
-            <i data-rel="icon-lastfm-circled" class="icon-lastfm-circled"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-layout" class="mfn-icon">
-            <i data-rel="icon-layout" class="icon-layout"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-leaf" class="mfn-icon">
-            <i data-rel="icon-leaf" class="icon-leaf"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-left" class="mfn-icon">
-            <i data-rel="icon-left" class="icon-left"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-left-bold" class="mfn-icon">
-            <i data-rel="icon-left-bold" class="icon-left-bold"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-left-circled" class="mfn-icon">
-            <i data-rel="icon-left-circled" class="icon-left-circled"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-left-dir" class="mfn-icon">
-            <i data-rel="icon-left-dir" class="icon-left-dir"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-left-open" class="mfn-icon">
-            <i data-rel="icon-left-open" class="icon-left-open"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-left-open-big" class="mfn-icon">
-            <i data-rel="icon-left-open-big" class="icon-left-open-big"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-left-open-mini" class="mfn-icon">
-            <i data-rel="icon-left-open-mini" class="icon-left-open-mini"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-left-thin" class="mfn-icon">
-            <i data-rel="icon-left-thin" class="icon-left-thin"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-lego" class="mfn-icon">
-            <i data-rel="icon-lego" class="icon-lego"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-level-down" class="mfn-icon">
-            <i data-rel="icon-level-down" class="icon-level-down"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-level-up" class="mfn-icon">
-            <i data-rel="icon-level-up" class="icon-level-up"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-lifebuoy" class="mfn-icon">
-            <i data-rel="icon-lifebuoy" class="icon-lifebuoy"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-light-down" class="mfn-icon">
-            <i data-rel="icon-light-down" class="icon-light-down"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-light-up" class="mfn-icon">
-            <i data-rel="icon-light-up" class="icon-light-up"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-lightbulb-line" class="mfn-icon">
-            <i data-rel="icon-lightbulb-line" class="icon-lightbulb-line"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-link" class="mfn-icon">
-            <i data-rel="icon-link" class="icon-link"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-linkedin" class="mfn-icon">
-            <i data-rel="icon-linkedin" class="icon-linkedin"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-linkedin-circled" class="mfn-icon">
-            <i data-rel="icon-linkedin-circled" class="icon-linkedin-circled"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-list" class="mfn-icon">
-            <i data-rel="icon-list" class="icon-list"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-list-add" class="mfn-icon">
-            <i data-rel="icon-list-add" class="icon-list-add"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-lkdto" class="mfn-icon">
-            <i data-rel="icon-lkdto" class="icon-lkdto"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-location" class="mfn-icon">
-            <i data-rel="icon-location" class="icon-location"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-location-line" class="mfn-icon">
-            <i data-rel="icon-location-line" class="icon-location-line"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-lock" class="mfn-icon">
-            <i data-rel="icon-lock" class="icon-lock"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-lock-line" class="mfn-icon">
-            <i data-rel="icon-lock-line" class="icon-lock-line"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-lock-open" class="mfn-icon">
-            <i data-rel="icon-lock-open" class="icon-lock-open"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-login" class="mfn-icon">
-            <i data-rel="icon-login" class="icon-login"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-logo-db" class="mfn-icon">
-            <i data-rel="icon-logo-db" class="icon-logo-db"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-logout" class="mfn-icon">
-            <i data-rel="icon-logout" class="icon-logout"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-loop" class="mfn-icon">
-            <i data-rel="icon-loop" class="icon-loop"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-macstore" class="mfn-icon">
-            <i data-rel="icon-macstore" class="icon-macstore"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-magnet" class="mfn-icon">
-            <i data-rel="icon-magnet" class="icon-magnet"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-mail" class="mfn-icon">
-            <i data-rel="icon-mail" class="icon-mail"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-mail-line" class="mfn-icon">
-            <i data-rel="icon-mail-line" class="icon-mail-line"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-map" class="mfn-icon">
-            <i data-rel="icon-map" class="icon-map"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-meetup" class="mfn-icon">
-            <i data-rel="icon-meetup" class="icon-meetup"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-megaphone" class="mfn-icon">
-            <i data-rel="icon-megaphone" class="icon-megaphone"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-megaphone-line" class="mfn-icon">
-            <i data-rel="icon-megaphone-line" class="icon-megaphone-line"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-menu" class="mfn-icon">
-            <i data-rel="icon-menu" class="icon-menu"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-menu-fine" class="mfn-icon">
-            <i data-rel="icon-menu-fine" class="icon-menu-fine"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-mic" class="mfn-icon">
-            <i data-rel="icon-mic" class="icon-mic"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-minus" class="mfn-icon">
-            <i data-rel="icon-minus" class="icon-minus"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-minus-fine" class="mfn-icon">
-            <i data-rel="icon-minus-fine" class="icon-minus-fine"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-minus-circled" class="mfn-icon">
-            <i data-rel="icon-minus-circled" class="icon-minus-circled"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-minus-squared" class="mfn-icon">
-            <i data-rel="icon-minus-squared" class="icon-minus-squared"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-mixi" class="mfn-icon">
-            <i data-rel="icon-mixi" class="icon-mixi"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-mobile" class="mfn-icon">
-            <i data-rel="icon-mobile" class="icon-mobile"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-mobile-line" class="mfn-icon">
-            <i data-rel="icon-mobile-line" class="icon-mobile-line"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-money-line" class="mfn-icon">
-            <i data-rel="icon-money-line" class="icon-money-line"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-monitor" class="mfn-icon">
-            <i data-rel="icon-monitor" class="icon-monitor"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-moon" class="mfn-icon">
-            <i data-rel="icon-moon" class="icon-moon"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-mouse" class="mfn-icon">
-            <i data-rel="icon-mouse" class="icon-mouse"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-music" class="mfn-icon">
-            <i data-rel="icon-music" class="icon-music"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-music-line" class="mfn-icon">
-            <i data-rel="icon-music-line" class="icon-music-line"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-mute" class="mfn-icon">
-            <i data-rel="icon-mute" class="icon-mute"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-myspace" class="mfn-icon">
-            <i data-rel="icon-myspace" class="icon-myspace"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-network" class="mfn-icon">
-            <i data-rel="icon-network" class="icon-network"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-newspaper" class="mfn-icon">
-            <i data-rel="icon-newspaper" class="icon-newspaper"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-ninetyninedesigns" class="mfn-icon">
-            <i data-rel="icon-ninetyninedesigns" class="icon-ninetyninedesigns"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-note" class="mfn-icon">
-            <i data-rel="icon-note" class="icon-note"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-note-beamed" class="mfn-icon">
-            <i data-rel="icon-note-beamed" class="icon-note-beamed"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-note-line" class="mfn-icon">
-            <i data-rel="icon-note-line" class="icon-note-line"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-openid" class="mfn-icon">
-            <i data-rel="icon-openid" class="icon-openid"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-opentable" class="mfn-icon">
-            <i data-rel="icon-opentable" class="icon-opentable"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-palette" class="mfn-icon">
-            <i data-rel="icon-palette" class="icon-palette"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-paper-plane" class="mfn-icon">
-            <i data-rel="icon-paper-plane" class="icon-paper-plane"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-paper-plane-line" class="mfn-icon">
-            <i data-rel="icon-paper-plane-line" class="icon-paper-plane-line"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-params-line" class="mfn-icon">
-            <i data-rel="icon-params-line" class="icon-params-line"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-pause" class="mfn-icon">
-            <i data-rel="icon-pause" class="icon-pause"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-paypal" class="mfn-icon">
-            <i data-rel="icon-paypal" class="icon-paypal"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-pencil" class="mfn-icon">
-            <i data-rel="icon-pencil" class="icon-pencil"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-pencil-line" class="mfn-icon">
-            <i data-rel="icon-pencil-line" class="icon-pencil-line"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-phone" class="mfn-icon">
-            <i data-rel="icon-phone" class="icon-phone"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-photo-line" class="mfn-icon">
-            <i data-rel="icon-photo-line" class="icon-photo-line"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-picasa" class="mfn-icon">
-            <i data-rel="icon-picasa" class="icon-picasa"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-picture" class="mfn-icon">
-            <i data-rel="icon-picture" class="icon-picture"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-pinboard" class="mfn-icon">
-            <i data-rel="icon-pinboard" class="icon-pinboard"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-pinterest" class="mfn-icon">
-            <i data-rel="icon-pinterest" class="icon-pinterest"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-pinterest-circled" class="mfn-icon">
-            <i data-rel="icon-pinterest-circled" class="icon-pinterest-circled"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-plancast" class="mfn-icon">
-            <i data-rel="icon-plancast" class="icon-plancast"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-play" class="mfn-icon">
-            <i data-rel="icon-play" class="icon-play"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-plurk" class="mfn-icon">
-            <i data-rel="icon-plurk" class="icon-plurk"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-plus" class="mfn-icon">
-            <i data-rel="icon-plus" class="icon-plus"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-plus-fine" class="mfn-icon">
-            <i data-rel="icon-plus-fine" class="icon-plus-fine"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-plus-circled" class="mfn-icon">
-            <i data-rel="icon-plus-circled" class="icon-plus-circled"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-plus-squared" class="mfn-icon">
-            <i data-rel="icon-plus-squared" class="icon-plus-squared"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-pocket" class="mfn-icon">
-            <i data-rel="icon-pocket" class="icon-pocket"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-podcast" class="mfn-icon">
-            <i data-rel="icon-podcast" class="icon-podcast"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-popup" class="mfn-icon">
-            <i data-rel="icon-popup" class="icon-popup"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-posterous" class="mfn-icon">
-            <i data-rel="icon-posterous" class="icon-posterous"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-print" class="mfn-icon">
-            <i data-rel="icon-print" class="icon-print"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-progress-0" class="mfn-icon">
-            <i data-rel="icon-progress-0" class="icon-progress-0"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-progress-1" class="mfn-icon">
-            <i data-rel="icon-progress-1" class="icon-progress-1"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-progress-2" class="mfn-icon">
-            <i data-rel="icon-progress-2" class="icon-progress-2"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-progress-3" class="mfn-icon">
-            <i data-rel="icon-progress-3" class="icon-progress-3"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-publish" class="mfn-icon">
-            <i data-rel="icon-publish" class="icon-publish"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-qq" class="mfn-icon">
-            <i data-rel="icon-qq" class="icon-qq"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-quora" class="mfn-icon">
-            <i data-rel="icon-quora" class="icon-quora"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-quote" class="mfn-icon">
-            <i data-rel="icon-quote" class="icon-quote"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-rdio" class="mfn-icon">
-            <i data-rel="icon-rdio" class="icon-rdio"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-rdio-circled" class="mfn-icon">
-            <i data-rel="icon-rdio-circled" class="icon-rdio-circled"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-record" class="mfn-icon">
-            <i data-rel="icon-record" class="icon-record"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-reddit" class="mfn-icon">
-            <i data-rel="icon-reddit" class="icon-reddit"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-renren" class="mfn-icon">
-            <i data-rel="icon-renren" class="icon-renren"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-reply" class="mfn-icon">
-            <i data-rel="icon-reply" class="icon-reply"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-reply-all" class="mfn-icon">
-            <i data-rel="icon-reply-all" class="icon-reply-all"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-resize-full" class="mfn-icon">
-            <i data-rel="icon-resize-full" class="icon-resize-full"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-resize-small" class="mfn-icon">
-            <i data-rel="icon-resize-small" class="icon-resize-small"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-retweet" class="mfn-icon">
-            <i data-rel="icon-retweet" class="icon-retweet"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-right" class="mfn-icon">
-            <i data-rel="icon-right" class="icon-right"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-right-bold" class="mfn-icon">
-            <i data-rel="icon-right-bold" class="icon-right-bold"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-right-circled" class="mfn-icon">
-            <i data-rel="icon-right-circled" class="icon-right-circled"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-right-dir" class="mfn-icon">
-            <i data-rel="icon-right-dir" class="icon-right-dir"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-right-open" class="mfn-icon">
-            <i data-rel="icon-right-open" class="icon-right-open"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-right-open-big" class="mfn-icon">
-            <i data-rel="icon-right-open-big" class="icon-right-open-big"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-right-open-mini" class="mfn-icon">
-            <i data-rel="icon-right-open-mini" class="icon-right-open-mini"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-right-thin" class="mfn-icon">
-            <i data-rel="icon-right-thin" class="icon-right-thin"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-rocket" class="mfn-icon">
-            <i data-rel="icon-rocket" class="icon-rocket"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-rss" class="mfn-icon">
-            <i data-rel="icon-rss" class="icon-rss"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-scribd" class="mfn-icon">
-            <i data-rel="icon-scribd" class="icon-scribd"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-search" class="mfn-icon">
-            <i data-rel="icon-search" class="icon-search"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-search-fine" class="mfn-icon">
-            <i data-rel="icon-search-fine" class="icon-search-fine"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-search-line" class="mfn-icon">
-            <i data-rel="icon-search-line" class="icon-search-line"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-share" class="mfn-icon">
-            <i data-rel="icon-share" class="icon-share"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-shareable" class="mfn-icon">
-            <i data-rel="icon-shareable" class="icon-shareable"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-shop-line" class="mfn-icon">
-            <i data-rel="icon-shop-line" class="icon-shop-line"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-shuffle" class="mfn-icon">
-            <i data-rel="icon-shuffle" class="icon-shuffle"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-signal" class="mfn-icon">
-            <i data-rel="icon-signal" class="icon-signal"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-sina-weibo" class="mfn-icon">
-            <i data-rel="icon-sina-weibo" class="icon-sina-weibo"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-skype" class="mfn-icon">
-            <i data-rel="icon-skype" class="icon-skype"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-skype-circled" class="mfn-icon">
-            <i data-rel="icon-skype-circled" class="icon-skype-circled"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-smashing" class="mfn-icon">
-            <i data-rel="icon-smashing" class="icon-smashing"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-smashmag" class="mfn-icon">
-            <i data-rel="icon-smashmag" class="icon-smashmag"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-songkick" class="mfn-icon">
-            <i data-rel="icon-songkick" class="icon-songkick"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-sound" class="mfn-icon">
-            <i data-rel="icon-sound" class="icon-sound"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-sound-line" class="mfn-icon">
-            <i data-rel="icon-sound-line" class="icon-sound-line"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-soundcloud" class="mfn-icon">
-            <i data-rel="icon-soundcloud" class="icon-soundcloud"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-spotify" class="mfn-icon">
-            <i data-rel="icon-spotify" class="icon-spotify"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-spotify-circled" class="mfn-icon">
-            <i data-rel="icon-spotify-circled" class="icon-spotify-circled"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-stackoverflow" class="mfn-icon">
-            <i data-rel="icon-stackoverflow" class="icon-stackoverflow"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-star" class="mfn-icon">
-            <i data-rel="icon-star" class="icon-star"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-star-empty" class="mfn-icon">
-            <i data-rel="icon-star-empty" class="icon-star-empty"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-star-line" class="mfn-icon">
-            <i data-rel="icon-star-line" class="icon-star-line"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-statusnet" class="mfn-icon">
-            <i data-rel="icon-statusnet" class="icon-statusnet"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-steam" class="mfn-icon">
-            <i data-rel="icon-steam" class="icon-steam"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-stop" class="mfn-icon">
-            <i data-rel="icon-stop" class="icon-stop"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-stripe" class="mfn-icon">
-            <i data-rel="icon-stripe" class="icon-stripe"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-stumbleupon" class="mfn-icon">
-            <i data-rel="icon-stumbleupon" class="icon-stumbleupon"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-stumbleupon-circled" class="mfn-icon">
-            <i data-rel="icon-stumbleupon-circled" class="icon-stumbleupon-circled"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-suitcase" class="mfn-icon">
-            <i data-rel="icon-suitcase" class="icon-suitcase"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-sweden" class="mfn-icon">
-            <i data-rel="icon-sweden" class="icon-sweden"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-switch" class="mfn-icon">
-            <i data-rel="icon-switch" class="icon-switch"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-t-shirt-line" class="mfn-icon">
-            <i data-rel="icon-t-shirt-line" class="icon-t-shirt-line"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-tag" class="mfn-icon">
-            <i data-rel="icon-tag" class="icon-tag"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-tag-line" class="mfn-icon">
-            <i data-rel="icon-tag-line" class="icon-tag-line"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-tape" class="mfn-icon">
-            <i data-rel="icon-tape" class="icon-tape"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-target" class="mfn-icon">
-            <i data-rel="icon-target" class="icon-target"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-thermometer" class="mfn-icon">
-            <i data-rel="icon-thermometer" class="icon-thermometer"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-thumbs-down" class="mfn-icon">
-            <i data-rel="icon-thumbs-down" class="icon-thumbs-down"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-thumbs-up" class="mfn-icon">
-            <i data-rel="icon-thumbs-up" class="icon-thumbs-up"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-thumbs-up-line" class="mfn-icon">
-            <i data-rel="icon-thumbs-up-line" class="icon-thumbs-up-line"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-ticket" class="mfn-icon">
-            <i data-rel="icon-ticket" class="icon-ticket"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-to-end" class="mfn-icon">
-            <i data-rel="icon-to-end" class="icon-to-end"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-to-start" class="mfn-icon">
-            <i data-rel="icon-to-start" class="icon-to-start"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-tools" class="mfn-icon">
-            <i data-rel="icon-tools" class="icon-tools"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-traffic-cone" class="mfn-icon">
-            <i data-rel="icon-traffic-cone" class="icon-traffic-cone"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-trash" class="mfn-icon">
-            <i data-rel="icon-trash" class="icon-trash"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-trash-line" class="mfn-icon">
-            <i data-rel="icon-trash-line" class="icon-trash-line"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-tripadvisor" class="mfn-icon">
-            <i data-rel="icon-tripadvisor" class="icon-tripadvisor"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-trophy" class="mfn-icon">
-            <i data-rel="icon-trophy" class="icon-trophy"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-truck-line" class="mfn-icon">
-            <i data-rel="icon-truck-line" class="icon-truck-line"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-tumblr" class="mfn-icon">
-            <i data-rel="icon-tumblr" class="icon-tumblr"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-tumblr-circled" class="mfn-icon">
-            <i data-rel="icon-tumblr-circled" class="icon-tumblr-circled"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-tv-line" class="mfn-icon">
-            <i data-rel="icon-tv-line" class="icon-tv-line"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-twitter" class="mfn-icon">
-            <i data-rel="icon-twitter" class="icon-twitter"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-twitter-circled" class="mfn-icon">
-            <i data-rel="icon-twitter-circled" class="icon-twitter-circled"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-up" class="mfn-icon">
-            <i data-rel="icon-up" class="icon-up"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-up-bold" class="mfn-icon">
-            <i data-rel="icon-up-bold" class="icon-up-bold"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-up-circled" class="mfn-icon">
-            <i data-rel="icon-up-circled" class="icon-up-circled"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-up-dir" class="mfn-icon">
-            <i data-rel="icon-up-dir" class="icon-up-dir"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-up-open" class="mfn-icon">
-            <i data-rel="icon-up-open" class="icon-up-open"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-up-open-big" class="mfn-icon">
-            <i data-rel="icon-up-open-big" class="icon-up-open-big"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-up-open-mini" class="mfn-icon">
-            <i data-rel="icon-up-open-mini" class="icon-up-open-mini"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-up-thin" class="mfn-icon">
-            <i data-rel="icon-up-thin" class="icon-up-thin"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-upload" class="mfn-icon">
-            <i data-rel="icon-upload" class="icon-upload"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-upload-cloud" class="mfn-icon">
-            <i data-rel="icon-upload-cloud" class="icon-upload-cloud"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-user" class="mfn-icon">
-            <i data-rel="icon-user" class="icon-user"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-user-add" class="mfn-icon">
-            <i data-rel="icon-user-add" class="icon-user-add"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-user-line" class="mfn-icon">
-            <i data-rel="icon-user-line" class="icon-user-line"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-users" class="mfn-icon">
-            <i data-rel="icon-users" class="icon-users"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-vcard" class="mfn-icon">
-            <i data-rel="icon-vcard" class="icon-vcard"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-viadeo" class="mfn-icon">
-            <i data-rel="icon-viadeo" class="icon-viadeo"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-video" class="mfn-icon">
-            <i data-rel="icon-video" class="icon-video"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-videocam-line" class="mfn-icon">
-            <i data-rel="icon-videocam-line" class="icon-videocam-line"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-vimeo" class="mfn-icon">
-            <i data-rel="icon-vimeo" class="icon-vimeo"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-vimeo-circled" class="mfn-icon">
-            <i data-rel="icon-vimeo-circled" class="icon-vimeo-circled"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-vk" class="mfn-icon">
-            <i data-rel="icon-vk" class="icon-vk"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-vkontakte" class="mfn-icon">
-            <i data-rel="icon-vkontakte" class="icon-vkontakte"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-volume" class="mfn-icon">
-            <i data-rel="icon-volume" class="icon-volume"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-w3c" class="mfn-icon">
-            <i data-rel="icon-w3c" class="icon-w3c"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-wallet-line" class="mfn-icon">
-            <i data-rel="icon-wallet-line" class="icon-wallet-line"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-water" class="mfn-icon">
-            <i data-rel="icon-water" class="icon-water"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-weibo" class="mfn-icon">
-            <i data-rel="icon-weibo" class="icon-weibo"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-wikipedia" class="mfn-icon">
-            <i data-rel="icon-wikipedia" class="icon-wikipedia"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-window" class="mfn-icon">
-            <i data-rel="icon-window" class="icon-window"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-windows" class="mfn-icon">
-            <i data-rel="icon-windows" class="icon-windows"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-wordpress" class="mfn-icon">
-            <i data-rel="icon-wordpress" class="icon-wordpress"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-xing" class="mfn-icon">
-            <i data-rel="icon-xing" class="icon-xing"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-yahoo" class="mfn-icon">
-            <i data-rel="icon-yahoo" class="icon-yahoo"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-yelp" class="mfn-icon">
-            <i data-rel="icon-yelp" class="icon-yelp"></i>
-          </div>
-          <!---->
-          <div data-rel="icon-youtube" class="mfn-icon">
-            <i data-rel="icon-youtube" class="icon-youtube"></i>
-          </div>
+          <div data-rel="icon-acrobat" class="mfn-icon"><i data-rel="icon-acrobat" class="icon-acrobat"></i></div>
+          <!---->
+          <div data-rel="icon-address" class="mfn-icon"><i data-rel="icon-address" class="icon-address"></i></div>
+          <!---->
+          <div data-rel="icon-adjust" class="mfn-icon"><i data-rel="icon-adjust" class="icon-adjust"></i></div>
+          <!---->
+          <div data-rel="icon-aim" class="mfn-icon"><i data-rel="icon-aim" class="icon-aim"></i></div>
+          <!---->
+          <div data-rel="icon-air" class="mfn-icon"><i data-rel="icon-air" class="icon-air"></i></div>
+          <!---->
+          <div data-rel="icon-alert" class="mfn-icon"><i data-rel="icon-alert" class="icon-alert"></i></div>
+          <!---->
+          <div data-rel="icon-amazon" class="mfn-icon"><i data-rel="icon-amazon" class="icon-amazon"></i></div>
+          <!---->
+          <div data-rel="icon-android" class="mfn-icon"><i data-rel="icon-android" class="icon-android"></i></div>
+          <!---->
+          <div data-rel="icon-angellist" class="mfn-icon"><i data-rel="icon-angellist" class="icon-angellist"></i></div>
+          <!---->
+          <div data-rel="icon-appnet" class="mfn-icon"><i data-rel="icon-appnet" class="icon-appnet"></i></div>
+          <!---->
+          <div data-rel="icon-appstore" class="mfn-icon"><i data-rel="icon-appstore" class="icon-appstore"></i></div>
+          <!---->
+          <div data-rel="icon-archive" class="mfn-icon"><i data-rel="icon-archive" class="icon-archive"></i></div>
+          <!---->
+          <div data-rel="icon-arrow-combo" class="mfn-icon"><i data-rel="icon-arrow-combo" class="icon-arrow-combo"></i></div>
+          <!---->
+          <div data-rel="icon-arrows-ccw" class="mfn-icon"><i data-rel="icon-arrows-ccw" class="icon-arrows-ccw"></i></div>
+          <!---->
+          <div data-rel="icon-attach" class="mfn-icon"><i data-rel="icon-attach" class="icon-attach"></i></div>
+          <!---->
+          <div data-rel="icon-attach-line" class="mfn-icon"><i data-rel="icon-attach-line" class="icon-attach-line"></i></div>
+          <!---->
+          <div data-rel="icon-attention" class="mfn-icon"><i data-rel="icon-attention" class="icon-attention"></i></div>
+          <!---->
+          <div data-rel="icon-back" class="mfn-icon"><i data-rel="icon-back" class="icon-back"></i></div>
+          <!---->
+          <div data-rel="icon-back-in-time" class="mfn-icon"><i data-rel="icon-back-in-time" class="icon-back-in-time"></i></div>
+          <!---->
+          <div data-rel="icon-bag" class="mfn-icon"><i data-rel="icon-bag" class="icon-bag"></i></div>
+          <!---->
+          <div data-rel="icon-bag-fine" class="mfn-icon"><i data-rel="icon-bag-fine" class="icon-bag-fine"></i></div>
+          <!---->
+          <div data-rel="icon-basket" class="mfn-icon"><i data-rel="icon-basket" class="icon-basket"></i></div>
+          <!---->
+          <div data-rel="icon-battery" class="mfn-icon"><i data-rel="icon-battery" class="icon-battery"></i></div>
+          <!---->
+          <div data-rel="icon-beaker-line" class="mfn-icon"><i data-rel="icon-beaker-line" class="icon-beaker-line"></i></div>
+          <!---->
+          <div data-rel="icon-behance" class="mfn-icon"><i data-rel="icon-behance" class="icon-behance"></i></div>
+          <!---->
+          <div data-rel="icon-bell" class="mfn-icon"><i data-rel="icon-bell" class="icon-bell"></i></div>
+          <!---->
+          <div data-rel="icon-bitbucket" class="mfn-icon"><i data-rel="icon-bitbucket" class="icon-bitbucket"></i></div>
+          <!---->
+          <div data-rel="icon-bitcoin" class="mfn-icon"><i data-rel="icon-bitcoin" class="icon-bitcoin"></i></div>
+          <!---->
+          <div data-rel="icon-block" class="mfn-icon"><i data-rel="icon-block" class="icon-block"></i></div>
+          <!---->
+          <div data-rel="icon-blogger" class="mfn-icon"><i data-rel="icon-blogger" class="icon-blogger"></i></div>
+          <!---->
+          <div data-rel="icon-book" class="mfn-icon"><i data-rel="icon-book" class="icon-book"></i></div>
+          <!---->
+          <div data-rel="icon-book-open" class="mfn-icon"><i data-rel="icon-book-open" class="icon-book-open"></i></div>
+          <!---->
+          <div data-rel="icon-bookmark" class="mfn-icon"><i data-rel="icon-bookmark" class="icon-bookmark"></i></div>
+          <!---->
+          <div data-rel="icon-bookmarks" class="mfn-icon"><i data-rel="icon-bookmarks" class="icon-bookmarks"></i></div>
+          <!---->
+          <div data-rel="icon-box" class="mfn-icon"><i data-rel="icon-box" class="icon-box"></i></div>
+          <!---->
+          <div data-rel="icon-briefcase" class="mfn-icon"><i data-rel="icon-briefcase" class="icon-briefcase"></i></div>
+          <!---->
+          <div data-rel="icon-brush" class="mfn-icon"><i data-rel="icon-brush" class="icon-brush"></i></div>
+          <!---->
+          <div data-rel="icon-bucket" class="mfn-icon"><i data-rel="icon-bucket" class="icon-bucket"></i></div>
+          <!---->
+          <div data-rel="icon-buffer" class="mfn-icon"><i data-rel="icon-buffer" class="icon-buffer"></i></div>
+          <!---->
+          <div data-rel="icon-calendar" class="mfn-icon"><i data-rel="icon-calendar" class="icon-calendar"></i></div>
+          <!---->
+          <div data-rel="icon-calendar-line" class="mfn-icon"><i data-rel="icon-calendar-line" class="icon-calendar-line"></i></div>
+          <!---->
+          <div data-rel="icon-call" class="mfn-icon"><i data-rel="icon-call" class="icon-call"></i></div>
+          <!---->
+          <div data-rel="icon-camera" class="mfn-icon"><i data-rel="icon-camera" class="icon-camera"></i></div>
+          <!---->
+          <div data-rel="icon-camera-line" class="mfn-icon"><i data-rel="icon-camera-line" class="icon-camera-line"></i></div>
+          <!---->
+          <div data-rel="icon-cancel" class="mfn-icon"><i data-rel="icon-cancel" class="icon-cancel"></i></div>
+          <!---->
+          <div data-rel="icon-cancel-fine" class="mfn-icon"><i data-rel="icon-cancel-fine" class="icon-cancel-fine"></i></div>
+          <!---->
+          <div data-rel="icon-cancel-circled" class="mfn-icon"><i data-rel="icon-cancel-circled" class="icon-cancel-circled"></i></div>
+          <!---->
+          <div data-rel="icon-cancel-squared" class="mfn-icon"><i data-rel="icon-cancel-squared" class="icon-cancel-squared"></i></div>
+          <!---->
+          <div data-rel="icon-cart" class="mfn-icon"><i data-rel="icon-cart" class="icon-cart"></i></div>
+          <!---->
+          <div data-rel="icon-cc" class="mfn-icon"><i data-rel="icon-cc" class="icon-cc"></i></div>
+          <!---->
+          <div data-rel="icon-cc-by" class="mfn-icon"><i data-rel="icon-cc-by" class="icon-cc-by"></i></div>
+          <!---->
+          <div data-rel="icon-cc-nc" class="mfn-icon"><i data-rel="icon-cc-nc" class="icon-cc-nc"></i></div>
+          <!---->
+          <div data-rel="icon-cc-nc-eu" class="mfn-icon"><i data-rel="icon-cc-nc-eu" class="icon-cc-nc-eu"></i></div>
+          <!---->
+          <div data-rel="icon-cc-nc-jp" class="mfn-icon"><i data-rel="icon-cc-nc-jp" class="icon-cc-nc-jp"></i></div>
+          <!---->
+          <div data-rel="icon-cc-nd" class="mfn-icon"><i data-rel="icon-cc-nd" class="icon-cc-nd"></i></div>
+          <!---->
+          <div data-rel="icon-cc-pd" class="mfn-icon"><i data-rel="icon-cc-pd" class="icon-cc-pd"></i></div>
+          <!---->
+          <div data-rel="icon-cc-remix" class="mfn-icon"><i data-rel="icon-cc-remix" class="icon-cc-remix"></i></div>
+          <!---->
+          <div data-rel="icon-cc-sa" class="mfn-icon"><i data-rel="icon-cc-sa" class="icon-cc-sa"></i></div>
+          <!---->
+          <div data-rel="icon-cc-share" class="mfn-icon"><i data-rel="icon-cc-share" class="icon-cc-share"></i></div>
+          <!---->
+          <div data-rel="icon-cc-zero" class="mfn-icon"><i data-rel="icon-cc-zero" class="icon-cc-zero"></i></div>
+          <!---->
+          <div data-rel="icon-ccw" class="mfn-icon"><i data-rel="icon-ccw" class="icon-ccw"></i></div>
+          <!---->
+          <div data-rel="icon-cd" class="mfn-icon"><i data-rel="icon-cd" class="icon-cd"></i></div>
+          <!---->
+          <div data-rel="icon-cd-line" class="mfn-icon"><i data-rel="icon-cd-line" class="icon-cd-line"></i></div>
+          <!---->
+          <div data-rel="icon-chart-area" class="mfn-icon"><i data-rel="icon-chart-area" class="icon-chart-area"></i></div>
+          <!---->
+          <div data-rel="icon-chart-bar" class="mfn-icon"><i data-rel="icon-chart-bar" class="icon-chart-bar"></i></div>
+          <!---->
+          <div data-rel="icon-chart-line" class="mfn-icon"><i data-rel="icon-chart-line" class="icon-chart-line"></i></div>
+          <!---->
+          <div data-rel="icon-chart-pie" class="mfn-icon"><i data-rel="icon-chart-pie" class="icon-chart-pie"></i></div>
+          <!---->
+          <div data-rel="icon-chat" class="mfn-icon"><i data-rel="icon-chat" class="icon-chat"></i></div>
+          <!---->
+          <div data-rel="icon-check" class="mfn-icon"><i data-rel="icon-check" class="icon-check"></i></div>
+          <!---->
+          <div data-rel="icon-chrome" class="mfn-icon"><i data-rel="icon-chrome" class="icon-chrome"></i></div>
+          <!---->
+          <div data-rel="icon-clipboard" class="mfn-icon"><i data-rel="icon-clipboard" class="icon-clipboard"></i></div>
+          <!---->
+          <div data-rel="icon-clock" class="mfn-icon"><i data-rel="icon-clock" class="icon-clock"></i></div>
+          <!---->
+          <div data-rel="icon-clock-line" class="mfn-icon"><i data-rel="icon-clock-line" class="icon-clock-line"></i></div>
+          <!---->
+          <div data-rel="icon-cloud" class="mfn-icon"><i data-rel="icon-cloud" class="icon-cloud"></i></div>
+          <!---->
+          <div data-rel="icon-cloud-line" class="mfn-icon"><i data-rel="icon-cloud-line" class="icon-cloud-line"></i></div>
+          <!---->
+          <div data-rel="icon-cloud-thunder" class="mfn-icon"><i data-rel="icon-cloud-thunder" class="icon-cloud-thunder"></i></div>
+          <!---->
+          <div data-rel="icon-cloudapp" class="mfn-icon"><i data-rel="icon-cloudapp" class="icon-cloudapp"></i></div>
+          <!---->
+          <div data-rel="icon-code" class="mfn-icon"><i data-rel="icon-code" class="icon-code"></i></div>
+          <!---->
+          <div data-rel="icon-cog" class="mfn-icon"><i data-rel="icon-cog" class="icon-cog"></i></div>
+          <!---->
+          <div data-rel="icon-cog-line" class="mfn-icon"><i data-rel="icon-cog-line" class="icon-cog-line"></i></div>
+          <!---->
+          <div data-rel="icon-comment-empty-fa" class="mfn-icon"><i data-rel="icon-comment-empty-fa" class="icon-comment-empty-fa"></i></div>
+          <!---->
+          <div data-rel="icon-comment-fa" class="mfn-icon"><i data-rel="icon-comment-fa" class="icon-comment-fa"></i></div>
+          <!---->
+          <div data-rel="icon-comment-line" class="mfn-icon"><i data-rel="icon-comment-line" class="icon-comment-line"></i></div>
+          <!---->
+          <div data-rel="icon-compass" class="mfn-icon"><i data-rel="icon-compass" class="icon-compass"></i></div>
+          <!---->
+          <div data-rel="icon-credit-card" class="mfn-icon"><i data-rel="icon-credit-card" class="icon-credit-card"></i></div>
+          <!---->
+          <div data-rel="icon-cup" class="mfn-icon"><i data-rel="icon-cup" class="icon-cup"></i></div>
+          <!---->
+          <div data-rel="icon-cup-line" class="mfn-icon"><i data-rel="icon-cup-line" class="icon-cup-line"></i></div>
+          <!---->
+          <div data-rel="icon-cw" class="mfn-icon"><i data-rel="icon-cw" class="icon-cw"></i></div>
+          <!---->
+          <div data-rel="icon-database" class="mfn-icon"><i data-rel="icon-database" class="icon-database"></i></div>
+          <!---->
+          <div data-rel="icon-database-line" class="mfn-icon"><i data-rel="icon-database-line" class="icon-database-line"></i></div>
+          <!---->
+          <div data-rel="icon-db-shape" class="mfn-icon"><i data-rel="icon-db-shape" class="icon-db-shape"></i></div>
+          <!---->
+          <div data-rel="icon-delicious" class="mfn-icon"><i data-rel="icon-delicious" class="icon-delicious"></i></div>
+          <!---->
+          <div data-rel="icon-desktop-line" class="mfn-icon"><i data-rel="icon-desktop-line" class="icon-desktop-line"></i></div>
+          <!---->
+          <div data-rel="icon-diamond-line" class="mfn-icon"><i data-rel="icon-diamond-line" class="icon-diamond-line"></i></div>
+          <!---->
+          <div data-rel="icon-digg" class="mfn-icon"><i data-rel="icon-digg" class="icon-digg"></i></div>
+          <!---->
+          <div data-rel="icon-direction" class="mfn-icon"><i data-rel="icon-direction" class="icon-direction"></i></div>
+          <!---->
+          <div data-rel="icon-disqus" class="mfn-icon"><i data-rel="icon-disqus" class="icon-disqus"></i></div>
+          <!---->
+          <div data-rel="icon-doc" class="mfn-icon"><i data-rel="icon-doc" class="icon-doc"></i></div>
+          <!---->
+          <div data-rel="icon-doc-landscape" class="mfn-icon"><i data-rel="icon-doc-landscape" class="icon-doc-landscape"></i></div>
+          <!---->
+          <div data-rel="icon-doc-line" class="mfn-icon"><i data-rel="icon-doc-line" class="icon-doc-line"></i></div>
+          <!---->
+          <div data-rel="icon-doc-text" class="mfn-icon"><i data-rel="icon-doc-text" class="icon-doc-text"></i></div>
+          <!---->
+          <div data-rel="icon-doc-text-inv" class="mfn-icon"><i data-rel="icon-doc-text-inv" class="icon-doc-text-inv"></i></div>
+          <!---->
+          <div data-rel="icon-docs" class="mfn-icon"><i data-rel="icon-docs" class="icon-docs"></i></div>
+          <!---->
+          <div data-rel="icon-dot" class="mfn-icon"><i data-rel="icon-dot" class="icon-dot"></i></div>
+          <!---->
+          <div data-rel="icon-dot-2" class="mfn-icon"><i data-rel="icon-dot-2" class="icon-dot-2"></i></div>
+          <!---->
+          <div data-rel="icon-dot-3" class="mfn-icon"><i data-rel="icon-dot-3" class="icon-dot-3"></i></div>
+          <!---->
+          <div data-rel="icon-down" class="mfn-icon"><i data-rel="icon-down" class="icon-down"></i></div>
+          <!---->
+          <div data-rel="icon-down-bold" class="mfn-icon"><i data-rel="icon-down-bold" class="icon-down-bold"></i></div>
+          <!---->
+          <div data-rel="icon-down-circled" class="mfn-icon"><i data-rel="icon-down-circled" class="icon-down-circled"></i></div>
+          <!---->
+          <div data-rel="icon-down-dir" class="mfn-icon"><i data-rel="icon-down-dir" class="icon-down-dir"></i></div>
+          <!---->
+          <div data-rel="icon-down-open" class="mfn-icon"><i data-rel="icon-down-open" class="icon-down-open"></i></div>
+          <!---->
+          <div data-rel="icon-down-open-big" class="mfn-icon"><i data-rel="icon-down-open-big" class="icon-down-open-big"></i></div>
+          <!---->
+          <div data-rel="icon-down-open-mini" class="mfn-icon"><i data-rel="icon-down-open-mini" class="icon-down-open-mini"></i></div>
+          <!---->
+          <div data-rel="icon-down-thin" class="mfn-icon"><i data-rel="icon-down-thin" class="icon-down-thin"></i></div>
+          <!---->
+          <div data-rel="icon-download" class="mfn-icon"><i data-rel="icon-download" class="icon-download"></i></div>
+          <!---->
+          <div data-rel="icon-dribbble" class="mfn-icon"><i data-rel="icon-dribbble" class="icon-dribbble"></i></div>
+          <!---->
+          <div data-rel="icon-dribbble-circled" class="mfn-icon"><i data-rel="icon-dribbble-circled" class="icon-dribbble-circled"></i></div>
+          <!---->
+          <div data-rel="icon-drive" class="mfn-icon"><i data-rel="icon-drive" class="icon-drive"></i></div>
+          <!---->
+          <div data-rel="icon-dropbox" class="mfn-icon"><i data-rel="icon-dropbox" class="icon-dropbox"></i></div>
+          <!---->
+          <div data-rel="icon-droplet" class="mfn-icon"><i data-rel="icon-droplet" class="icon-droplet"></i></div>
+          <!---->
+          <div data-rel="icon-drupal" class="mfn-icon"><i data-rel="icon-drupal" class="icon-drupal"></i></div>
+          <!---->
+          <div data-rel="icon-duckduckgo" class="mfn-icon"><i data-rel="icon-duckduckgo" class="icon-duckduckgo"></i></div>
+          <!---->
+          <div data-rel="icon-dwolla" class="mfn-icon"><i data-rel="icon-dwolla" class="icon-dwolla"></i></div>
+          <!---->
+          <div data-rel="icon-ebay" class="mfn-icon"><i data-rel="icon-ebay" class="icon-ebay"></i></div>
+          <!---->
+          <div data-rel="icon-email" class="mfn-icon"><i data-rel="icon-email" class="icon-email"></i></div>
+          <!---->
+          <div data-rel="icon-erase" class="mfn-icon"><i data-rel="icon-erase" class="icon-erase"></i></div>
+          <!---->
+          <div data-rel="icon-eventasaurus" class="mfn-icon"><i data-rel="icon-eventasaurus" class="icon-eventasaurus"></i></div>
+          <!---->
+          <div data-rel="icon-eventbrite" class="mfn-icon"><i data-rel="icon-eventbrite" class="icon-eventbrite"></i></div>
+          <!---->
+          <div data-rel="icon-eventful" class="mfn-icon"><i data-rel="icon-eventful" class="icon-eventful"></i></div>
+          <!---->
+          <div data-rel="icon-evernote" class="mfn-icon"><i data-rel="icon-evernote" class="icon-evernote"></i></div>
+          <!---->
+          <div data-rel="icon-export" class="mfn-icon"><i data-rel="icon-export" class="icon-export"></i></div>
+          <!---->
+          <div data-rel="icon-eye" class="mfn-icon"><i data-rel="icon-eye" class="icon-eye"></i></div>
+          <!---->
+          <div data-rel="icon-eye-line" class="mfn-icon"><i data-rel="icon-eye-line" class="icon-eye-line"></i></div>
+          <!---->
+          <div data-rel="icon-facebook" class="mfn-icon"><i data-rel="icon-facebook" class="icon-facebook"></i></div>
+          <!---->
+          <div data-rel="icon-facebook-circled" class="mfn-icon"><i data-rel="icon-facebook-circled" class="icon-facebook-circled"></i></div>
+          <!---->
+          <div data-rel="icon-facebook-squared" class="mfn-icon"><i data-rel="icon-facebook-squared" class="icon-facebook-squared"></i></div>
+          <!---->
+          <div data-rel="icon-fast-backward" class="mfn-icon"><i data-rel="icon-fast-backward" class="icon-fast-backward"></i></div>
+          <!---->
+          <div data-rel="icon-fast-forward" class="mfn-icon"><i data-rel="icon-fast-forward" class="icon-fast-forward"></i></div>
+          <!---->
+          <div data-rel="icon-feather" class="mfn-icon"><i data-rel="icon-feather" class="icon-feather"></i></div>
+          <!---->
+          <div data-rel="icon-fire-line" class="mfn-icon"><i data-rel="icon-fire-line" class="icon-fire-line"></i></div>
+          <!---->
+          <div data-rel="icon-fivehundredpx" class="mfn-icon"><i data-rel="icon-fivehundredpx" class="icon-fivehundredpx"></i></div>
+          <!---->
+          <div data-rel="icon-flag" class="mfn-icon"><i data-rel="icon-flag" class="icon-flag"></i></div>
+          <!---->
+          <div data-rel="icon-flash" class="mfn-icon"><i data-rel="icon-flash" class="icon-flash"></i></div>
+          <!---->
+          <div data-rel="icon-flashlight" class="mfn-icon"><i data-rel="icon-flashlight" class="icon-flashlight"></i></div>
+          <!---->
+          <div data-rel="icon-flattr" class="mfn-icon"><i data-rel="icon-flattr" class="icon-flattr"></i></div>
+          <!---->
+          <div data-rel="icon-flickr" class="mfn-icon"><i data-rel="icon-flickr" class="icon-flickr"></i></div>
+          <!---->
+          <div data-rel="icon-flickr-circled" class="mfn-icon"><i data-rel="icon-flickr-circled" class="icon-flickr-circled"></i></div>
+          <!---->
+          <div data-rel="icon-flight" class="mfn-icon"><i data-rel="icon-flight" class="icon-flight"></i></div>
+          <!---->
+          <div data-rel="icon-floppy" class="mfn-icon"><i data-rel="icon-floppy" class="icon-floppy"></i></div>
+          <!---->
+          <div data-rel="icon-flow-branch" class="mfn-icon"><i data-rel="icon-flow-branch" class="icon-flow-branch"></i></div>
+          <!---->
+          <div data-rel="icon-flow-cascade" class="mfn-icon"><i data-rel="icon-flow-cascade" class="icon-flow-cascade"></i></div>
+          <!---->
+          <div data-rel="icon-flow-line" class="mfn-icon"><i data-rel="icon-flow-line" class="icon-flow-line"></i></div>
+          <!---->
+          <div data-rel="icon-flow-parallel" class="mfn-icon"><i data-rel="icon-flow-parallel" class="icon-flow-parallel"></i></div>
+          <!---->
+          <div data-rel="icon-flow-tree" class="mfn-icon"><i data-rel="icon-flow-tree" class="icon-flow-tree"></i></div>
+          <!---->
+          <div data-rel="icon-folder" class="mfn-icon"><i data-rel="icon-folder" class="icon-folder"></i></div>
+          <!---->
+          <div data-rel="icon-food-line" class="mfn-icon"><i data-rel="icon-food-line" class="icon-food-line"></i></div>
+          <!---->
+          <div data-rel="icon-forrst" class="mfn-icon"><i data-rel="icon-forrst" class="icon-forrst"></i></div>
+          <!---->
+          <div data-rel="icon-forward" class="mfn-icon"><i data-rel="icon-forward" class="icon-forward"></i></div>
+          <!---->
+          <div data-rel="icon-foursquare" class="mfn-icon"><i data-rel="icon-foursquare" class="icon-foursquare"></i></div>
+          <!---->
+          <div data-rel="icon-gauge" class="mfn-icon"><i data-rel="icon-gauge" class="icon-gauge"></i></div>
+          <!---->
+          <div data-rel="icon-github" class="mfn-icon"><i data-rel="icon-github" class="icon-github"></i></div>
+          <!---->
+          <div data-rel="icon-github-circled" class="mfn-icon"><i data-rel="icon-github-circled" class="icon-github-circled"></i></div>
+          <!---->
+          <div data-rel="icon-globe" class="mfn-icon"><i data-rel="icon-globe" class="icon-globe"></i></div>
+          <!---->
+          <div data-rel="icon-globe-line" class="mfn-icon"><i data-rel="icon-globe-line" class="icon-globe-line"></i></div>
+          <!---->
+          <div data-rel="icon-gmail" class="mfn-icon"><i data-rel="icon-gmail" class="icon-gmail"></i></div>
+          <!---->
+          <div data-rel="icon-google" class="mfn-icon"><i data-rel="icon-google" class="icon-google"></i></div>
+          <!---->
+          <div data-rel="icon-google-circles" class="mfn-icon"><i data-rel="icon-google-circles" class="icon-google-circles"></i></div>
+          <!---->
+          <div data-rel="icon-googleplay" class="mfn-icon"><i data-rel="icon-googleplay" class="icon-googleplay"></i></div>
+          <!---->
+          <div data-rel="icon-gowalla" class="mfn-icon"><i data-rel="icon-gowalla" class="icon-gowalla"></i></div>
+          <!---->
+          <div data-rel="icon-gplus" class="mfn-icon"><i data-rel="icon-gplus" class="icon-gplus"></i></div>
+          <!---->
+          <div data-rel="icon-gplus-circled" class="mfn-icon"><i data-rel="icon-gplus-circled" class="icon-gplus-circled"></i></div>
+          <!---->
+          <div data-rel="icon-graduation-cap" class="mfn-icon"><i data-rel="icon-graduation-cap" class="icon-graduation-cap"></i></div>
+          <!---->
+          <div data-rel="icon-graduation-cap-line" class="mfn-icon"><i data-rel="icon-graduation-cap-line" class="icon-graduation-cap-line"></i></div>
+          <!---->
+          <div data-rel="icon-grooveshark" class="mfn-icon"><i data-rel="icon-grooveshark" class="icon-grooveshark"></i></div>
+          <!---->
+          <div data-rel="icon-guest" class="mfn-icon"><i data-rel="icon-guest" class="icon-guest"></i></div>
+          <!---->
+          <div data-rel="icon-hackernews" class="mfn-icon"><i data-rel="icon-hackernews" class="icon-hackernews"></i></div>
+          <!---->
+          <div data-rel="icon-heart-empty-fa" class="mfn-icon"><i data-rel="icon-heart-empty-fa" class="icon-heart-empty-fa"></i></div>
+          <!---->
+          <div data-rel="icon-heart-fa" class="mfn-icon"><i data-rel="icon-heart-fa" class="icon-heart-fa"></i></div>
+          <!---->
+          <div data-rel="icon-heart-line" class="mfn-icon"><i data-rel="icon-heart-line" class="icon-heart-line"></i></div>
+          <!---->
+          <div data-rel="icon-help" class="mfn-icon"><i data-rel="icon-help" class="icon-help"></i></div>
+          <!---->
+          <div data-rel="icon-help-circled" class="mfn-icon"><i data-rel="icon-help-circled" class="icon-help-circled"></i></div>
+          <!---->
+          <div data-rel="icon-home" class="mfn-icon"><i data-rel="icon-home" class="icon-home"></i></div>
+          <!---->
+          <div data-rel="icon-hourglass" class="mfn-icon"><i data-rel="icon-hourglass" class="icon-hourglass"></i></div>
+          <!---->
+          <div data-rel="icon-html5" class="mfn-icon"><i data-rel="icon-html5" class="icon-html5"></i></div>
+          <!---->
+          <div data-rel="icon-ie" class="mfn-icon"><i data-rel="icon-ie" class="icon-ie"></i></div>
+          <!---->
+          <div data-rel="icon-inbox" class="mfn-icon"><i data-rel="icon-inbox" class="icon-inbox"></i></div>
+          <!---->
+          <div data-rel="icon-inbox-line" class="mfn-icon"><i data-rel="icon-inbox-line" class="icon-inbox-line"></i></div>
+          <!---->
+          <div data-rel="icon-infinity" class="mfn-icon"><i data-rel="icon-infinity" class="icon-infinity"></i></div>
+          <!---->
+          <div data-rel="icon-info" class="mfn-icon"><i data-rel="icon-info" class="icon-info"></i></div>
+          <!---->
+          <div data-rel="icon-info-circled" class="mfn-icon"><i data-rel="icon-info-circled" class="icon-info-circled"></i></div>
+          <!---->
+          <div data-rel="icon-instagram" class="mfn-icon"><i data-rel="icon-instagram" class="icon-instagram"></i></div>
+          <!---->
+          <div data-rel="icon-install" class="mfn-icon"><i data-rel="icon-install" class="icon-install"></i></div>
+          <!---->
+          <div data-rel="icon-instapaper" class="mfn-icon"><i data-rel="icon-instapaper" class="icon-instapaper"></i></div>
+          <!---->
+          <div data-rel="icon-intensedebate" class="mfn-icon"><i data-rel="icon-intensedebate" class="icon-intensedebate"></i></div>
+          <!---->
+          <div data-rel="icon-itunes" class="mfn-icon"><i data-rel="icon-itunes" class="icon-itunes"></i></div>
+          <!---->
+          <div data-rel="icon-key" class="mfn-icon"><i data-rel="icon-key" class="icon-key"></i></div>
+          <!---->
+          <div data-rel="icon-key-line" class="mfn-icon"><i data-rel="icon-key-line" class="icon-key-line"></i></div>
+          <!---->
+          <div data-rel="icon-keyboard" class="mfn-icon"><i data-rel="icon-keyboard" class="icon-keyboard"></i></div>
+          <!---->
+          <div data-rel="icon-klout" class="mfn-icon"><i data-rel="icon-klout" class="icon-klout"></i></div>
+          <!---->
+          <div data-rel="icon-lamp" class="mfn-icon"><i data-rel="icon-lamp" class="icon-lamp"></i></div>
+          <!---->
+          <div data-rel="icon-language" class="mfn-icon"><i data-rel="icon-language" class="icon-language"></i></div>
+          <!---->
+          <div data-rel="icon-lanyrd" class="mfn-icon"><i data-rel="icon-lanyrd" class="icon-lanyrd"></i></div>
+          <!---->
+          <div data-rel="icon-lastfm" class="mfn-icon"><i data-rel="icon-lastfm" class="icon-lastfm"></i></div>
+          <!---->
+          <div data-rel="icon-lastfm-circled" class="mfn-icon"><i data-rel="icon-lastfm-circled" class="icon-lastfm-circled"></i></div>
+          <!---->
+          <div data-rel="icon-layout" class="mfn-icon"><i data-rel="icon-layout" class="icon-layout"></i></div>
+          <!---->
+          <div data-rel="icon-leaf" class="mfn-icon"><i data-rel="icon-leaf" class="icon-leaf"></i></div>
+          <!---->
+          <div data-rel="icon-left" class="mfn-icon"><i data-rel="icon-left" class="icon-left"></i></div>
+          <!---->
+          <div data-rel="icon-left-bold" class="mfn-icon"><i data-rel="icon-left-bold" class="icon-left-bold"></i></div>
+          <!---->
+          <div data-rel="icon-left-circled" class="mfn-icon"><i data-rel="icon-left-circled" class="icon-left-circled"></i></div>
+          <!---->
+          <div data-rel="icon-left-dir" class="mfn-icon"><i data-rel="icon-left-dir" class="icon-left-dir"></i></div>
+          <!---->
+          <div data-rel="icon-left-open" class="mfn-icon"><i data-rel="icon-left-open" class="icon-left-open"></i></div>
+          <!---->
+          <div data-rel="icon-left-open-big" class="mfn-icon"><i data-rel="icon-left-open-big" class="icon-left-open-big"></i></div>
+          <!---->
+          <div data-rel="icon-left-open-mini" class="mfn-icon"><i data-rel="icon-left-open-mini" class="icon-left-open-mini"></i></div>
+          <!---->
+          <div data-rel="icon-left-thin" class="mfn-icon"><i data-rel="icon-left-thin" class="icon-left-thin"></i></div>
+          <!---->
+          <div data-rel="icon-lego" class="mfn-icon"><i data-rel="icon-lego" class="icon-lego"></i></div>
+          <!---->
+          <div data-rel="icon-level-down" class="mfn-icon"><i data-rel="icon-level-down" class="icon-level-down"></i></div>
+          <!---->
+          <div data-rel="icon-level-up" class="mfn-icon"><i data-rel="icon-level-up" class="icon-level-up"></i></div>
+          <!---->
+          <div data-rel="icon-lifebuoy" class="mfn-icon"><i data-rel="icon-lifebuoy" class="icon-lifebuoy"></i></div>
+          <!---->
+          <div data-rel="icon-light-down" class="mfn-icon"><i data-rel="icon-light-down" class="icon-light-down"></i></div>
+          <!---->
+          <div data-rel="icon-light-up" class="mfn-icon"><i data-rel="icon-light-up" class="icon-light-up"></i></div>
+          <!---->
+          <div data-rel="icon-lightbulb-line" class="mfn-icon"><i data-rel="icon-lightbulb-line" class="icon-lightbulb-line"></i></div>
+          <!---->
+          <div data-rel="icon-link" class="mfn-icon"><i data-rel="icon-link" class="icon-link"></i></div>
+          <!---->
+          <div data-rel="icon-linkedin" class="mfn-icon"><i data-rel="icon-linkedin" class="icon-linkedin"></i></div>
+          <!---->
+          <div data-rel="icon-linkedin-circled" class="mfn-icon"><i data-rel="icon-linkedin-circled" class="icon-linkedin-circled"></i></div>
+          <!---->
+          <div data-rel="icon-list" class="mfn-icon"><i data-rel="icon-list" class="icon-list"></i></div>
+          <!---->
+          <div data-rel="icon-list-add" class="mfn-icon"><i data-rel="icon-list-add" class="icon-list-add"></i></div>
+          <!---->
+          <div data-rel="icon-lkdto" class="mfn-icon"><i data-rel="icon-lkdto" class="icon-lkdto"></i></div>
+          <!---->
+          <div data-rel="icon-location" class="mfn-icon"><i data-rel="icon-location" class="icon-location"></i></div>
+          <!---->
+          <div data-rel="icon-location-line" class="mfn-icon"><i data-rel="icon-location-line" class="icon-location-line"></i></div>
+          <!---->
+          <div data-rel="icon-lock" class="mfn-icon"><i data-rel="icon-lock" class="icon-lock"></i></div>
+          <!---->
+          <div data-rel="icon-lock-line" class="mfn-icon"><i data-rel="icon-lock-line" class="icon-lock-line"></i></div>
+          <!---->
+          <div data-rel="icon-lock-open" class="mfn-icon"><i data-rel="icon-lock-open" class="icon-lock-open"></i></div>
+          <!---->
+          <div data-rel="icon-login" class="mfn-icon"><i data-rel="icon-login" class="icon-login"></i></div>
+          <!---->
+          <div data-rel="icon-logo-db" class="mfn-icon"><i data-rel="icon-logo-db" class="icon-logo-db"></i></div>
+          <!---->
+          <div data-rel="icon-logout" class="mfn-icon"><i data-rel="icon-logout" class="icon-logout"></i></div>
+          <!---->
+          <div data-rel="icon-loop" class="mfn-icon"><i data-rel="icon-loop" class="icon-loop"></i></div>
+          <!---->
+          <div data-rel="icon-macstore" class="mfn-icon"><i data-rel="icon-macstore" class="icon-macstore"></i></div>
+          <!---->
+          <div data-rel="icon-magnet" class="mfn-icon"><i data-rel="icon-magnet" class="icon-magnet"></i></div>
+          <!---->
+          <div data-rel="icon-mail" class="mfn-icon"><i data-rel="icon-mail" class="icon-mail"></i></div>
+          <!---->
+          <div data-rel="icon-mail-line" class="mfn-icon"><i data-rel="icon-mail-line" class="icon-mail-line"></i></div>
+          <!---->
+          <div data-rel="icon-map" class="mfn-icon"><i data-rel="icon-map" class="icon-map"></i></div>
+          <!---->
+          <div data-rel="icon-meetup" class="mfn-icon"><i data-rel="icon-meetup" class="icon-meetup"></i></div>
+          <!---->
+          <div data-rel="icon-megaphone" class="mfn-icon"><i data-rel="icon-megaphone" class="icon-megaphone"></i></div>
+          <!---->
+          <div data-rel="icon-megaphone-line" class="mfn-icon"><i data-rel="icon-megaphone-line" class="icon-megaphone-line"></i></div>
+          <!---->
+          <div data-rel="icon-menu" class="mfn-icon"><i data-rel="icon-menu" class="icon-menu"></i></div>
+          <!---->
+          <div data-rel="icon-menu-fine" class="mfn-icon"><i data-rel="icon-menu-fine" class="icon-menu-fine"></i></div>
+          <!---->
+          <div data-rel="icon-mic" class="mfn-icon"><i data-rel="icon-mic" class="icon-mic"></i></div>
+          <!---->
+          <div data-rel="icon-minus" class="mfn-icon"><i data-rel="icon-minus" class="icon-minus"></i></div>
+          <!---->
+          <div data-rel="icon-minus-fine" class="mfn-icon"><i data-rel="icon-minus-fine" class="icon-minus-fine"></i></div>
+          <!---->
+          <div data-rel="icon-minus-circled" class="mfn-icon"><i data-rel="icon-minus-circled" class="icon-minus-circled"></i></div>
+          <!---->
+          <div data-rel="icon-minus-squared" class="mfn-icon"><i data-rel="icon-minus-squared" class="icon-minus-squared"></i></div>
+          <!---->
+          <div data-rel="icon-mixi" class="mfn-icon"><i data-rel="icon-mixi" class="icon-mixi"></i></div>
+          <!---->
+          <div data-rel="icon-mobile" class="mfn-icon"><i data-rel="icon-mobile" class="icon-mobile"></i></div>
+          <!---->
+          <div data-rel="icon-mobile-line" class="mfn-icon"><i data-rel="icon-mobile-line" class="icon-mobile-line"></i></div>
+          <!---->
+          <div data-rel="icon-money-line" class="mfn-icon"><i data-rel="icon-money-line" class="icon-money-line"></i></div>
+          <!---->
+          <div data-rel="icon-monitor" class="mfn-icon"><i data-rel="icon-monitor" class="icon-monitor"></i></div>
+          <!---->
+          <div data-rel="icon-moon" class="mfn-icon"><i data-rel="icon-moon" class="icon-moon"></i></div>
+          <!---->
+          <div data-rel="icon-mouse" class="mfn-icon"><i data-rel="icon-mouse" class="icon-mouse"></i></div>
+          <!---->
+          <div data-rel="icon-music" class="mfn-icon"><i data-rel="icon-music" class="icon-music"></i></div>
+          <!---->
+          <div data-rel="icon-music-line" class="mfn-icon"><i data-rel="icon-music-line" class="icon-music-line"></i></div>
+          <!---->
+          <div data-rel="icon-mute" class="mfn-icon"><i data-rel="icon-mute" class="icon-mute"></i></div>
+          <!---->
+          <div data-rel="icon-myspace" class="mfn-icon"><i data-rel="icon-myspace" class="icon-myspace"></i></div>
+          <!---->
+          <div data-rel="icon-network" class="mfn-icon"><i data-rel="icon-network" class="icon-network"></i></div>
+          <!---->
+          <div data-rel="icon-newspaper" class="mfn-icon"><i data-rel="icon-newspaper" class="icon-newspaper"></i></div>
+          <!---->
+          <div data-rel="icon-ninetyninedesigns" class="mfn-icon"><i data-rel="icon-ninetyninedesigns" class="icon-ninetyninedesigns"></i></div>
+          <!---->
+          <div data-rel="icon-note" class="mfn-icon"><i data-rel="icon-note" class="icon-note"></i></div>
+          <!---->
+          <div data-rel="icon-note-beamed" class="mfn-icon"><i data-rel="icon-note-beamed" class="icon-note-beamed"></i></div>
+          <!---->
+          <div data-rel="icon-note-line" class="mfn-icon"><i data-rel="icon-note-line" class="icon-note-line"></i></div>
+          <!---->
+          <div data-rel="icon-openid" class="mfn-icon"><i data-rel="icon-openid" class="icon-openid"></i></div>
+          <!---->
+          <div data-rel="icon-opentable" class="mfn-icon"><i data-rel="icon-opentable" class="icon-opentable"></i></div>
+          <!---->
+          <div data-rel="icon-palette" class="mfn-icon"><i data-rel="icon-palette" class="icon-palette"></i></div>
+          <!---->
+          <div data-rel="icon-paper-plane" class="mfn-icon"><i data-rel="icon-paper-plane" class="icon-paper-plane"></i></div>
+          <!---->
+          <div data-rel="icon-paper-plane-line" class="mfn-icon"><i data-rel="icon-paper-plane-line" class="icon-paper-plane-line"></i></div>
+          <!---->
+          <div data-rel="icon-params-line" class="mfn-icon"><i data-rel="icon-params-line" class="icon-params-line"></i></div>
+          <!---->
+          <div data-rel="icon-pause" class="mfn-icon"><i data-rel="icon-pause" class="icon-pause"></i></div>
+          <!---->
+          <div data-rel="icon-paypal" class="mfn-icon"><i data-rel="icon-paypal" class="icon-paypal"></i></div>
+          <!---->
+          <div data-rel="icon-pencil" class="mfn-icon"><i data-rel="icon-pencil" class="icon-pencil"></i></div>
+          <!---->
+          <div data-rel="icon-pencil-line" class="mfn-icon"><i data-rel="icon-pencil-line" class="icon-pencil-line"></i></div>
+          <!---->
+          <div data-rel="icon-phone" class="mfn-icon"><i data-rel="icon-phone" class="icon-phone"></i></div>
+          <!---->
+          <div data-rel="icon-photo-line" class="mfn-icon"><i data-rel="icon-photo-line" class="icon-photo-line"></i></div>
+          <!---->
+          <div data-rel="icon-picasa" class="mfn-icon"><i data-rel="icon-picasa" class="icon-picasa"></i></div>
+          <!---->
+          <div data-rel="icon-picture" class="mfn-icon"><i data-rel="icon-picture" class="icon-picture"></i></div>
+          <!---->
+          <div data-rel="icon-pinboard" class="mfn-icon"><i data-rel="icon-pinboard" class="icon-pinboard"></i></div>
+          <!---->
+          <div data-rel="icon-pinterest" class="mfn-icon"><i data-rel="icon-pinterest" class="icon-pinterest"></i></div>
+          <!---->
+          <div data-rel="icon-pinterest-circled" class="mfn-icon"><i data-rel="icon-pinterest-circled" class="icon-pinterest-circled"></i></div>
+          <!---->
+          <div data-rel="icon-plancast" class="mfn-icon"><i data-rel="icon-plancast" class="icon-plancast"></i></div>
+          <!---->
+          <div data-rel="icon-play" class="mfn-icon"><i data-rel="icon-play" class="icon-play"></i></div>
+          <!---->
+          <div data-rel="icon-plurk" class="mfn-icon"><i data-rel="icon-plurk" class="icon-plurk"></i></div>
+          <!---->
+          <div data-rel="icon-plus" class="mfn-icon"><i data-rel="icon-plus" class="icon-plus"></i></div>
+          <!---->
+          <div data-rel="icon-plus-fine" class="mfn-icon"><i data-rel="icon-plus-fine" class="icon-plus-fine"></i></div>
+          <!---->
+          <div data-rel="icon-plus-circled" class="mfn-icon"><i data-rel="icon-plus-circled" class="icon-plus-circled"></i></div>
+          <!---->
+          <div data-rel="icon-plus-squared" class="mfn-icon"><i data-rel="icon-plus-squared" class="icon-plus-squared"></i></div>
+          <!---->
+          <div data-rel="icon-pocket" class="mfn-icon"><i data-rel="icon-pocket" class="icon-pocket"></i></div>
+          <!---->
+          <div data-rel="icon-podcast" class="mfn-icon"><i data-rel="icon-podcast" class="icon-podcast"></i></div>
+          <!---->
+          <div data-rel="icon-popup" class="mfn-icon"><i data-rel="icon-popup" class="icon-popup"></i></div>
+          <!---->
+          <div data-rel="icon-posterous" class="mfn-icon"><i data-rel="icon-posterous" class="icon-posterous"></i></div>
+          <!---->
+          <div data-rel="icon-print" class="mfn-icon"><i data-rel="icon-print" class="icon-print"></i></div>
+          <!---->
+          <div data-rel="icon-progress-0" class="mfn-icon"><i data-rel="icon-progress-0" class="icon-progress-0"></i></div>
+          <!---->
+          <div data-rel="icon-progress-1" class="mfn-icon"><i data-rel="icon-progress-1" class="icon-progress-1"></i></div>
+          <!---->
+          <div data-rel="icon-progress-2" class="mfn-icon"><i data-rel="icon-progress-2" class="icon-progress-2"></i></div>
+          <!---->
+          <div data-rel="icon-progress-3" class="mfn-icon"><i data-rel="icon-progress-3" class="icon-progress-3"></i></div>
+          <!---->
+          <div data-rel="icon-publish" class="mfn-icon"><i data-rel="icon-publish" class="icon-publish"></i></div>
+          <!---->
+          <div data-rel="icon-qq" class="mfn-icon"><i data-rel="icon-qq" class="icon-qq"></i></div>
+          <!---->
+          <div data-rel="icon-quora" class="mfn-icon"><i data-rel="icon-quora" class="icon-quora"></i></div>
+          <!---->
+          <div data-rel="icon-quote" class="mfn-icon"><i data-rel="icon-quote" class="icon-quote"></i></div>
+          <!---->
+          <div data-rel="icon-rdio" class="mfn-icon"><i data-rel="icon-rdio" class="icon-rdio"></i></div>
+          <!---->
+          <div data-rel="icon-rdio-circled" class="mfn-icon"><i data-rel="icon-rdio-circled" class="icon-rdio-circled"></i></div>
+          <!---->
+          <div data-rel="icon-record" class="mfn-icon"><i data-rel="icon-record" class="icon-record"></i></div>
+          <!---->
+          <div data-rel="icon-reddit" class="mfn-icon"><i data-rel="icon-reddit" class="icon-reddit"></i></div>
+          <!---->
+          <div data-rel="icon-renren" class="mfn-icon"><i data-rel="icon-renren" class="icon-renren"></i></div>
+          <!---->
+          <div data-rel="icon-reply" class="mfn-icon"><i data-rel="icon-reply" class="icon-reply"></i></div>
+          <!---->
+          <div data-rel="icon-reply-all" class="mfn-icon"><i data-rel="icon-reply-all" class="icon-reply-all"></i></div>
+          <!---->
+          <div data-rel="icon-resize-full" class="mfn-icon"><i data-rel="icon-resize-full" class="icon-resize-full"></i></div>
+          <!---->
+          <div data-rel="icon-resize-small" class="mfn-icon"><i data-rel="icon-resize-small" class="icon-resize-small"></i></div>
+          <!---->
+          <div data-rel="icon-retweet" class="mfn-icon"><i data-rel="icon-retweet" class="icon-retweet"></i></div>
+          <!---->
+          <div data-rel="icon-right" class="mfn-icon"><i data-rel="icon-right" class="icon-right"></i></div>
+          <!---->
+          <div data-rel="icon-right-bold" class="mfn-icon"><i data-rel="icon-right-bold" class="icon-right-bold"></i></div>
+          <!---->
+          <div data-rel="icon-right-circled" class="mfn-icon"><i data-rel="icon-right-circled" class="icon-right-circled"></i></div>
+          <!---->
+          <div data-rel="icon-right-dir" class="mfn-icon"><i data-rel="icon-right-dir" class="icon-right-dir"></i></div>
+          <!---->
+          <div data-rel="icon-right-open" class="mfn-icon"><i data-rel="icon-right-open" class="icon-right-open"></i></div>
+          <!---->
+          <div data-rel="icon-right-open-big" class="mfn-icon"><i data-rel="icon-right-open-big" class="icon-right-open-big"></i></div>
+          <!---->
+          <div data-rel="icon-right-open-mini" class="mfn-icon"><i data-rel="icon-right-open-mini" class="icon-right-open-mini"></i></div>
+          <!---->
+          <div data-rel="icon-right-thin" class="mfn-icon"><i data-rel="icon-right-thin" class="icon-right-thin"></i></div>
+          <!---->
+          <div data-rel="icon-rocket" class="mfn-icon"><i data-rel="icon-rocket" class="icon-rocket"></i></div>
+          <!---->
+          <div data-rel="icon-rss" class="mfn-icon"><i data-rel="icon-rss" class="icon-rss"></i></div>
+          <!---->
+          <div data-rel="icon-scribd" class="mfn-icon"><i data-rel="icon-scribd" class="icon-scribd"></i></div>
+          <!---->
+          <div data-rel="icon-search" class="mfn-icon"><i data-rel="icon-search" class="icon-search"></i></div>
+          <!---->
+          <div data-rel="icon-search-fine" class="mfn-icon"><i data-rel="icon-search-fine" class="icon-search-fine"></i></div>
+          <!---->
+          <div data-rel="icon-search-line" class="mfn-icon"><i data-rel="icon-search-line" class="icon-search-line"></i></div>
+          <!---->
+          <div data-rel="icon-share" class="mfn-icon"><i data-rel="icon-share" class="icon-share"></i></div>
+          <!---->
+          <div data-rel="icon-shareable" class="mfn-icon"><i data-rel="icon-shareable" class="icon-shareable"></i></div>
+          <!---->
+          <div data-rel="icon-shop-line" class="mfn-icon"><i data-rel="icon-shop-line" class="icon-shop-line"></i></div>
+          <!---->
+          <div data-rel="icon-shuffle" class="mfn-icon"><i data-rel="icon-shuffle" class="icon-shuffle"></i></div>
+          <!---->
+          <div data-rel="icon-signal" class="mfn-icon"><i data-rel="icon-signal" class="icon-signal"></i></div>
+          <!---->
+          <div data-rel="icon-sina-weibo" class="mfn-icon"><i data-rel="icon-sina-weibo" class="icon-sina-weibo"></i></div>
+          <!---->
+          <div data-rel="icon-skype" class="mfn-icon"><i data-rel="icon-skype" class="icon-skype"></i></div>
+          <!---->
+          <div data-rel="icon-skype-circled" class="mfn-icon"><i data-rel="icon-skype-circled" class="icon-skype-circled"></i></div>
+          <!---->
+          <div data-rel="icon-smashing" class="mfn-icon"><i data-rel="icon-smashing" class="icon-smashing"></i></div>
+          <!---->
+          <div data-rel="icon-smashmag" class="mfn-icon"><i data-rel="icon-smashmag" class="icon-smashmag"></i></div>
+          <!---->
+          <div data-rel="icon-songkick" class="mfn-icon"><i data-rel="icon-songkick" class="icon-songkick"></i></div>
+          <!---->
+          <div data-rel="icon-sound" class="mfn-icon"><i data-rel="icon-sound" class="icon-sound"></i></div>
+          <!---->
+          <div data-rel="icon-sound-line" class="mfn-icon"><i data-rel="icon-sound-line" class="icon-sound-line"></i></div>
+          <!---->
+          <div data-rel="icon-soundcloud" class="mfn-icon"><i data-rel="icon-soundcloud" class="icon-soundcloud"></i></div>
+          <!---->
+          <div data-rel="icon-spotify" class="mfn-icon"><i data-rel="icon-spotify" class="icon-spotify"></i></div>
+          <!---->
+          <div data-rel="icon-spotify-circled" class="mfn-icon"><i data-rel="icon-spotify-circled" class="icon-spotify-circled"></i></div>
+          <!---->
+          <div data-rel="icon-stackoverflow" class="mfn-icon"><i data-rel="icon-stackoverflow" class="icon-stackoverflow"></i></div>
+          <!---->
+          <div data-rel="icon-star" class="mfn-icon"><i data-rel="icon-star" class="icon-star"></i></div>
+          <!---->
+          <div data-rel="icon-star-empty" class="mfn-icon"><i data-rel="icon-star-empty" class="icon-star-empty"></i></div>
+          <!---->
+          <div data-rel="icon-star-line" class="mfn-icon"><i data-rel="icon-star-line" class="icon-star-line"></i></div>
+          <!---->
+          <div data-rel="icon-statusnet" class="mfn-icon"><i data-rel="icon-statusnet" class="icon-statusnet"></i></div>
+          <!---->
+          <div data-rel="icon-steam" class="mfn-icon"><i data-rel="icon-steam" class="icon-steam"></i></div>
+          <!---->
+          <div data-rel="icon-stop" class="mfn-icon"><i data-rel="icon-stop" class="icon-stop"></i></div>
+          <!---->
+          <div data-rel="icon-stripe" class="mfn-icon"><i data-rel="icon-stripe" class="icon-stripe"></i></div>
+          <!---->
+          <div data-rel="icon-stumbleupon" class="mfn-icon"><i data-rel="icon-stumbleupon" class="icon-stumbleupon"></i></div>
+          <!---->
+          <div data-rel="icon-stumbleupon-circled" class="mfn-icon"><i data-rel="icon-stumbleupon-circled" class="icon-stumbleupon-circled"></i></div>
+          <!---->
+          <div data-rel="icon-suitcase" class="mfn-icon"><i data-rel="icon-suitcase" class="icon-suitcase"></i></div>
+          <!---->
+          <div data-rel="icon-sweden" class="mfn-icon"><i data-rel="icon-sweden" class="icon-sweden"></i></div>
+          <!---->
+          <div data-rel="icon-switch" class="mfn-icon"><i data-rel="icon-switch" class="icon-switch"></i></div>
+          <!---->
+          <div data-rel="icon-t-shirt-line" class="mfn-icon"><i data-rel="icon-t-shirt-line" class="icon-t-shirt-line"></i></div>
+          <!---->
+          <div data-rel="icon-tag" class="mfn-icon"><i data-rel="icon-tag" class="icon-tag"></i></div>
+          <!---->
+          <div data-rel="icon-tag-line" class="mfn-icon"><i data-rel="icon-tag-line" class="icon-tag-line"></i></div>
+          <!---->
+          <div data-rel="icon-tape" class="mfn-icon"><i data-rel="icon-tape" class="icon-tape"></i></div>
+          <!---->
+          <div data-rel="icon-target" class="mfn-icon"><i data-rel="icon-target" class="icon-target"></i></div>
+          <!---->
+          <div data-rel="icon-thermometer" class="mfn-icon"><i data-rel="icon-thermometer" class="icon-thermometer"></i></div>
+          <!---->
+          <div data-rel="icon-thumbs-down" class="mfn-icon"><i data-rel="icon-thumbs-down" class="icon-thumbs-down"></i></div>
+          <!---->
+          <div data-rel="icon-thumbs-up" class="mfn-icon"><i data-rel="icon-thumbs-up" class="icon-thumbs-up"></i></div>
+          <!---->
+          <div data-rel="icon-thumbs-up-line" class="mfn-icon"><i data-rel="icon-thumbs-up-line" class="icon-thumbs-up-line"></i></div>
+          <!---->
+          <div data-rel="icon-ticket" class="mfn-icon"><i data-rel="icon-ticket" class="icon-ticket"></i></div>
+          <!---->
+          <div data-rel="icon-to-end" class="mfn-icon"><i data-rel="icon-to-end" class="icon-to-end"></i></div>
+          <!---->
+          <div data-rel="icon-to-start" class="mfn-icon"><i data-rel="icon-to-start" class="icon-to-start"></i></div>
+          <!---->
+          <div data-rel="icon-tools" class="mfn-icon"><i data-rel="icon-tools" class="icon-tools"></i></div>
+          <!---->
+          <div data-rel="icon-traffic-cone" class="mfn-icon"><i data-rel="icon-traffic-cone" class="icon-traffic-cone"></i></div>
+          <!---->
+          <div data-rel="icon-trash" class="mfn-icon"><i data-rel="icon-trash" class="icon-trash"></i></div>
+          <!---->
+          <div data-rel="icon-trash-line" class="mfn-icon"><i data-rel="icon-trash-line" class="icon-trash-line"></i></div>
+          <!---->
+          <div data-rel="icon-tripadvisor" class="mfn-icon"><i data-rel="icon-tripadvisor" class="icon-tripadvisor"></i></div>
+          <!---->
+          <div data-rel="icon-trophy" class="mfn-icon"><i data-rel="icon-trophy" class="icon-trophy"></i></div>
+          <!---->
+          <div data-rel="icon-truck-line" class="mfn-icon"><i data-rel="icon-truck-line" class="icon-truck-line"></i></div>
+          <!---->
+          <div data-rel="icon-tumblr" class="mfn-icon"><i data-rel="icon-tumblr" class="icon-tumblr"></i></div>
+          <!---->
+          <div data-rel="icon-tumblr-circled" class="mfn-icon"><i data-rel="icon-tumblr-circled" class="icon-tumblr-circled"></i></div>
+          <!---->
+          <div data-rel="icon-tv-line" class="mfn-icon"><i data-rel="icon-tv-line" class="icon-tv-line"></i></div>
+          <!---->
+          <div data-rel="icon-twitter" class="mfn-icon"><i data-rel="icon-twitter" class="icon-twitter"></i></div>
+          <!---->
+          <div data-rel="icon-twitter-circled" class="mfn-icon"><i data-rel="icon-twitter-circled" class="icon-twitter-circled"></i></div>
+          <!---->
+          <div data-rel="icon-up" class="mfn-icon"><i data-rel="icon-up" class="icon-up"></i></div>
+          <!---->
+          <div data-rel="icon-up-bold" class="mfn-icon"><i data-rel="icon-up-bold" class="icon-up-bold"></i></div>
+          <!---->
+          <div data-rel="icon-up-circled" class="mfn-icon"><i data-rel="icon-up-circled" class="icon-up-circled"></i></div>
+          <!---->
+          <div data-rel="icon-up-dir" class="mfn-icon"><i data-rel="icon-up-dir" class="icon-up-dir"></i></div>
+          <!---->
+          <div data-rel="icon-up-open" class="mfn-icon"><i data-rel="icon-up-open" class="icon-up-open"></i></div>
+          <!---->
+          <div data-rel="icon-up-open-big" class="mfn-icon"><i data-rel="icon-up-open-big" class="icon-up-open-big"></i></div>
+          <!---->
+          <div data-rel="icon-up-open-mini" class="mfn-icon"><i data-rel="icon-up-open-mini" class="icon-up-open-mini"></i></div>
+          <!---->
+          <div data-rel="icon-up-thin" class="mfn-icon"><i data-rel="icon-up-thin" class="icon-up-thin"></i></div>
+          <!---->
+          <div data-rel="icon-upload" class="mfn-icon"><i data-rel="icon-upload" class="icon-upload"></i></div>
+          <!---->
+          <div data-rel="icon-upload-cloud" class="mfn-icon"><i data-rel="icon-upload-cloud" class="icon-upload-cloud"></i></div>
+          <!---->
+          <div data-rel="icon-user" class="mfn-icon"><i data-rel="icon-user" class="icon-user"></i></div>
+          <!---->
+          <div data-rel="icon-user-add" class="mfn-icon"><i data-rel="icon-user-add" class="icon-user-add"></i></div>
+          <!---->
+          <div data-rel="icon-user-line" class="mfn-icon"><i data-rel="icon-user-line" class="icon-user-line"></i></div>
+          <!---->
+          <div data-rel="icon-users" class="mfn-icon"><i data-rel="icon-users" class="icon-users"></i></div>
+          <!---->
+          <div data-rel="icon-vcard" class="mfn-icon"><i data-rel="icon-vcard" class="icon-vcard"></i></div>
+          <!---->
+          <div data-rel="icon-viadeo" class="mfn-icon"><i data-rel="icon-viadeo" class="icon-viadeo"></i></div>
+          <!---->
+          <div data-rel="icon-video" class="mfn-icon"><i data-rel="icon-video" class="icon-video"></i></div>
+          <!---->
+          <div data-rel="icon-videocam-line" class="mfn-icon"><i data-rel="icon-videocam-line" class="icon-videocam-line"></i></div>
+          <!---->
+          <div data-rel="icon-vimeo" class="mfn-icon"><i data-rel="icon-vimeo" class="icon-vimeo"></i></div>
+          <!---->
+          <div data-rel="icon-vimeo-circled" class="mfn-icon"><i data-rel="icon-vimeo-circled" class="icon-vimeo-circled"></i></div>
+          <!---->
+          <div data-rel="icon-vk" class="mfn-icon"><i data-rel="icon-vk" class="icon-vk"></i></div>
+          <!---->
+          <div data-rel="icon-vkontakte" class="mfn-icon"><i data-rel="icon-vkontakte" class="icon-vkontakte"></i></div>
+          <!---->
+          <div data-rel="icon-volume" class="mfn-icon"><i data-rel="icon-volume" class="icon-volume"></i></div>
+          <!---->
+          <div data-rel="icon-w3c" class="mfn-icon"><i data-rel="icon-w3c" class="icon-w3c"></i></div>
+          <!---->
+          <div data-rel="icon-wallet-line" class="mfn-icon"><i data-rel="icon-wallet-line" class="icon-wallet-line"></i></div>
+          <!---->
+          <div data-rel="icon-water" class="mfn-icon"><i data-rel="icon-water" class="icon-water"></i></div>
+          <!---->
+          <div data-rel="icon-weibo" class="mfn-icon"><i data-rel="icon-weibo" class="icon-weibo"></i></div>
+          <!---->
+          <div data-rel="icon-wikipedia" class="mfn-icon"><i data-rel="icon-wikipedia" class="icon-wikipedia"></i></div>
+          <!---->
+          <div data-rel="icon-window" class="mfn-icon"><i data-rel="icon-window" class="icon-window"></i></div>
+          <!---->
+          <div data-rel="icon-windows" class="mfn-icon"><i data-rel="icon-windows" class="icon-windows"></i></div>
+          <!---->
+          <div data-rel="icon-wordpress" class="mfn-icon"><i data-rel="icon-wordpress" class="icon-wordpress"></i></div>
+          <!---->
+          <div data-rel="icon-xing" class="mfn-icon"><i data-rel="icon-xing" class="icon-xing"></i></div>
+          <!---->
+          <div data-rel="icon-yahoo" class="mfn-icon"><i data-rel="icon-yahoo" class="icon-yahoo"></i></div>
+          <!---->
+          <div data-rel="icon-yelp" class="mfn-icon"><i data-rel="icon-yelp" class="icon-yelp"></i></div>
+          <!---->
+          <div data-rel="icon-youtube" class="mfn-icon"><i data-rel="icon-youtube" class="icon-youtube"></i></div>
           <!---->
           <!---->
         </div>
@@ -6312,25 +5478,19 @@ exports[`IconsField.vue snapshots: should match snapshot if 3 icons has been add
             <div>
               <li><span data-rel="icon-acrobat" class="mfn-icon"><i data-rel="icon-acrobat" class="icon-acrobat"></i></span> <span data-index="data-index">
                 http://adobe.com
-              </span> <span class="icon-sortable-handler"><i data-rel="icon-arrow-combo" class="icon-arrow-combo"></i></span>
-                <button class="mfn-button-close">
-                  <fonticon-stub icon="cancel"></fonticon-stub>
-                </button>
-              </li>
+              </span> <span class="icon-sortable-handler"><i data-rel="icon-arrow-combo" class="icon-arrow-combo"></i></span> <button class="mfn-button-close">
+                  <font-icon-stub icon="cancel"></font-icon-stub>
+                </button></li>
               <li><span data-rel="icon-gmail" class="mfn-icon"><i data-rel="icon-gmail" class="icon-gmail"></i></span> <span data-index="data-index">
                 https://mail.google.com
-              </span> <span class="icon-sortable-handler"><i data-rel="icon-arrow-combo" class="icon-arrow-combo"></i></span>
-                <button class="mfn-button-close">
-                  <fonticon-stub icon="cancel"></fonticon-stub>
-                </button>
-              </li>
+              </span> <span class="icon-sortable-handler"><i data-rel="icon-arrow-combo" class="icon-arrow-combo"></i></span> <button class="mfn-button-close">
+                  <font-icon-stub icon="cancel"></font-icon-stub>
+                </button></li>
               <li><span data-rel="icon-youtube" class="mfn-icon"><i data-rel="icon-youtube" class="icon-youtube"></i></span> <span data-index="data-index">
                 youtube.com
-              </span> <span class="icon-sortable-handler"><i data-rel="icon-arrow-combo" class="icon-arrow-combo"></i></span>
-                <button class="mfn-button-close">
-                  <fonticon-stub icon="cancel"></fonticon-stub>
-                </button>
-              </li>
+              </span> <span class="icon-sortable-handler"><i data-rel="icon-arrow-combo" class="icon-arrow-combo"></i></span> <button class="mfn-button-close">
+                  <font-icon-stub icon="cancel"></font-icon-stub>
+                </button></li>
             </div>
           </ul>
         </div>
@@ -8757,7 +7917,7 @@ exports[`IconsField.vue snapshots: should match snapshot if icon is selected 1`]
             <button
               class="mfn-button-close"
             >
-              <fonticon-stub
+              <font-icon-stub
                 icon="cancel"
               />
             </button>

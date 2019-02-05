@@ -7,9 +7,9 @@ exports[`BaseHeader.vue should match snapshot 1`] = `
   <div
     class="left"
   >
-    <mfnlogo-stub />
+    <mfn-logo-stub />
      
-    <basetitle-stub
+    <base-title-stub
       title="Header Builder"
     />
   </div>
@@ -17,7 +17,7 @@ exports[`BaseHeader.vue should match snapshot 1`] = `
   <div
     class="center"
   >
-    <navselectdevice-stub />
+    <nav-select-device-stub />
   </div>
    
   <div

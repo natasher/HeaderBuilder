@@ -16,7 +16,7 @@ function createStore(overrides) {
           toggleSwitchState: jest.fn()
         },
         getters: {
-          getCurrentFieldValue: jest.fn().mockReturnValue(
+          getSwitchFieldValue: jest.fn().mockReturnValue(
             jest.fn().mockReturnValue( true )
           )
         }
@@ -71,7 +71,8 @@ describe('SwitchField.vue', () => {
     expect(toggleSwitchState).toBeCalledWith(
       expect.anything(),
       {
-        name: wrapper.vm.wpId
+        name: wrapper.vm.wpId,
+        as  : wrapper.vm.as
       },
       void 0
     )

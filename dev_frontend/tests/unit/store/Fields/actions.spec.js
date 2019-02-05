@@ -196,6 +196,46 @@ describe('ACTIONS Fields:', () => {
       expect( store.state.items.current.form.openLinksInNewWindow ).toBe( false )
     })
 
+    test('should change value of the switch field on grid option to opposite', async () => {
+      const field = "headerOnTop"
+      const fvalue = false
+
+      store.commit('DesktopModule/SET_GRID_OPTIONS_VALUE', {
+        name : field,
+        value: fvalue
+      }, { root: true })
+
+      const payload = {
+        name: field,
+        as  : "grid",
+      }
+
+      store.dispatch('fields/toggleSwitchState', payload, { root: true })
+      await flushPromises()
+
+      expect( store.state.DesktopModule.grid.options[ field ] ).toBe( !fvalue )
+    })
+
+    test('should also change switch value for sticky version', async () => {
+      const field = "headerOnTop"
+      const fvalue = false
+
+      store.commit('DesktopModule/SET_GRID_OPTIONS_VALUE', {
+        name : field,
+        value: fvalue
+      }, { root: true })
+
+      const payload = {
+        name: field,
+        as  : "grid",
+      }
+
+      store.dispatch('fields/toggleSwitchState', payload, { root: true })
+      await flushPromises()
+
+      expect( store.state.DesktopStickyModule.grid.options[ field ] ).toBe( !fvalue )
+    })
+
   })
 
   describe('toggleOptionSwitchState', () => {

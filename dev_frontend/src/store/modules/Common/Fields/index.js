@@ -133,6 +133,19 @@ export default {
         }
       },
 
+      getSwitchFieldValue: ( state, getters ) =>
+        ( fieldName, as = '' ) => {
+          if ( as === '' ) {
+
+            return getters.getCurrentFieldValue( fieldName )
+
+          } else if ( as === 'grid' ) {
+
+            return getters.getGridOptionValue( fieldName )
+
+          }
+        }
+
   },
 
   actions,

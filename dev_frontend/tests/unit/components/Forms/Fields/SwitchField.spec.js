@@ -16,7 +16,7 @@ function createStore(overrides) {
           toggleSwitchState: jest.fn()
         },
         getters: {
-          getCurrentFieldValue: jest.fn().mockReturnValue(
+          getSwitchFieldValue: jest.fn().mockReturnValue(
             jest.fn().mockReturnValue( true )
           )
         }
@@ -71,7 +71,38 @@ describe('SwitchField.vue', () => {
     expect(toggleSwitchState).toBeCalledWith(
       expect.anything(),
       {
-        name: wrapper.vm.wpId
+        name: wrapper.vm.wpId,
+        as  : wrapper.vm.as
+      },
+      void 0
+    )
+  })
+
+  test('should toggle grid modal switch if user click switch', async () => {
+    const toggleSwitchState = jest.fn()
+    const store = createStore({
+      modules: {
+        fields: {
+          actions: {
+            toggleSwitchState,
+          }
+        }
+      }
+    })
+    const wrapper = createWrapper({
+      store,
+      propsData: {
+        as: 'grid'
+      }
+    })
+    const sw = wrapper.find('baseswitch-stub')
+    sw.trigger( 'click' )
+
+    expect(toggleSwitchState).toBeCalledWith(
+      expect.anything(),
+      {
+        name: wrapper.vm.wpId,
+        as  : wrapper.vm.as
       },
       void 0
     )

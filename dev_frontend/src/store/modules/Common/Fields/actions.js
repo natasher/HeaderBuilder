@@ -86,20 +86,44 @@ export default {
    *    - name  {string} wpId of the field.
    * @returns {Promise} Action resolves after mutation is commited.
    */
-  toggleSwitchState({ dispatch, commit, getters }, payload ) {
+  toggleSwitchState({ dispatch, commit, getters, rootState }, payload ) {
 
     dispatch( 'general/setEditorChanged', { hasChanged: true }, { root: true })
 
-    return new Promise(( resolve ) => {
-      const beforeValue = getters.getCurrentFieldValue( payload.name )
+    if ( payload.as === '' || payload.as === void 0 ) {
 
-      commit( 'items/SET_CURRENT_FIELD_VALUE', {
-        name : payload.name,
-        value: !beforeValue
-      }, { root: true })
+      return new Promise(( resolve ) => {
+        const beforeValue = getters.getCurrentFieldValue( payload.name )
 
-      resolve()
-    })
+        commit( 'items/SET_CURRENT_FIELD_VALUE', {
+          name : payload.name,
+          value: !beforeValue
+        }, { root: true })
+
+        resolve()
+      })
+
+    } else if ( payload.as === 'grid' ) {
+
+      return new Promise(( resolve ) => {
+        const currentStoreModule = rootState.general.currentStoreModule
+        const beforeValue        = getters.getGridOptionValue( payload.name )
+        const stickyStoreModule  = currentStoreModule.split( 'Module' )[ 0 ] + 'StickyModule'
+
+        commit( `${ currentStoreModule }/SET_GRID_OPTIONS_VALUE`, {
+          name : payload.name,
+          value: !beforeValue
+        }, { root: true })
+
+        commit( `${ stickyStoreModule }/SET_GRID_OPTIONS_VALUE`, {
+          name : payload.name,
+          value: !beforeValue
+        }, { root: true })
+
+        resolve()
+      })
+
+    }
   },
 
   /**

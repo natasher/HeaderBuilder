@@ -422,4 +422,38 @@ describe('Fields GETTERS:', () => {
 
   })
 
+  /**
+   * getSwitchFieldValue
+   * ===================
+   */
+  describe('getSwitchFieldValue', () => {
+
+    test('should call `getCurrentFieldValue` if only fieldName is provided', () => {
+      const getters = {
+        getCurrentFieldValue: jest.fn(),
+        getGridOptionValue: jest.fn(),
+      }
+      const getter = module.getters.getSwitchFieldValue( void 0, getters )
+
+      getter( 'mockField' )
+
+      expect( getters.getCurrentFieldValue ).toBeCalledWith( 'mockField' )
+      expect( getters.getGridOptionValue ).not.toBeCalled()
+    })
+
+    test('should call `getGridOptionValue` if as="grid" is provided', () => {
+      const getters = {
+        getGridOptionValue: jest.fn(),
+        getCurrentFieldValue: jest.fn(),
+      }
+      const getter = module.getters.getSwitchFieldValue( void 0, getters )
+
+      getter( 'mockField', 'grid' )
+
+      expect( getters.getGridOptionValue ).toBeCalledWith( 'mockField' )
+      expect( getters.getCurrentFieldValue ).not.toBeCalled()
+    })
+
+  })
+
 })

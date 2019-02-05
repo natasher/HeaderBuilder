@@ -11,8 +11,8 @@
         :fieldName    = "fieldName"
         :wpId         = "wpId"
         :label        = "label"
-        :isActive     = "getCurrentFieldValue( wpId )"
-        @click.native = "toggleSwitchState({ name: wpId })" />
+        :isActive     = "getSwitchFieldValue( wpId, as )"
+        @click.native = "toggleSwitchState({ name: wpId, as: as })" />
 
     </div>
 
@@ -54,10 +54,19 @@ export default {
       type    : String,
       required: false,
     },
+    /**
+     * Prop determinates type of Margin field,
+     * possible values: **""**, **row**, **grid**.
+     */
+    as: {
+      type    : String,
+      required: false,
+      default : '',
+    },
   },
 
   computed: {
-    ...mapGetters( 'fields', [ 'getCurrentFieldValue', ]),
+    ...mapGetters( 'fields', [ 'getSwitchFieldValue', ]),
   },
 
   methods: {

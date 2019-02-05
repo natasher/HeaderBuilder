@@ -26,7 +26,8 @@ export default {
           label: 'auto',
           value: 'auto',
         },
-      }
+      },
+      headerOnTop: false,
     }
   },
   actionBar: {

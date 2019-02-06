@@ -10,7 +10,7 @@
       <div class = "header">
 
         <div class = "left">
-          <div class = "title"></div>
+          <div class = "title">Header saved</div>
         </div>
 
       </div>

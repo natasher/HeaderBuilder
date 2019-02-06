@@ -16,6 +16,7 @@
       </div>
 
       <!-- TODO: content gif -->
+      <img src="../../../../public/images/check.gif" >
 
     </modal>
   </transition>

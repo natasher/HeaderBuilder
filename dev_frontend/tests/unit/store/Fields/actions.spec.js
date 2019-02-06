@@ -92,7 +92,11 @@ describe('ACTIONS Fields:', () => {
 
     test('calls `items/setCurrentFieldValue` if `as` is an empty string', async () => {
       const spy = jest.spyOn( store._actions[ 'items/setCurrentFieldValue' ], [0])
-        .mockImplementation()
+        .mockImplementation(() => {
+          return new Promise(( resolve ) => {
+            resolve()
+          })
+        })
 
       const payload = {
         name : 'text',
@@ -108,7 +112,11 @@ describe('ACTIONS Fields:', () => {
 
     test('calls `items/setStyleFormValue` if `as` is `styleForm`', async () => {
       const spy = jest.spyOn( store._actions[ 'items/setStyleFormValue' ], [0])
-        .mockImplementation()
+        .mockImplementation(() => {
+          return new Promise(( resolve ) => {
+            resolve()
+          })
+        })
 
       const payload = {
         name : 'text',
@@ -124,7 +132,11 @@ describe('ACTIONS Fields:', () => {
 
     test('calls `setRowOptionValue` if `as` is `row`', async () => {
       const spy = jest.spyOn( store._actions[ 'fields/setRowOptionValue' ], [0])
-        .mockImplementation()
+        .mockImplementation(() => {
+          return new Promise(( resolve ) => {
+            resolve()
+          })
+        })
 
       const payload = {
         name : 'text',
@@ -140,7 +152,11 @@ describe('ACTIONS Fields:', () => {
 
     test('calls `setGridOptionValue` if `as` is `grid`', async () => {
       const spy = jest.spyOn( store._actions[ 'fields/setGridOptionValue' ], [0])
-        .mockImplementation()
+        .mockImplementation(() => {
+          return new Promise(( resolve ) => {
+            resolve()
+          })
+        })
 
       const payload = {
         name : 'text',

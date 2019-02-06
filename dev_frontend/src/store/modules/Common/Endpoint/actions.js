@@ -49,7 +49,7 @@ export default {
             }, 'json' )
           })
 
-        payload.$modal.show('MfnGenericModal', {
+        payload.$modal.show('ModalSaveHeader', {
           // title       : 'Info',
           // text        : onSave,
           // closeOnClick: true,

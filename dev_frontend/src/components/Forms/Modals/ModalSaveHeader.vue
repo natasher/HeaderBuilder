@@ -1,11 +1,10 @@
 <template>
-  <transition name="saved-header-info">
+  <!-- <transition name="saved-header-info"> -->
     <modal
       name          = "ModalSaveHeader"
-      @before-open  = "beforeOpen"
       height        = "auto"
-      :classes      = "[ 'info-modal', 'v--modal' ]"
-      :clickToClose = "closeOnClick" >
+      width         = "100"
+      :classes      = "[ 'info-modal', 'v--modal' ]">
 
       <div class = "header">
 
@@ -16,16 +15,18 @@
       </div>
 
       <!-- TODO: content gif -->
-      <img src="../../../../public/images/check.gif" >
+      <div class="content">
+        <img src="../../../../public/images/check.gif" >
+      </div>
 
     </modal>
-  </transition>
+  <!-- </transition> -->
 </template>
 
 <script>
 export default {
 
-  name: 'MfnGenericModal',
+  name: 'ModalSaveHeader',
 
   methods: {
     /**
@@ -36,9 +37,10 @@ export default {
      * @type {vue-js-modal}
      * @param {event} passes grid item related data
      */
-    beforeOpen ( event ) {
+    // beforeOpen ( event ) {
     /** TODO: możebyć dobre miejsce na leave transition */
-    },
+      // return true
+    // },
   }
 }
 </script>

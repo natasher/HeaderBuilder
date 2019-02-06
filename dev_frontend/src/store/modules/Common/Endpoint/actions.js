@@ -50,9 +50,9 @@ export default {
           })
 
         payload.$modal.show('MfnGenericModal', {
-          title       : 'Info',
-          text        : onSave,
-          closeOnClick: true,
+          // title       : 'Info',
+          // text        : onSave,
+          // closeOnClick: true,
         })
 
         resolve()

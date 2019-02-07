@@ -3,7 +3,7 @@
     <modal
       name          = "ModalSaveHeader"
       height        = "auto"
-      width         = "100"
+      width         = "130"
       :classes      = "[ 'info-modal', 'v--modal' ]">
 
       <div class = "header">

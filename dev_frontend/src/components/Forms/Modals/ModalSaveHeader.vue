@@ -1,5 +1,5 @@
 <template>
-  <!-- <transition name="saved-header-info"> -->
+  <transition name="saved">
     <modal
       name          = "ModalSaveHeader"
       height        = "auto"
@@ -20,7 +20,7 @@
       </div>
 
     </modal>
-  <!-- </transition> -->
+  </transition>
 </template>
 
 <script>
@@ -28,19 +28,5 @@ export default {
 
   name: 'ModalSaveHeader',
 
-  methods: {
-    /**
-     * Before open modal hook. If openHook is provided, then set item
-     * as currenlty used.
-     *
-     * @event beforeOpen
-     * @type {vue-js-modal}
-     * @param {event} passes grid item related data
-     */
-    // beforeOpen ( event ) {
-    /** TODO: możebyć dobre miejsce na leave transition */
-      // return true
-    // },
-  }
 }
 </script>

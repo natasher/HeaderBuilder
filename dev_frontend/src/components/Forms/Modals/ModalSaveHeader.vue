@@ -1,26 +1,24 @@
 <template>
-  <transition name="saved">
-    <modal
-      name          = "ModalSaveHeader"
-      height        = "auto"
-      width         = "130"
-      :classes      = "[ 'info-modal', 'v--modal' ]">
+  <modal
+    name          = "ModalSaveHeader"
+    height        = "auto"
+    width         = "130"
+    :classes      = "[ 'info-modal', 'v--modal' ]">
 
-      <div class = "header">
+    <div class = "header">
 
-        <div class = "left">
-          <div class = "title">Header saved</div>
-        </div>
-
+      <div class = "left">
+        <div class = "title">Header saved</div>
       </div>
 
-      <!-- TODO: content gif -->
-      <div class="content">
-        <img src="../../../../public/images/check.gif" >
-      </div>
+    </div>
 
-    </modal>
-  </transition>
+    <!-- TODO: content gif -->
+    <div class="content">
+      <img src="../../../../public/images/check.gif" >
+    </div>
+
+  </modal>
 </template>
 
 <script>

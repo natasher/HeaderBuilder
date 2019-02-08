@@ -2,7 +2,6 @@
   <modal
     name          = "ModalSaveHeader"
     height        = "auto"
-    width         = "130"
     :classes      = "[ 'info-modal', 'v--modal' ]">
 
     <div class = "header">
@@ -15,7 +14,7 @@
 
     <!-- TODO: content gif -->
     <div class="content">
-      <img src="../../../../public/images/check.gif" >
+      Your header has been saved.
     </div>
 
   </modal>

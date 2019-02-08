@@ -51,6 +51,11 @@ export default {
 
     postData: function () {
       this.postDataToWordpress({ $modal: this.$modal })
+        .then(() => {
+          setTimeout(() => {
+            this.$modal.hide('ModalSaveHeader')
+          }, 1000)
+        })
     },
   },
 

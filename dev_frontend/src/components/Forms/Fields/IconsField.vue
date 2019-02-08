@@ -24,35 +24,33 @@
 
               </div>
 
-              <transition :key = "icon" name = "bounce">
-                <div
-                  class  = "mfn-field popup"
-                  :key   = "`${ icon }-popup`"
-                  :style = "{ top: popupOffset }"
-                  v-if   = "showPopup( icon )">
+              <div
+                class  = "mfn-field popup"
+                :key   = "`${ icon }-popup`"
+                :style = "{ top: popupOffset }"
+                v-if   = "showPopup( icon )">
 
-                  <label for = "Link">URL: </label>
-                  <input
-                    type    = "text"
-                    name    = "Link"
-                    v-focus
-                    v-model = "tempLink"
-                    @keyup.enter = "addIconAndLink" />
+                <label for = "Link">URL: </label>
+                <input
+                  type    = "text"
+                  name    = "Link"
+                  v-focus
+                  v-model = "tempLink"
+                  @keyup.enter = "addIconAndLink" />
 
-                  <button
-                    class = "mfn-button-generic"
-                    @click.passive = "addIconAndLink">
-                      Add
-                  </button>
+                <button
+                  class = "mfn-button-generic"
+                  @click.passive = "addIconAndLink">
+                    Add
+                </button>
 
-                  <button
-                    class = "mfn-button-close"
-                    @click.passive = "clearIconData">
-                      <font-icon icon = "cancel"/>
-                  </button>
+                <button
+                  class = "mfn-button-close"
+                  @click.passive = "clearIconData">
+                    <font-icon icon = "cancel"/>
+                </button>
 
-                </div>
-              </transition>
+              </div>
             </template>
 
             <span v-if = "typeof icons === 'undefined' && icons.length === 0">No icon to render.</span>
@@ -263,72 +261,3 @@ export default {
 
 }
 </script>
-
-<style scoped>
-
-div ul {
-  display: inline-block;
-  margin-top: 1em;
-}
-
-div li {
-  margin-top: 1em;
-  list-style-type: disc;
-}
-
-.bounce-enter-active {
-  animation: bounce-in 0.5s;
-}
-
-.bounce-leave.active {
-  animation: bounce-in 0.5s reverse;
-}
-
-@-moz-keyframes bounce-in {
-  0% {
-    transform: scale(0);
-  }
-  50% {
-    transform: scale(1.1);
-  }
-  100% {
-    transform: scale(1);
-  }
-}
-
-@-webkit-keyframes bounce-in {
-  0% {
-    transform: scale(0);
-  }
-  50% {
-    transform: scale(1.1);
-  }
-  100% {
-    transform: scale(1);
-  }
-}
-
-@-o-keyframes bounce-in {
-  0% {
-    transform: scale(0);
-  }
-  50% {
-    transform: scale(1.1);
-  }
-  100% {
-    transform: scale(1);
-  }
-}
-
-@keyframes bounce-in {
-  0% {
-    transform: scale(0);
-  }
-  50% {
-    transform: scale(1.1);
-  }
-  100% {
-    transform: scale(1);
-  }
-}
-</style>

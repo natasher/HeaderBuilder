@@ -1,8 +1,4 @@
 import {
-  onSave,
-} from '../../../dialogs'
-
-import {
   addCoordsToFetchedItems,
   findLevel,
   unifyLevel,
@@ -49,11 +45,7 @@ export default {
             }, 'json' )
           })
 
-        payload.$modal.show('MfnGenericModal', {
-          title       : 'Info',
-          text        : onSave,
-          closeOnClick: true,
-        })
+        payload.$modal.show('ModalSaveHeader')
 
         resolve()
       })

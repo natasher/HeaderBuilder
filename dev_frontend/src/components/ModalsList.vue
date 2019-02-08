@@ -1,6 +1,7 @@
 <template>
   <section name="modals">
     <mfn-generic-modal  />
+    <modal-save-header  />
     <modal-button       />
     <modal-grid         />
     <modal-action-bar   />
@@ -19,6 +20,7 @@
 
 <script>
 import MfnGenericModal  from './Forms/MfnGenericModal.vue';
+import ModalSaveHeader  from './Forms/Modals/ModalSaveHeader.vue';
 import ModalButton      from './Forms/Modals/ModalButton.vue';
 import ModalGrid        from './Forms/Modals/ModalGrid.vue';
 import ModalActionBar   from './Forms/Modals/ModalActionBar.vue';
@@ -40,6 +42,7 @@ export default {
 
   components: {
     MfnGenericModal,
+    ModalSaveHeader,
     ModalButton,
     ModalGrid,
     ModalActionBar,

@@ -1,39 +1,37 @@
 <template>
-  <transition name="fade">
-    <section :class="classObject">
+  <section :class="classObject">
 
-      <header class="hbr-header" >
-        <span class="hbr-title">{{ name }}</span>
+    <header class="hbr-header" >
+      <span class="hbr-title">{{ name }}</span>
 
-        <a href = "#"
-          class = "icon-edit"
-          @click.passive = "$store.dispatch( 'modals/' + editRowHandler, { $modal: $modal })"
-          v-if = "getGridStatus === 'custom'">
-            <font-icon icon = "pencil" />
-        </a>
-      </header>
+      <a href = "#"
+        class = "icon-edit"
+        @click.passive = "$store.dispatch( 'modals/' + editRowHandler, { $modal: $modal })"
+        v-if = "getGridStatus === 'custom'">
+          <font-icon icon = "pencil" />
+      </a>
+    </header>
 
-      <div class = "hbr-container">
+    <div class = "hbr-container">
 
-        <!-- @slot Insert left cell, (also used for `all` cell) -->
-        <slot name = "left" />
-        <!-- @slot Insert left cell footer -->
-        <slot name = "footer-left" />
+      <!-- @slot Insert left cell, (also used for `all` cell) -->
+      <slot name = "left" />
+      <!-- @slot Insert left cell footer -->
+      <slot name = "footer-left" />
 
-        <!-- @slot Insert center cell -->
-        <slot name = "center" />
-        <!-- @slot Insert center footer -->
-        <slot name = "footer-center"/>
+      <!-- @slot Insert center cell -->
+      <slot name = "center" />
+      <!-- @slot Insert center footer -->
+      <slot name = "footer-center"/>
 
-        <!-- @slot Insert right cell -->
-        <slot name = "right" />
-        <!-- @slot Insert right footer -->
-        <slot name = "footer-right"/>
+      <!-- @slot Insert right cell -->
+      <slot name = "right" />
+      <!-- @slot Insert right footer -->
+      <slot name = "footer-right"/>
 
-      </div>
+    </div>
 
-    </section>
-  </transition>
+  </section>
 </template>
 
 <script>
@@ -81,18 +79,3 @@ export default {
 
 }
 </script>
-
-<style scoped>
-
-.fade-enter-active,
-.fade-leave-active {
-  transition: opacity 0.7s ease;
-}
-
-.fade-enter,
-.fade-leave-to {
-  opacity: 0;
-}
-
-</style>
-

@@ -22,7 +22,7 @@ describe('MUTATIONS Endpoint module:', () => {
       mfnFonts: {},
     }
 
-    mutations.SET_FONTS_LIST( state, fonts_list )
+    mutations.SET_FONTS_LIST( state, { fonts: fonts_list } )
     expect( state.mfnFonts ).toMatchObject( fonts_list )
   })
 

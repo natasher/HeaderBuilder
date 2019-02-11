@@ -4,4 +4,8 @@ export default {
     state.wpMenusList.push( payload )
   },
 
+  SET_FONTS_LIST( state, payload ) {
+    state.mfnFonts = payload.fonts
+  }
+
 }

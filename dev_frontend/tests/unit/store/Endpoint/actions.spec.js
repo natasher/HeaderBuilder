@@ -248,4 +248,45 @@ describe('ACTIONS Endpoint:', () => {
 
   })
 
+  describe('setFontsList', () => {
+
+    test('if `rootState.endpoint.mfnFonts` is NOT empty, abandon', async () => {
+      window.mfn_ajax.fonts_list = {}
+
+      if ( _.isEmpty( store.state.endpoint.mfnFonts )) {
+        store.commit( 'endpoint/SET_FONTS_LIST', {
+          fonts: {
+            all: [ 'all1', 'all2', 'all3', 'all4', 'all5', 'all6' ],
+            system: [ 'system1', 'system2', 'system3' ],
+          }
+        }, { root: true })
+      }
+
+      const spy = jest.spyOn( store._mutations[ 'endpoint/SET_FONTS_LIST' ], [ 0 ])
+      store.dispatch( 'endpoint/setFontsList', void 0, { root: true })
+      await flushPromises()
+
+      expect( spy ).not.toBeCalled()
+    })
+
+    test.only('if `rootState.endpoint.mfnFonts is empty set `mfn_ajax.fonts_list` to the state', async () => {
+      expect.assertions( 3 )
+
+      window.mfn_ajax.fonts_list = {
+        all: [ 'all1', 'all2', 'all3', 'all4', 'all5', 'all6' ],
+        system: [ 'system1', 'system2', 'system3' ],
+      }
+
+      expect( store.state.endpoint.mfnFonts ).toMatchObject( {} )
+
+      const spy = jest.spyOn( store._mutations[ 'endpoint/SET_FONTS_LIST' ], [ 0 ])
+      store.dispatch( 'endpoint/setFontsList', void 0, { root: true })
+      await flushPromises()
+
+      expect( spy ).toBeCalled()
+      expect( spy.mock.calls[0][0] ).toMatchObject({ fonts: window.mfn_ajax.fonts_list })
+    })
+
+  })
+
 })

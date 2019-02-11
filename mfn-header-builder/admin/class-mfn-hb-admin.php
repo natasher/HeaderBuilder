@@ -77,10 +77,11 @@ class Mfn_HB_Admin {
 		$builder = get_site_option( 'mfn_header_builder' );
 
 		$ajax_attr = array(
-			'ajax_url' 	=> admin_url( 'admin-ajax.php' ),
-			'nonce' 		=> wp_create_nonce( 'mfn-header' ),
-			'menu_list' => mfna_menu(),
-			'builder'		=> $builder,
+			'ajax_url' 	 => admin_url( 'admin-ajax.php' ),
+			'nonce'      => wp_create_nonce( 'mfn-header' ),
+			'menu_list'  => mfna_menu(),
+			'fonts_list' => mfn_fonts(),
+			'builder'    => $builder,
 		);
 
 		wp_localize_script( 'mfn-header-builder', 'mfn_ajax', $ajax_attr  );

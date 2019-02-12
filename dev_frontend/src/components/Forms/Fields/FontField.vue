@@ -7,8 +7,13 @@
 
     <div class = "col col-right">
 
-      <div class = "mfn-field mfnf-upload mfnf-bgimage">
+      <div class = "mfn-field mfn-font">
 
+        <v-select
+          name     = "fontFamily"
+          :options = "fonts"
+          @input   = "setFontFamily"
+          :value   = "getFontFamily" />
       </div>
 
     </div>
@@ -17,7 +22,7 @@
 </template>
 
 <script>
-import { mapGetters, mapActions } from 'vuex'
+import { mapGetters, mapActions, mapState } from 'vuex'
 import vSelect from 'vue-select'
 
 export default {
@@ -58,7 +63,8 @@ export default {
   methods: {
   },
 
-  computed: {
-  },
+  computed: mapState( 'endpoint', {
+    fonts: state => state.mfnFonts
+  }),
 }
 </script>

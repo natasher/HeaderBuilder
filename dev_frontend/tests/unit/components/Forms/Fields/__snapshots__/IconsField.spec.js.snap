@@ -7892,7 +7892,6 @@ exports[`IconsField.vue snapshots: should match snapshot if icon is selected 1`]
            
           <div
             class="mfn-field popup"
-            name="bounce"
             style="top: 666px;"
           >
             <label
@@ -7910,8 +7909,8 @@ exports[`IconsField.vue snapshots: should match snapshot if icon is selected 1`]
               class="mfn-button-generic"
             >
               
-                    Add
-                
+                  Add
+              
             </button>
              
             <button

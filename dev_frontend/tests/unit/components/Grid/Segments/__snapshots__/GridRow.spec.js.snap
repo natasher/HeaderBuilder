@@ -3,7 +3,6 @@
 exports[`GridRow.vue snapshots: should match snapshot with slots and when grid status is NOT custom 1`] = `
 <section
   class="hb-row"
-  name="fade"
 >
   <header
     class="hbr-header"
@@ -62,7 +61,6 @@ exports[`GridRow.vue snapshots: should match snapshot with slots and when grid s
 exports[`GridRow.vue snapshots: should match snapshot with slots and when grid status is custom 1`] = `
 <section
   class="hb-row"
-  name="fade"
 >
   <header
     class="hbr-header"

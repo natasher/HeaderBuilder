@@ -50,6 +50,7 @@ export default {
     ...mapActions( 'endpoint', [
       'pushWPMenusList',
       'getStateFromWP',
+      'setFontsList',
     ]),
 
     ...mapActions( 'ui', [
@@ -65,6 +66,7 @@ export default {
      * AJAX load data to state
      */
     this.pushWPMenusList()
+    this.setFontsList()
     this.getStateFromWP()
     this.changeDevice({ device: 'desktop' })
   },

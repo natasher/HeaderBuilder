@@ -273,9 +273,31 @@ describe('ACTIONS Endpoint:', () => {
       expect.assertions( 3 )
 
       window.mfn_ajax.fonts_list = {
-        all: [ 'all1', 'all2', 'all3', 'all4', 'all5', 'all6' ],
-        system: [ 'system1', 'system2', 'system3' ],
+        all: [ 'all1', 'all2' ],
+        system: [ 'system1' ],
       }
+      const expected_fonts = [
+        {
+          label: 'system',
+          value: 'optgroup-label'
+        },
+        {
+          label: 'system1',
+          value: 'system1'
+        },
+        {
+          label: 'all',
+          value: 'optgroup-label'
+        },
+        {
+          label: 'all1',
+          value: 'all1'
+        },
+        {
+          label: 'all2',
+          value: 'all2'
+        },
+      ]
 
       expect( store.state.endpoint.mfnFonts ).toMatchObject( {} )
 
@@ -284,7 +306,7 @@ describe('ACTIONS Endpoint:', () => {
       await flushPromises()
 
       expect( spy ).toBeCalled()
-      expect( spy.mock.calls[0][0] ).toMatchObject({ fonts: window.mfn_ajax.fonts_list })
+      expect( spy.mock.calls[0][0] ).toMatchObject({ fonts: expected_fonts })
     })
 
   })

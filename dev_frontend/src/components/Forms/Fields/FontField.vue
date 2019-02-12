@@ -13,7 +13,16 @@
           name     = "fontFamily"
           :options = "fonts"
           @input   = "setFontFamily"
-          :value   = "getFontFamily" />
+          :value   = "getFontFamily">
+
+          <template slot="option" slot-scope="font">
+            <strong v-if="font.value == 'optgroup-label'">{{ font.label }}</strong>
+            <option v-else :value="font.value">
+              {{ font.label }}
+            </option>
+          </template>
+
+        </v-select>
       </div>
 
     </div>

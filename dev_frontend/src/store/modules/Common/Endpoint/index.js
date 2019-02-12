@@ -8,7 +8,7 @@ export default {
   state: {
 
     wpMenusList: [],
-    mfnFonts: {},
+    mfnFonts: [],
 
   },
 

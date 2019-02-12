@@ -269,7 +269,7 @@ describe('ACTIONS Endpoint:', () => {
       expect( spy ).not.toBeCalled()
     })
 
-    test.only('if `rootState.endpoint.mfnFonts is empty set `mfn_ajax.fonts_list` to the state', async () => {
+    test('if `rootState.endpoint.mfnFonts is empty set `mfn_ajax.fonts_list` to the state', async () => {
       expect.assertions( 3 )
 
       window.mfn_ajax.fonts_list = {

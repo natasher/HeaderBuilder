@@ -246,27 +246,52 @@ export default {
     /**
      * Grab data send from AJAX as `mfn_ajax.fonts_list` object,
      * then translate to `vue-select` data schema.
-     * 
+     *
      * e.g.
      * {
      *   label: 'Font 1',
      *   value: 'font1'
      * }
-     * 
+     *
      * @param {function} commit Synchronous invoke mutation.
      * @param {Object} rootState Access to global state.
      * @returns {Promise} Action resolves after mutation is commited.
      */
     setFontsList({ commit, rootState }) {
       return new Promise(( resolve ) => {
-        const hbFonts = rootState.endpoint.mfnFonts
+        const hbFonts  = rootState.endpoint.mfnFonts
+        const wpFonts = mfn_ajax.fonts_list
+        let tmpFonts   = []
 
         if ( _.isEmpty( hbFonts )) {
-          commit( 'SET_FONTS_LIST', {
-            fonts: mfn_ajax.fonts_list
-          })
-        }
 
+          tmpFonts.push({
+            label: 'system',
+            value: 'optgroup-label'
+          })
+          _.each( wpFonts.system, function ( font ) {
+            tmpFonts.push({
+              label: font,
+              value: font
+            })
+          })
+
+          tmpFonts.push({
+            label: 'all',
+            value: 'optgroup-label'
+          })
+          _.each( wpFonts.all, function ( font ) {
+            tmpFonts.push({
+              label: font,
+              value: font
+            })
+          })
+
+          commit( 'SET_FONTS_LIST', {
+            fonts: tmpFonts
+          })
+
+        }
         resolve()
       })
     }

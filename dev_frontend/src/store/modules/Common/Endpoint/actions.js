@@ -243,4 +243,32 @@ export default {
       })
     },
 
+    /**
+     * Grab data send from AJAX as `mfn_ajax.fonts_list` object,
+     * then translate to `vue-select` data schema.
+     * 
+     * e.g.
+     * {
+     *   label: 'Font 1',
+     *   value: 'font1'
+     * }
+     * 
+     * @param {function} commit Synchronous invoke mutation.
+     * @param {Object} rootState Access to global state.
+     * @returns {Promise} Action resolves after mutation is commited.
+     */
+    setFontsList({ commit, rootState }) {
+      return new Promise(( resolve ) => {
+        const hbFonts = rootState.endpoint.mfnFonts
+
+        if ( _.isEmpty( hbFonts )) {
+          commit( 'SET_FONTS_LIST', {
+            fonts: mfn_ajax.fonts_list
+          })
+        }
+
+        resolve()
+      })
+    }
+
 }

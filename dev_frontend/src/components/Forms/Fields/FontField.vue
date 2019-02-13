@@ -70,10 +70,48 @@ export default {
   },
 
   methods: {
+    ...mapActions( 'fields', [ 'setModalFieldValue' ]),
+
+    setFontFamily: function ( event ) {
+      if ( event.value == 'optgroup-label' ) {
+        return
+      } else {
+        this.setModalFieldValue({
+          name    : this.wpId,
+          value   : event,
+          as      : this.as  || '',
+          row     : this.row || '',
+          position: 'fontFamily',
+        })
+      }
+    }
   },
 
-  computed: mapState( 'endpoint', {
-    fonts: state => state.mfnFonts
-  }),
+  computed: {
+      ...mapState( 'endpoint', {
+        fonts: state => state.mfnFonts
+      }),
+      ...mapGetters( 'fields', [ 'getSelectFieldValue' ]),
+
+      getFontFamily: function () {
+        const value = this.getSelectFieldValue( this.wpId, this.as, this.row, 'fontFamily' )
+        console.log( value )
+        if ( _.isObject( value )) {
+
+          return value
+
+        } else if ( value === '' ) {
+
+          return this.fonts[1]
+
+        } else {
+
+          if ( value.value == 'optgroup-label' ) return
+          const valueObj = _.findWhere( this.fonts, { value: value } )
+          return valueObj
+
+        }
+      }
+  },
 }
 </script>

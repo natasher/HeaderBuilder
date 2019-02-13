@@ -82,7 +82,9 @@ export default {
       ( fieldName, as = '', row = '', position = void 0 ) => {
         if ( as === '' ) {
 
-          return getters.getCurrentFieldValue( fieldName )
+          return ( position == void 0 )
+            ? getters.getCurrentFieldValue( fieldName )
+            : getters.getCurrentFieldValue( fieldName, position )
 
         } else if ( as === 'row' && row !== '' ) {
 

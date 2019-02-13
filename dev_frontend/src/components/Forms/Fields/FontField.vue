@@ -33,6 +33,15 @@
           :value  = "getFontSizeValue" />
         <span class="font-input-unit">px</span>
 
+        <label for="letterSpacing" class="font-input-label">Letter spacing</label>
+        <input
+          class   = "font-input"
+          type    = "number"
+          name    = "letterSpacing"
+          @input  = "setLetterSpacingValue"
+          :value  = "getLetterSpacingValue" />
+        <span class="font-input-unit">px</span>
+
       </div>
 
     </div>
@@ -97,7 +106,6 @@ export default {
     },
 
     setFontSizeValue: function ( event ) {
-      console.log( event.target.valueAsNumber )
       this.setModalFieldValue({
         name    : this.wpId,
         value   : event.target.valueAsNumber,
@@ -105,7 +113,17 @@ export default {
         row     : this.row || '',
         position: 'fontSize',
       })
-    }
+    },
+
+    setLetterSpacingValue: function ( event ) {
+      this.setModalFieldValue({
+        name    : this.wpId,
+        value   : event.target.valueAsNumber,
+        as      : this.as  || '',
+        row     : this.row || '',
+        position: 'letterSpacing',
+      })
+    },
 
   },
 
@@ -137,6 +155,10 @@ export default {
 
       getFontSizeValue: function() {
         return this.getCurrentFieldValue( 'font', 'fontSize' )
+      },
+
+      getLetterSpacingValue: function() {
+        return this.getCurrentFieldValue( 'font', 'letterSpacing' )
       },
 
   },

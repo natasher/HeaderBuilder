@@ -49,6 +49,7 @@ export default {
               value: 'Arial'
             },
             fontSize: 0,
+            letterSpacing: 0,
           },
         },
         style: {

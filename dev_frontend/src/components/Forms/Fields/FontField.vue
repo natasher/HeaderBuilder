@@ -95,7 +95,7 @@ export default {
 
       getFontFamily: function () {
         const value = this.getSelectFieldValue( this.wpId, this.as, this.row, 'fontFamily' )
-        console.log( value )
+
         if ( _.isObject( value )) {
 
           return value

@@ -48,6 +48,7 @@ export default {
               label: 'Arial',
               value: 'Arial'
             },
+            fontSize: 0,
           },
         },
         style: {

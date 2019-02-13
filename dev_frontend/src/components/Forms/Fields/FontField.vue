@@ -23,6 +23,16 @@
           </template>
 
         </v-select>
+
+        <label for="fontSize" class="font-input-label">Font size</label>
+        <input
+          class   = "font-input"
+          type    = "number"
+          name    = "fontSize"
+          @input  = "setFontSizeValue"
+          :value  = "getFontSizeValue" />
+        <span class="font-input-unit">px</span>
+
       </div>
 
     </div>
@@ -84,14 +94,26 @@ export default {
           position: 'fontFamily',
         })
       }
+    },
+
+    setFontSizeValue: function ( event ) {
+      console.log( event.target.valueAsNumber )
+      this.setModalFieldValue({
+        name    : this.wpId,
+        value   : event.target.valueAsNumber,
+        as      : this.as  || '',
+        row     : this.row || '',
+        position: 'fontSize',
+      })
     }
+
   },
 
   computed: {
       ...mapState( 'endpoint', {
         fonts: state => state.mfnFonts
       }),
-      ...mapGetters( 'fields', [ 'getSelectFieldValue' ]),
+      ...mapGetters( 'fields', [ 'getSelectFieldValue', 'getCurrentFieldValue' ]),
 
       getFontFamily: function () {
         const value = this.getSelectFieldValue( this.wpId, this.as, this.row, 'fontFamily' )
@@ -111,7 +133,12 @@ export default {
           return valueObj
 
         }
-      }
+      },
+
+      getFontSizeValue: function() {
+        return this.getCurrentFieldValue( 'font', 'fontSize' )
+      },
+
   },
 }
 </script>

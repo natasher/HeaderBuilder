@@ -43,7 +43,12 @@ export default {
             value: 'tabletMobile',
           },
           menu: '',
-          font: '',
+          font: {
+            fontFamily: {
+              label: 'Arial',
+              value: 'Arial'
+            },
+          },
         },
         style: {
           linkColor         : '#333333',

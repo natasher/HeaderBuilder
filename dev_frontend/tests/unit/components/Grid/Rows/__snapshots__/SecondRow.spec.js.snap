@@ -3,7 +3,6 @@
 exports[`SecondRow.vue snapshots: should match if grid status is not custom 1`] = `
 <section
   class="hb-row hbr-second"
-  name="fade"
 >
   <header
     class="hbr-header"
@@ -65,7 +64,6 @@ exports[`SecondRow.vue snapshots: should match if grid status is not custom 1`] 
 exports[`SecondRow.vue snapshots: should match if the layout position is bottom 1`] = `
 <section
   class="hb-row hbr-second"
-  name="fade"
 >
   <header
     class="hbr-header"
@@ -134,7 +132,6 @@ exports[`SecondRow.vue snapshots: should match if the layout position is bottom 
 exports[`SecondRow.vue snapshots: should match if the layout position is left 1`] = `
 <section
   class="hb-row hbr-second"
-  name="fade"
 >
   <header
     class="hbr-header"
@@ -178,7 +175,6 @@ exports[`SecondRow.vue snapshots: should match if the layout position is left 1`
 exports[`SecondRow.vue snapshots: should match if the layout position is right 1`] = `
 <section
   class="hb-row hbr-second"
-  name="fade"
 >
   <header
     class="hbr-header"
@@ -222,7 +218,6 @@ exports[`SecondRow.vue snapshots: should match if the layout position is right 1
 exports[`SecondRow.vue snapshots: should match if the layout position is top 1`] = `
 <section
   class="hb-row hbr-second"
-  name="fade"
 >
   <header
     class="hbr-header"

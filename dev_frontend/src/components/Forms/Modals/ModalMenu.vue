@@ -34,6 +34,11 @@
           { label  : 'Arrows for items with submenu',           value: 'arrowsForItemsWithSubmenu' },
           { label  : 'Fold submenus for last 2 items to right', value: 'foldSubmenusForLast2ItemsToRight' },
         ]" />
+
+      <font-field
+        fieldName = "Font"
+        wpId      = "font" />
+
     </template>
 
     <!-- SLOT: style -->
@@ -95,6 +100,7 @@ import ModalScaffold from '../../BaseGeneric/ModalScaffold.vue'
 import SelectField   from '../Fields/SelectField.vue'
 import OptionsGroup  from '../Fields/OptionsGroup.vue'
 import ColorField    from '../Fields/ColorField.vue'
+import FontField     from '../Fields/FontField.vue'
 
 export default {
 
@@ -105,6 +111,7 @@ export default {
     SelectField,
     OptionsGroup,
     ColorField,
+    FontField,
   },
 
   computed: mapState( 'endpoint', {

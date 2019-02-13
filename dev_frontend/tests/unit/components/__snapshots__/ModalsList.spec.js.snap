@@ -6,6 +6,8 @@ exports[`ModalList.vue should match snapshot 1`] = `
 >
   <mfn-generic-modal-stub />
    
+  <modal-save-header-stub />
+   
   <modal-button-stub />
    
   <modal-grid-stub />

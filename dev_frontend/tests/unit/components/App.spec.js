@@ -121,6 +121,24 @@ describe('App.vue', () => {
     expect( pushWPMenusList ).toBeCalled()
   })
 
+  test('should set fetched Be & WP fonts list to the state', async () => {
+    const setFontsList = jest.fn(() => Promise.resolve())
+    const store = createStore({
+      modules: {
+        endpoint: {
+          namespaced: true,
+          actions: {
+            setFontsList
+          }
+        }
+      }
+    })
+    createWrapper({ store, })
+    await flushPromises()
+
+    expect( setFontsList ).toBeCalled()
+  })
+
   test('should settle fetched Header Builder state by ajax', async () => {
     const getStateFromWP = jest.fn(() => Promise.resolve())
     const store = createStore({

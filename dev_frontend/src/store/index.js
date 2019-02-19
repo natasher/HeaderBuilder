@@ -2,8 +2,8 @@ import Vue     from 'vue'
 import Vuex    from 'vuex'
 import { storeConfig } from './config'
 
-Vue.config.devtools      = true
-Vue.config.productionTip = true
+Vue.config.devtools      = false
+Vue.config.productionTip = false
 
 Vue.use( Vuex )
 

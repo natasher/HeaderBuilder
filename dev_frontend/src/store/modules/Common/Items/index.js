@@ -17,7 +17,6 @@ export default {
     baseItemsList: [
       {
         name: 'logo',
-        icon: 'wordpress',
         uuid: '',
         form: {
           logo           : '',
@@ -30,7 +29,6 @@ export default {
       },
       {
         name: 'menu',
-        icon: 'menu',
         uuid: '',
         form: {
           options: {
@@ -65,7 +63,6 @@ export default {
       },
       {
         name: 'menuIcon',
-        icon: 'menu',
         uuid: '',
         form: {
           icon     : [],
@@ -79,7 +76,6 @@ export default {
       },
       {
         name: 'extras',
-        icon: 'flickr',
         uuid: '',
         form: {
           shopIcon   : [],
@@ -107,7 +103,6 @@ export default {
       },
       {
         name: 'social',
-        icon: 'share',
         uuid: '',
         form: {
           iconsList           : [],
@@ -120,7 +115,6 @@ export default {
       },
       {
         name: 'text',
-        icon: 'instapaper',
         uuid: '',
         form: {
           text: ''
@@ -133,7 +127,6 @@ export default {
       },
       {
         name: 'image',
-        icon: 'picture',
         uuid: '',
         form: {
           link      : '',
@@ -147,7 +140,6 @@ export default {
       },
       {
         name: 'icon',
-        icon: 'feather',
         uuid: '',
         form: {
           icon      : [],
@@ -164,7 +156,6 @@ export default {
       },
       {
         name: 'button',
-        icon: 'progress-0',
         uuid: '',
         form: {
           title    : '',

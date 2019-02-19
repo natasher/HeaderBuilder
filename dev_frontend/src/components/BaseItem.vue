@@ -26,7 +26,7 @@
     <div
       class  = "image"
       v-show = "!placeholder">
-        <font-icon :icon="item.icon" />
+        <font-icon :icon="itemIcon" />
     </div>
 
     <span
@@ -145,7 +145,26 @@ export default {
     },
   },
 
-  computed: mapGetters( 'ui', [ 'getGridStatus' ]),
+  computed: {
+    ...mapGetters( 'ui', [ 'getGridStatus' ]),
+
+    itemIcon: function () {
+      const iconsList = {
+        logo    : 'wordpress',
+        menu    : 'menu',
+        menuIcon: 'menu',
+        extras  : 'flickr',
+        social  : 'share',
+        text    : 'instapaper',
+        image   : 'picture',
+        icon    : 'feather',
+        button  : 'progress-0',
+      }
+
+      return iconsList[ this.item.name ]
+    },
+
+  }
 
 }
 </script>

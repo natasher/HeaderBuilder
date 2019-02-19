@@ -17,7 +17,7 @@ export default {
     baseItemsList: [
       {
         name: 'logo',
-        icon: 'heart-line',
+        icon: 'wordpress',
         uuid: '',
         form: {
           logo           : '',
@@ -30,7 +30,7 @@ export default {
       },
       {
         name: 'menu',
-        icon: 'list',
+        icon: 'menu',
         uuid: '',
         form: {
           options: {
@@ -79,7 +79,7 @@ export default {
       },
       {
         name: 'extras',
-        icon: 'plus-squared',
+        icon: 'flickr',
         uuid: '',
         form: {
           shopIcon   : [],
@@ -120,7 +120,7 @@ export default {
       },
       {
         name: 'text',
-        icon: 'doc-text',
+        icon: 'instapaper',
         uuid: '',
         form: {
           text: ''
@@ -164,7 +164,7 @@ export default {
       },
       {
         name: 'button',
-        icon: 'db-shape',
+        icon: 'progress-0',
         uuid: '',
         form: {
           title    : '',

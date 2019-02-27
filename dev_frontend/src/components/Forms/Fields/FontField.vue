@@ -9,20 +9,22 @@
 
       <div class = "mfn-field mfn-font">
 
-        <v-select
-          name     = "fontFamily"
-          :options = "fonts"
-          @input   = "setFontFamily"
-          :value   = "getFontFamily">
+        <div class="mfn-field-wrapper family">
+          <v-select
+            name     = "fontFamily"
+            :options = "fonts"
+            @input   = "setFontFamily"
+            :value   = "getFontFamily">
 
-          <template slot="option" slot-scope="font">
-            <strong v-if="font.value == 'optgroup-label'">{{ font.label }}</strong>
-            <option v-else :value="font.value">
-              {{ font.label }}
-            </option>
-          </template>
+            <template slot="option" slot-scope="font">
+              <strong v-if="font.value == 'optgroup-label'">{{ font.label }}</strong>
+              <option v-else :value="font.value">
+                {{ font.label }}
+              </option>
+            </template>
 
-        </v-select>
+          </v-select>
+        </div>
 
         <label for="fontSize" class="font-input-label">Font size</label>
         <input

@@ -40,6 +40,20 @@ export const prepareStateToPost = ( state ) => {
               iform[ key ] = val.value || val.index
             }
 
+            // only `font` field has nested v-select fields
+            if (key === 'font') {
+              // arguments as in parent map invokation: val, key, list
+              _.map(val, (v, k, l) => {
+
+                // Check if is a v-select model
+                if (_.isObject(v) && _.has( v, 'label' ) && _.has( v, 'value' ) ) {
+                console.log(`${v.label} - ${v.value}`)
+                  l[ k ] = v.value || v.index
+                }
+
+              })
+            }
+
           })
           delete item.originalCoords
         })

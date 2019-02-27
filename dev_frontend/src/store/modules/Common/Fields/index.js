@@ -22,10 +22,20 @@ export default {
       }
     },
 
-    getStyleFieldValue: ( state, getters, rootState ) => ( wpId ) => {
-      return rootState.items.current.style.hasOwnProperty( wpId )
-        ? rootState.items.current.style[ wpId ]
-        : void 0
+    getStyleFieldValue: ( state, getters, rootState ) => ( wpId, position = void 0 ) => {
+      if ( typeof position === 'undefined' ) {
+
+        return rootState.items.current.style.hasOwnProperty( wpId )
+          ? rootState.items.current.style[ wpId ]
+          : void 0
+
+      } else {
+
+        return rootState.items.current.style.hasOwnProperty( wpId )
+          ? rootState.items.current.style[ wpId ][ position ]
+          : void 0
+
+      }
     },
 
     getGridOptionValue: ( state, getters, rootState ) =>
@@ -93,6 +103,10 @@ export default {
         } else if ( as === 'grid' ) {
 
           return getters.getGridOptionValue( fieldName, position )
+
+        } else if ( as === 'style' ) {
+
+          return getters.getStyleFieldValue( fieldName, position )
 
         }
       },

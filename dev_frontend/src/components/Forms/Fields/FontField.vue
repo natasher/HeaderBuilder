@@ -182,7 +182,7 @@ export default {
       ...mapState( 'endpoint', {
         fonts: state => state.mfnFonts
       }),
-      ...mapGetters( 'fields', [ 'getSelectFieldValue', 'getCurrentFieldValue' ]),
+      ...mapGetters( 'fields', [ 'getSelectFieldValue', 'getStyleFieldValue' ]),
 
       getFontFamily: function () {
         const value = this.getSelectFieldValue( this.wpId, this.as, this.row, 'fontFamily' )
@@ -205,7 +205,7 @@ export default {
       },
 
       getFontSizeValue: function() {
-        return this.getCurrentFieldValue( 'font', 'fontSize' )
+        return this.getStyleFieldValue( 'font', 'fontSize' )
       },
 
       getFontStyle: function () {
@@ -228,7 +228,7 @@ export default {
       },
 
       getLetterSpacingValue: function() {
-        return this.getCurrentFieldValue( 'font', 'letterSpacing' )
+        return this.getStyleFieldValue( 'font', 'letterSpacing' )
       },
 
   },

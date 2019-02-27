@@ -219,10 +219,28 @@ export default {
       const styleForm = state.current.style
       const {
         name,
+        position,
         value,
       } = payload
 
-      styleForm[ name ] = value
+      if ( typeof position === 'undefined' ) {
+
+        styleForm[ name ] = value
+
+      } else {
+
+        if ( typeof styleForm[ name ] !== 'undefined' ) {
+
+          styleForm[ name ][ position ] = value
+
+        } else {
+
+          styleForm[ name ] = {}
+          styleForm[ name ][ position ] = value
+
+        }
+
+      }
     },
 
     PUSH_CURRENT_FIELD_ENTRY( state, payload ) {

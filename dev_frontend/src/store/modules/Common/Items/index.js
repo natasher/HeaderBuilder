@@ -43,10 +43,10 @@ export default {
           menu: '',
           font: {
             fontFamily: {
-              label: 'Arial',
-              value: 'Arial'
+              label: 'Roboto',
+              value: 'Roboto'
             },
-            fontSize: 0,
+            fontSize: '15',
             fontStyle: '400',
             letterSpacing: 0,
           },

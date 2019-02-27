@@ -37,7 +37,7 @@
           <span class="font-input-unit">px</span>
         </div>
 
-        <div class="mfn-filed-wrapper style">
+        <div class="mfn-field-wrapper style">
           <label for="fontStyle" class="font-input-label">Font weight & style</label>
           <v-select
             name     = "fontStyle"

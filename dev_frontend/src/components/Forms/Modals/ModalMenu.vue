@@ -46,7 +46,7 @@
 
         <font-field
           fieldName = "Font"
-          as        = "style"
+          as        = "styleForm"
           wpId      = "font" />
 
         <color-field fieldName = "Link color"

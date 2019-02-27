@@ -104,7 +104,7 @@ export default {
 
           return getters.getGridOptionValue( fieldName, position )
 
-        } else if ( as === 'style' ) {
+        } else if ( as === 'styleForm' ) {
 
           return getters.getStyleFieldValue( fieldName, position )
 

@@ -37,13 +37,15 @@
           <span class="font-input-unit">px</span>
         </div>
 
-        <label for="fontStyle" class="font-input-label">Font weight & style</label>
-        <v-select
-          name     = "fontStyle"
-          :options = "fontStyles"
-          @input   = "setFontStyle"
-          :value   = "getFontStyle"
-        />
+        <div class="mfn-filed-wrapper style">
+          <label for="fontStyle" class="font-input-label">Font weight & style</label>
+          <v-select
+            name     = "fontStyle"
+            :options = "fontStyles"
+            @input   = "setFontStyle"
+            :value   = "getFontStyle"
+          />
+        </div>
 
         <label for="letterSpacing" class="font-input-label">Letter spacing</label>
         <input

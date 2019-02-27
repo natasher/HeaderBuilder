@@ -9,46 +9,54 @@
 
       <div class = "mfn-field mfn-font">
 
-        <v-select
-          name     = "fontFamily"
-          :options = "fonts"
-          @input   = "setFontFamily"
-          :value   = "getFontFamily">
+        <div class="mfn-field-wrapper family">
+          <v-select
+            name     = "fontFamily"
+            :options = "fonts"
+            @input   = "setFontFamily"
+            :value   = "getFontFamily">
 
-          <template slot="option" slot-scope="font">
-            <strong v-if="font.value == 'optgroup-label'">{{ font.label }}</strong>
-            <option v-else :value="font.value">
-              {{ font.label }}
-            </option>
-          </template>
+            <template slot="option" slot-scope="font">
+              <strong v-if="font.value == 'optgroup-label'">{{ font.label }}</strong>
+              <option v-else :value="font.value">
+                {{ font.label }}
+              </option>
+            </template>
 
-        </v-select>
+          </v-select>
+        </div>
 
-        <label for="fontSize" class="font-input-label">Font size</label>
-        <input
-          class   = "font-input"
-          type    = "number"
-          name    = "fontSize"
-          @input  = "setFontSizeValue"
-          :value  = "getFontSizeValue" />
-        <span class="font-input-unit">px</span>
+        <div class="mfn-field-wrapper size">
+          <label for="fontSize" class="font-input-label">Font size</label>
+          <input
+            class   = "font-input"
+            type    = "number"
+            name    = "fontSize"
+            @input  = "setFontSizeValue"
+            :value  = "getFontSizeValue" />
+          <span class="font-input-unit">px</span>
+        </div>
 
-        <label for="fontStyle" class="font-input-label">Font weight & style</label>
-        <v-select
-          name     = "fontStyle"
-          :options = "fontStyles"
-          @input   = "setFontStyle"
-          :value   = "getFontStyle"
-        />
+        <div class="mfn-field-wrapper style">
+          <label for="fontStyle" class="font-input-label">Font weight & style</label>
+          <v-select
+            name     = "fontStyle"
+            :options = "fontStyles"
+            @input   = "setFontStyle"
+            :value   = "getFontStyle"
+          />
+        </div>
 
-        <label for="letterSpacing" class="font-input-label">Letter spacing</label>
-        <input
-          class   = "font-input"
-          type    = "number"
-          name    = "letterSpacing"
-          @input  = "setLetterSpacingValue"
-          :value  = "getLetterSpacingValue" />
-        <span class="font-input-unit">px</span>
+        <div class="mfn-field-wrapper spacing">
+          <label for="letterSpacing" class="font-input-label">Letter spacing</label>
+          <input
+            class   = "font-input"
+            type    = "number"
+            name    = "letterSpacing"
+            @input  = "setLetterSpacingValue"
+            :value  = "getLetterSpacingValue" />
+          <span class="font-input-unit">px</span>
+        </div>
 
       </div>
 

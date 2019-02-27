@@ -26,14 +26,16 @@
           </v-select>
         </div>
 
-        <label for="fontSize" class="font-input-label">Font size</label>
-        <input
-          class   = "font-input"
-          type    = "number"
-          name    = "fontSize"
-          @input  = "setFontSizeValue"
-          :value  = "getFontSizeValue" />
-        <span class="font-input-unit">px</span>
+        <div class="mfn-field-wrapper size">
+          <label for="fontSize" class="font-input-label">Font size</label>
+          <input
+            class   = "font-input"
+            type    = "number"
+            name    = "fontSize"
+            @input  = "setFontSizeValue"
+            :value  = "getFontSizeValue" />
+          <span class="font-input-unit">px</span>
+        </div>
 
         <label for="fontStyle" class="font-input-label">Font weight & style</label>
         <v-select

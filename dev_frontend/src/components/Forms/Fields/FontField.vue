@@ -47,14 +47,16 @@
           />
         </div>
 
-        <label for="letterSpacing" class="font-input-label">Letter spacing</label>
-        <input
-          class   = "font-input"
-          type    = "number"
-          name    = "letterSpacing"
-          @input  = "setLetterSpacingValue"
-          :value  = "getLetterSpacingValue" />
-        <span class="font-input-unit">px</span>
+        <div class="mfn-field-wrapper spacing">
+          <label for="letterSpacing" class="font-input-label">Letter spacing</label>
+          <input
+            class   = "font-input"
+            type    = "number"
+            name    = "letterSpacing"
+            @input  = "setLetterSpacingValue"
+            :value  = "getLetterSpacingValue" />
+          <span class="font-input-unit">px</span>
+        </div>
 
       </div>
 

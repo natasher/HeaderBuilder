@@ -155,6 +155,54 @@ class Mfn_HB_Styles {
 			$css .= $selector .' .menu li ul li a:hover{color:'. $style['subHoverLinkColor'] .'}';
 		}
 
+		// font
+
+		if( isset( $style['font'] ) && is_array( $style['font'] ) ){
+
+			// weight
+
+			$font_weight = 400;
+
+			if( $weight = str_replace('italic', '', $style['font']['fontStyle']) ){
+
+				$css .= $selector .' .menu > li > a{font-weight:'. $weight .'}';
+
+				$font_weight .= ','. $weight;
+			}
+
+			// family
+
+			if( $font_family = $style['font']['fontFamily'] ){
+
+				$css .= $selector .' .menu > li > a{font-family:"'. $font_family .'"}';
+
+				if (in_array($font_family, mfn_fonts('all'))) {
+					$font_family = str_replace(' ', '+', $font_family);
+					wp_enqueue_style('mfn-hb-menu-font', 'https://fonts.googleapis.com/css?family='. $font_family .':'. $font_weight );
+				}
+
+			}
+
+			// font size
+
+			if( $font_size = $style['font']['fontSize'] ){
+				$css .= $selector .' .menu > li > a{font-size:'. $font_size .'px}';
+			}
+
+			// style
+
+			if( strpos($style['font']['fontStyle'], 'italic') ) {
+				$css .= $selector .' .menu > li > a{font-style:italic}';
+			}
+
+			// letter spacing
+
+			if( $letter_spacing = $style['font']['letterSpacing'] ){
+				$css .= $selector .' .menu > li > a{letter-spacing:'. $letter_spacing .'px}';
+			}
+
+		}
+
 		return $css;
 
 	}

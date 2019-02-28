@@ -30,15 +30,17 @@ ul#adminmenu a.wp-has-current-submenu::after{border-right-color:#fff}
 .mfn-hb a.mfn-button-primary:hover{background:#35e8c6;color:#0c6856}
 .mfn-hb a.mfn-button-fw{width:100%;box-sizing:border-box}
 
-.mfn-hb button.mfn-button-generic{margin-left:3px;padding:0 20px;line-height:38px;border:1px solid #ddd;border-radius:5px;background:transparent;cursor:pointer;text-decoration:none;outline:none}
+.mfn-hb button.mfn-button-generic{margin-left:3px;padding:0 20px;line-height:36px;border:1px solid #ddd;border-radius:5px;background:transparent;cursor:pointer;text-decoration:none;outline:none}
 .mfn-hb button.mfn-button-generic:hover{background-color:#eaeff2}
 .mfn-hb button.mfn-button-close{padding:0;height:24px;width:24px;border:none;border-radius:100%;font-size:12px;text-align:center;background-color:#2a3846;cursor:pointer;text-decoration:none;outline:none;color:#fff}
 .mfn-hb button.mfn-button-close:hover{background-color:#35e8c6;color:#2a3846}
 
 /* Fields ---------------------------------------------------------------------------- */
 
+.mfn-field input[type="number"],
 .mfn-field input[type="text"],
-.mfn-field textarea{border-radius:5px;width:395px;height:40px;padding:0 10px;border:1px solid #ddd;box-shadow:none;box-sizing:border-box;font-size:13px;}
+.mfn-field textarea{border-radius:5px;width:395px;height:38px;margin:0;padding:0 10px;border:1px solid #ddd;box-shadow:none;box-sizing:border-box;font-size:13px;}
+.mfn-field input[type="number"]:focus,
 .mfn-field input[type="text"]:focus,
 .mfn-field textarea:focus{background-color:rgba(53,237,202,.05);border-color:#35edca}
 
@@ -80,6 +82,11 @@ ul#adminmenu a.wp-has-current-submenu::after{border-right-color:#fff}
 .mfn-field.mfnf-checkbox.active .switch .path{background-color:#2a3846}
 .mfn-field.mfnf-checkbox.active .switch .handle{left:20px}
 
+/* .mfnf-bgimage */
+.mfnf-bgimage .v-select{float:left;margin-top:10px;width:93px;margin-right:5px;}
+.mfnf-bgimage .v-select:last-of-type{width:98px;margin-right:0}
+.mfnf-bgimage .v-select .dropdown-toggle{width:auto}
+
 /* .mfnf-icon */
 .mfn-field.mfnf-icon > input[type="text"]{width:265px}
 .mfn-field.mfnf-icon > button{min-width:120px}
@@ -116,12 +123,26 @@ ul#adminmenu a.wp-has-current-submenu::after{border-right-color:#fff}
 .mfn-field.mfnf-color{position:relative}
 .mfn-field.mfnf-color .wp-picker-holder{position:absolute;padding-bottom:20px;left:-10px;z-index:10}
 
-.mfn-field.mfnf-color .wp-color-result.button{height:40px;font-size:14px;padding-left:60px;border-color:#ddd;box-shadow:unset;border-radius:5px}
-.mfn-field.mfnf-color .wp-color-result .wp-color-result-text{line-height:38px;padding:0 20px;border-radius:0 5px 5px 0;border-color:#ddd;background-color:#fff}
+.mfn-field.mfnf-color .wp-color-result.button{height:38px;font-size:14px;padding-left:60px;border-color:#ddd;box-shadow:unset;border-radius:5px}
+.mfn-field.mfnf-color .wp-color-result .wp-color-result-text{line-height:36px;padding:0 20px;border-radius:0 5px 5px 0;border-color:#ddd;background-color:#fff}
 .mfn-field.mfnf-color .wp-color-result:hover .wp-color-result-text{background-color:#eaeff2}
-.mfn-field.mfnf-color .wp-color-result .color-alpha {width:60px!important;height:38px!important;border-radius:5px 0 0 5px!important}
+.mfn-field.mfnf-color .wp-color-result .color-alpha {width:60px!important;height:36px!important;border-radius:5px 0 0 5px!important}
 
-.mfn-field.mfnf-color .wp-picker-default{height:40px;line-height:100%;font-size:14px;padding:0 20px;background-color:#fff;border-color:#ddd;box-shadow:unset;border-radius:5px}
+.mfn-field.mfnf-color .wp-picker-default{height:38px;line-height:100%;font-size:14px;padding:0 20px;background-color:#fff;border-color:#ddd;box-shadow:unset;border-radius:5px}
+
+/* .mfn-font */
+.mfn-field.mfn-font .mfn-field-wrapper label{display:block;font-size:90%;opacity:.8}
+.mfn-field.mfn-font .mfn-field-wrapper .font-input-unit{font-size:80%;opacity:.7}
+
+.mfn-field.mfn-font .mfn-field-wrapper.family{margin-bottom:5px}
+
+.mfn-field.mfn-font .mfn-field-wrapper.size{float:left;margin-right:10px}
+
+.mfn-field.mfn-font .mfn-field-wrapper.size input,
+.mfn-field.mfn-font .mfn-field-wrapper.spacing input{width:75px;margin-right:5px}
+
+.mfn-field.mfn-font .mfn-field-wrapper.style{float:left;margin-right:10px}
+.mfn-field.mfn-font .mfn-field-wrapper.style .dropdown-toggle{width:180px}
 
 /* Header -------------------------------------------------------------------------- */
 
@@ -284,6 +305,7 @@ ul#adminmenu a.wp-has-current-submenu::after{border-right-color:#fff}
 /* Footer ---------------------------------------------------------------------------- */
 
 .footer-links{padding-top:12px;font-size:12px}
+.footer-links a:first-child{display:none}
 .footer-links a:hover{opacity:.9}
 .footer-links #reset-builder{float:right;color:#949ba2}
 
@@ -324,12 +346,18 @@ ul#adminmenu a.wp-has-current-submenu::after{border-right-color:#fff}
 /* v-select -------------------------------------------------------------------------- */
 
 .v-select{font-family:'Poppins'!important;font-size:13px!important}
-.v-select .selected-tag{position:absolute}
-.v-select input[type="search"]{height:36px!important;padding:0 11px!important}
-.v-select .dropdown-toggle{width:395px;border-color:#ddd!important;border-radius:5px!important}
+
+.v-select .selected-tag{position:absolute;padding:4px 7px!important}
+.v-select input[type="search"]{height:36px!important;margin:0!important;padding:0 11px!important}
+
+.v-select .dropdown-toggle{width:395px;padding:0!important;border-color:#ddd!important;border-radius:5px!important}
 .v-select.open .dropdown-toggle{border-radius:5px 5px 0 0!important}
-.v-select .selected-tag{padding:1px 7px!important}
 .v-select .dropdown-toggle .clear{display:none}
+
+.v-select .open-indicator{display:block!important;position:relative;top:8px}
+.v-select.open .open-indicator{top:13px}
+.v-select .open-indicator::before{border-width:1px 1px 0 0!important}
+
 .v-select .dropdown-menu{overflow:auto!important;border-color:#ddd!important}
 .v-select .dropdown-menu li a{min-width:100px!important}
 .v-select .dropdown-menu li.highlight a{background-color:#4e6072!important}

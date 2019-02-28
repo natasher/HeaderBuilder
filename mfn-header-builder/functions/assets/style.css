@@ -7,7 +7,11 @@
 
 .mhb-grid:not(.is-sticky) .mhb-view.sticky{display:none!important}
 
+.mhb-view.on-top,
 .is-sticky .mhb-view{position:fixed;left:0;top:0;width:100%;z-index:200}
+
+.admin-bar .mhb-view.on-top,
+.admin-bar .is-sticky .mhb-view{top:32px}
 
 /* .mhb-row */
 
@@ -234,6 +238,13 @@
 
   .mhb-col.left .mhb-menu .menu{left:0;right:auto}
   .mhb-col.center .mhb-menu .menu{left:-100px}
+}
+
+@media only screen and (max-width: 783px){
+
+  .admin-bar .mhb-view.on-top,
+  .admin-bar .is-sticky .mhb-view{top:46px}
+
 }
 
 /* Fallback IE styles */

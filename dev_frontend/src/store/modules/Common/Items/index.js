@@ -41,6 +41,8 @@ export default {
             value: 'tabletMobile',
           },
           menu: '',
+        },
+        style: {
           font: {
             fontFamily: {
               label: 'Roboto',
@@ -50,8 +52,6 @@ export default {
             fontStyle: '400',
             letterSpacing: 0,
           },
-        },
-        style: {
           linkColor         : '#333333',
           hoverLinkColor    : '#0095eb',
           activeLinkColor   : '#0095eb',
@@ -219,10 +219,28 @@ export default {
       const styleForm = state.current.style
       const {
         name,
+        position,
         value,
       } = payload
 
-      styleForm[ name ] = value
+      if ( typeof position === 'undefined' ) {
+
+        styleForm[ name ] = value
+
+      } else {
+
+        if ( typeof styleForm[ name ] !== 'undefined' ) {
+
+          styleForm[ name ][ position ] = value
+
+        } else {
+
+          styleForm[ name ] = {}
+          styleForm[ name ][ position ] = value
+
+        }
+
+      }
     },
 
     PUSH_CURRENT_FIELD_ENTRY( state, payload ) {

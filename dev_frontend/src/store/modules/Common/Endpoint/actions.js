@@ -86,7 +86,8 @@ export default {
               return baseItem.name === item.name
             })[ 0 ]
 
-            row[ index ][ 'form' ] = unifyLevel( item_pattern.form, item.form )
+            row[ index ][ 'form' ]  = unifyLevel( item_pattern.form, item.form )
+            row[ index ][ 'style' ] = unifyLevel( item_pattern.style, item.style )
 
             /**
             * get uuid`s from Backend

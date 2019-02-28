@@ -35,10 +35,6 @@
           { label  : 'Fold submenus for last 2 items to right', value: 'foldSubmenusForLast2ItemsToRight' },
         ]" />
 
-      <font-field
-        fieldName = "Font"
-        wpId      = "font" />
-
     </template>
 
     <!-- SLOT: style -->
@@ -47,6 +43,11 @@
       <section id="menu">
 
         <span class="section-group-name">Menu</span>
+
+        <font-field
+          fieldName = "Font"
+          as        = "styleForm"
+          wpId      = "font" />
 
         <color-field fieldName = "Link color"
                     default   = "#333333"

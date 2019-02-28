@@ -51,7 +51,6 @@ export const prepareStateToPost = ( state ) => {
                 _.map(val, (v, k, l) => {
                   // Check if is a v-select model
                   if (_.isObject(v) && _.has( v, 'label' ) && _.has( v, 'value' ) ) {
-                  console.log(`${v.label} - ${v.value}`)
                     l[ k ] = v.value || v.index
                   }
 

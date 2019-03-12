@@ -17,7 +17,7 @@
             :value   = "getFontFamily">
 
             <template slot="option" slot-scope="font">
-              <strong v-if="font.value == 'optgroup-label'">{{ ( font.label == 'all' ) ? 'GOOGLE FONTS' : font.label.toUpperCase() }}</strong>
+              <strong v-if="font.value == 'optgroup-label'" style="user-select: none;">{{ ( font.label == 'all' ) ? 'GOOGLE FONTS' : font.label.toUpperCase() }}</strong>
               <option v-else :value="font.value">
                 {{ font.label }}
               </option>
@@ -134,7 +134,13 @@ export default {
 
     setFontFamily: function ( event ) {
       if ( event.value == 'optgroup-label' ) {
-        return
+        this.setModalFieldValue({
+          name    : this.wpId,
+          value   : { label: 'Arial', value: 'Arial' },
+          as      : this.as || '',
+          row     : this.row || '',
+          position: 'fontFamily',
+        })
       } else {
         this.setModalFieldValue({
           name    : this.wpId,

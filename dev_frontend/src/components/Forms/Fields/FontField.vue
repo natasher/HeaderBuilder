@@ -17,7 +17,7 @@
             :value   = "getFontFamily">
 
             <template slot="option" slot-scope="font">
-              <strong v-if="font.value == 'optgroup-label'">{{ ( font.label == 'all' ) ? 'google fonts' : font.label }}</strong>
+              <strong v-if="font.value == 'optgroup-label'" style="user-select: none;">{{ ( font.label == 'all' ) ? 'Google fonts' : font.label | capitalize }}</strong>
               <option v-else :value="font.value">
                 {{ font.label }}
               </option>
@@ -68,6 +68,7 @@
 <script>
 import { mapGetters, mapActions, mapState } from 'vuex'
 import vSelect from 'vue-select'
+import { capitalize } from '../../../filters/index.js'
 
 export default {
 
@@ -129,12 +130,22 @@ export default {
     },
   },
 
+  filters: {
+    capitalize: capitalize,
+  },
+
   methods: {
     ...mapActions( 'fields', [ 'setModalFieldValue' ]),
 
     setFontFamily: function ( event ) {
       if ( event.value == 'optgroup-label' ) {
-        return
+        this.setModalFieldValue({
+          name    : this.wpId,
+          value   : { label: 'Arial', value: 'Arial' },
+          as      : this.as || '',
+          row     : this.row || '',
+          position: 'fontFamily',
+        })
       } else {
         this.setModalFieldValue({
           name    : this.wpId,

@@ -167,25 +167,29 @@ class Mfn_HB_Items {
 
 		// search -----
 
-		$output = '<div class="search '. esc_attr( $searchStyle ) .'">';
+		if( 'hide' != $searchStyle ){
 
-			if( $searchStyle == 'icon' ){
-				$output .= '<a class="search-icon" href="#"><i class="icon-search-fine"></i></a>';
-			}
+			$output .= '<div class="search '. esc_attr( $searchStyle ) .'">';
 
-			$output .= '<form method="GET" action="'. esc_url( home_url( '/' ) ) .'">';
-
-				$output .= '<i class="icon-search-fine"></i>';
-				$output .= '<input type="text" class="field" name="s" placeholder="'. esc_attr( $translate[ 'search-placeholder' ] ) .'" />';
-				$output .= '<input type="submit" class="submit" value="" style="display:none" />';
-
-				if( $searchType == 'products' ){
-					$output .= '<input type="hidden" name="post_type" value="product" />';
+				if( $searchStyle == 'icon' ){
+					$output .= '<a class="search-icon" href="#"><i class="icon-search-fine"></i></a>';
 				}
 
-			$output .= '</form>';
+				$output .= '<form method="GET" action="'. esc_url( home_url( '/' ) ) .'">';
 
-		$output .= '</div>';
+					$output .= '<i class="icon-search-fine"></i>';
+					$output .= '<input type="text" class="field" name="s" placeholder="'. esc_attr( $translate[ 'search-placeholder' ] ) .'" />';
+					$output .= '<input type="submit" class="submit" value="" style="display:none" />';
+
+					if( $searchType == 'products' ){
+						$output .= '<input type="hidden" name="post_type" value="product" />';
+					}
+
+				$output .= '</form>';
+
+			$output .= '</div>';
+
+		}
 
 		// shop -----
 

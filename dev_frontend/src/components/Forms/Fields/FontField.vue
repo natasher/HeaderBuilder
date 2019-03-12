@@ -17,7 +17,7 @@
             :value   = "getFontFamily">
 
             <template slot="option" slot-scope="font">
-              <strong v-if="font.value == 'optgroup-label'">{{ ( font.label == 'all' ) ? 'google fonts' : font.label }}</strong>
+              <strong v-if="font.value == 'optgroup-label'">{{ ( font.label == 'all' ) ? 'GOOGLE FONTS' : font.label.toUpperCase() }}</strong>
               <option v-else :value="font.value">
                 {{ font.label }}
               </option>

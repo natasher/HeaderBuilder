@@ -17,7 +17,7 @@
             :value   = "getFontFamily">
 
             <template slot="option" slot-scope="font">
-              <strong v-if="font.value == 'optgroup-label'" style="user-select: none;">{{ ( font.label == 'all' ) ? 'GOOGLE FONTS' : font.label.toUpperCase() }}</strong>
+              <strong v-if="font.value == 'optgroup-label'" style="user-select: none;">{{ ( font.label == 'all' ) ? 'Google fonts' : font.label | capitalize }}</strong>
               <option v-else :value="font.value">
                 {{ font.label }}
               </option>
@@ -68,6 +68,7 @@
 <script>
 import { mapGetters, mapActions, mapState } from 'vuex'
 import vSelect from 'vue-select'
+import { capitalize } from '../../../filters/index.js'
 
 export default {
 
@@ -127,6 +128,10 @@ export default {
       required: false,
       default : '',
     },
+  },
+
+  filters: {
+    capitalize: capitalize,
   },
 
   methods: {

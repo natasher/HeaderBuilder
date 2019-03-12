@@ -26,8 +26,8 @@ ul#adminmenu a.wp-has-current-submenu::after{border-right-color:#fff}
 
 .mfn-hb a.mfn-button{height:40px;line-height:40px;padding:0 25px;color:#fff;background:##2a3846;color:#2a3846;border-radius:5px}
 .mfn-hb a.mfn-button i{margin-left:10px}
-.mfn-hb a.mfn-button-primary{background:#2a3846;color:#fff}
-.mfn-hb a.mfn-button-primary:hover{background:#35e8c6;color:#0c6856}
+.mfn-hb a.mfn-button-primary{background:#2a3846;color:#fff!important}
+.mfn-hb a.mfn-button-primary:hover{background:#35e8c6;color:#0c6856!important}
 .mfn-hb a.mfn-button-fw{width:100%;box-sizing:border-box}
 
 .mfn-hb button.mfn-button-generic{margin-left:3px;padding:0 20px;line-height:36px;border:1px solid #ddd;border-radius:5px;background:transparent;cursor:pointer;text-decoration:none;outline:none}
@@ -170,7 +170,7 @@ ul#adminmenu a.wp-has-current-submenu::after{border-right-color:#fff}
 #mfn-hb-header .header .center ul.tabs{width:100%;text-align:center}
 #mfn-hb-header .header .center ul.tabs li{display:inline-block;margin-right:5px}
 
-#mfn-hb-header .header .center ul.tabs li a{display:block;height:38px;line-height:38px;padding:0 20px;border:1px solid #ddd;border-radius:5px}
+#mfn-hb-header .header .center ul.tabs li a{display:block;height:38px;line-height:38px;padding:0 20px;border:1px solid #ddd;border-radius:5px;color:#2a3846;}
 #mfn-hb-header .header .center ul.tabs li a span{margin-right:3px}
 #mfn-hb-header .header .center ul.tabs li a:hover{background:#eaeff2}
 #mfn-hb-header .header .center ul.tabs li.active a{background:#2a3846;color:#fff;border-color:transparent}
@@ -187,7 +187,7 @@ ul#adminmenu a.wp-has-current-submenu::after{border-right-color:#fff}
 #mfn-hb-main .general .tabs{float:left;width:205px;padding:15px;border-right:1px solid #edeef2;}
 #mfn-hb-main .general .tabs li{display:block;float:left}
 #mfn-hb-main .general .tabs li:first-child{margin-right:10px}
-#mfn-hb-main .general .tabs li a{display:block;height:38px;line-height:38px;padding:0 25px;border:1px solid #ddd;border-radius:5px}
+#mfn-hb-main .general .tabs li a{display:block;height:38px;line-height:38px;padding:0 25px;border:1px solid #ddd;border-radius:5px;color:#2a3846;}
 #mfn-hb-main .general .tabs li:hover a{background:#eaeff2}
 #mfn-hb-main .general .tabs li.active a{background:#2a3846;color:#fff;border-color:transparent}
 
@@ -324,9 +324,9 @@ ul#adminmenu a.wp-has-current-submenu::after{border-right-color:#fff}
 .v--modal .header .center ul{display:inline-block;margin:0}
 .v--modal .header .center ul li{display:inline-block;margin:0;padding:0 10px;cursor:pointer;position:relative}
 .v--modal .header .center ul li:after{content:'';display:none;width:100%;height:4px;border-radius:2px;background:#35e8c6;position:absolute;left:0;bottom:-1px}
-.v--modal .header .center ul li a{color:#cfd6df}
+.v--modal .header .center ul li a{color:#cfd6df!important}
 .v--modal .header .center ul li.active a,
-.v--modal .header .center ul li:hover a{color:#fff}
+.v--modal .header .center ul li:hover a{color:#fff!important}
 .v--modal .header .center ul li.active:after{display:block}
 
 .v--modal .header .right{float:right}
@@ -359,5 +359,5 @@ ul#adminmenu a.wp-has-current-submenu::after{border-right-color:#fff}
 .v-select .open-indicator::before{border-width:1px 1px 0 0!important}
 
 .v-select .dropdown-menu{overflow:auto!important;border-color:#ddd!important}
-.v-select .dropdown-menu li a{min-width:100px!important}
-.v-select .dropdown-menu li.highlight a{background-color:#4e6072!important}
+.v-select .dropdown-menu li a{min-width:100px!important;color:#2a3846!important}
+.v-select .dropdown-menu li.highlight a{background-color:#4e6072!important;color:#fff!important}

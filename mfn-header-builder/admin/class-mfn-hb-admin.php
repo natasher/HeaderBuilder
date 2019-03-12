@@ -66,7 +66,7 @@ class Mfn_HB_Admin
 
 		// theme specific imports
 
-		wp_enqueue_style('mfn-opts-font', 'https://fonts.googleapis.com/css?family=Poppins:300,400,400i,500,700');
+		wp_enqueue_style('mfn-header-font', 'https://fonts.googleapis.com/css?family=Poppins:300,400,400i,500,700');
 		wp_enqueue_style('mfn-opts-icons', get_theme_file_uri('/fonts/mfn-icons.css'), array(), MFN_HB_VERSION);
 
 		// builder specific imports

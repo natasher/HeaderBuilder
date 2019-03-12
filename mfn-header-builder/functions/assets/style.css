@@ -7,8 +7,9 @@
 
 .mhb-grid:not(.is-sticky) .mhb-view.sticky{display:none!important}
 
+.mhb-view{position:relative;z-index:200}
 .mhb-view.on-top,
-.is-sticky .mhb-view{position:fixed;left:0;top:0;width:100%;z-index:200}
+.is-sticky .mhb-view{position:fixed;left:0;top:0;width:100%}
 
 .admin-bar .mhb-view.on-top,
 .admin-bar .is-sticky .mhb-view{top:32px}

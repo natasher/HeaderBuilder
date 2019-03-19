@@ -53,7 +53,7 @@ class Mfn_HB_Styles {
 					continue; // skip for other than row
 				}
 
-				if( isset( $row['active'] ) && ( ! $row['active'] ) ){
+				if( ( 'firstRow' != $row_name ) && empty( $row['active'] ) ){
 					continue; // skip not active rows
 				}
 
@@ -178,7 +178,7 @@ class Mfn_HB_Styles {
 
 				if (in_array($font_family, mfn_fonts('all'))) {
 					$font_family = str_replace(' ', '+', $font_family);
-					wp_enqueue_style('mfn-hb-menu-font', 'https://fonts.googleapis.com/css?family='. $font_family .':'. $font_weight );
+					wp_enqueue_style('mfn-hb-'. $font_family .'-'. $weight, 'https://fonts.googleapis.com/css?family='. $font_family .':'. $font_weight );
 				}
 
 			}

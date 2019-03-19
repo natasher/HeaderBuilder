@@ -21,6 +21,7 @@
     function init() {
 
       menu.init();
+      menu.onePage();
 
       bind();
 
@@ -60,6 +61,65 @@
         var menu = $(button).siblings('ul.menu');
 
         menu.stop(true, true).slideToggle(200);
+
+      },
+
+      onePage: function() {
+
+        if( ! $('body').hasClass('one-page') ){
+          return false;
+        }
+
+        $('.mhb-menu ul.menu').each(function(index) {
+
+          var menu = $(this);
+
+          // add attr [data-hash] & [data-id]
+
+          $('a[href]', menu).each(function() {
+
+            var url = $(this).attr('href');
+            if (url && url.split('#')[1]) {
+
+              // data-hash
+              var hash = '#' + url.split('#')[1];
+              if (hash && $(hash).length) {
+                // check if element with specified ID exists
+                $(this).attr('data-hash', hash);
+                $(hash).attr('data-id', hash);
+              }
+
+            }
+
+          });
+
+          // click
+
+          $('a[data-hash]', menu).on('click', function(e) {
+
+            e.preventDefault();
+
+            var currentView = $('.mhb-view').filter(':visible');
+            var hash = $(this).attr('data-hash');
+
+            hash = '[data-id="' + hash + '"]';
+
+            // offset
+
+            var headerH = currentView.height();
+            var adminBarH = $('#wpadminbar').height();
+
+            var offset = headerH + adminBarH;
+
+            // animate scroll
+
+            $('html, body').animate({
+              scrollTop: $(hash).offset().top - offset
+            }, 500);
+
+          });
+
+        });
 
       }
 

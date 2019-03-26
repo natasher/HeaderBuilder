@@ -1,3 +1,7 @@
+Version 1.0.4
+
+* Added: Houzz, WhatsApp icons to FontField
+
 Version 1.0.3
 
 * Added: One Page - Hash smooth navigation

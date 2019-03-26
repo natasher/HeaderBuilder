@@ -4,14 +4,14 @@ Plugin Name: BeTheme Header Builder
 Description: Header Builder for BeTheme - The biggest WordPress Theme ever.
 Author: Muffin group
 Author URI: https://muffingroup.com
-Version: 1.0.3
+Version: 1.0.4
 */
 
 if (! defined('ABSPATH')) {
 	exit; // Exit if accessed directly
 }
 
-define('MFN_HB_VERSION', '1.0.3');
+define('MFN_HB_VERSION', '1.0.4');
 
 if (is_admin()) {
 

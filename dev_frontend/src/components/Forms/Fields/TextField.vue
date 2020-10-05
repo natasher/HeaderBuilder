@@ -3,7 +3,7 @@
 
     <div class = "col col-left">
       <span class = "title">{{ fieldName }}</span>
-      <span class = "desc" v-if="spread === '' || typeof spread === 'undefined'">{{ desc }}</span>
+      <span class = "desc">{{ desc }}</span>
     </div>
 
     <div class = "col col-right">

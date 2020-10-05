@@ -19,11 +19,19 @@
         wpId      = "height"
         spread    = "narrow" />
 
+      <text-field
+        fieldName = "Width"
+        wpId      = "width"
+        desc      = "for .svg logo only"
+        spread    = "narrow" />
+
       <options-group
         fieldName = "Options"
         wpId      = "options"
         :opts     = "[
-          { label : 'Overflow logo', value: 'overflowLogo' }
+          { label : 'Wrap into H1 tag', value : 'wrapIntoH1Tag'  },
+          { label : 'Link to homepage', value : 'linkToHomepage' },
+          { label : 'Overflow logo',    value : 'overflowLogo'   },
         ]" />
     </template>
 

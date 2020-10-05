@@ -21,9 +21,12 @@ export default {
         form: {
           logo           : '',
           height         : '',
+          width          : '',
           retinaLogo     : '',
           options: {
-            overflowLogo: false,
+            wrapIntoH1Tag : false,
+            linkToHomepage: false,
+            overflowLogo  : false,
           },
         },
       },

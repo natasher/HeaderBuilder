@@ -1,3 +1,7 @@
+Version 1.0.5
+
+* Update: 2.1.4 version of wp-color-picker-alpha, wpColorFieldL10n bug resolved
+
 Version 1.0.4
 
 * Added: Houzz, WhatsApp icons to FontField

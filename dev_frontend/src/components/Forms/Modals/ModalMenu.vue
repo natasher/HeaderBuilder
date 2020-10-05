@@ -12,9 +12,18 @@
         wpId      = "menu"
         :opts     = "getWPMenusList" />
 
+      <options-group
+        fieldName = "Options"
+        wpId      = "options"
+        :opts     = "[
+          { label  : 'Borders between items',                   value: 'bordersBetweenItems' },
+          { label  : 'Arrows for items with submenu',           value: 'arrowsForItemsWithSubmenu' },
+          { label  : 'Fold submenus for last 2 items to right', value: 'foldSubmenusForLast2ItemsToRight' },
+        ]" />
+
       <select-field
-        fieldName = "Replace With Menu Icon"
-        wpId      = "replaceWithMenuIcon"
+        fieldName = "Use menu icon on"
+        wpId      = "useMenuIconOn"
         :opts     = "[
           {
             label: 'Tablet &amp; Mobile',
@@ -26,13 +35,24 @@
           },
         ]" />
 
+      <text-field
+        fieldName = "Use menu icon below"
+        wpId      = "useMenuIconBelow"
+        spread    = "narrow" />
+
+      <text-field
+        fieldName = "Text instead of menu icon"
+        wpId      = "textInsteadOfMenuIcon"
+        spread    = "narrow" />
+
       <options-group
-        fieldName = "Options"
-        wpId      = "options"
+        fieldName = "Side Slide menu"
+        wpId      = "sideSlideMenu"
         :opts     = "[
-          { label  : 'Borders between items',                   value: 'bordersBetweenItems' },
-          { label  : 'Arrows for items with submenu',           value: 'arrowsForItemsWithSubmenu' },
-          { label  : 'Fold submenus for last 2 items to right', value: 'foldSubmenusForLast2ItemsToRight' },
+          { label  : 'Show',               value: 'show' },
+          { label  : 'Show action button', value: 'showActionButton' },
+          { label  : 'Show icons',         value: 'showIcons' },
+          { label  : 'Show social icons',  value: 'showSocialIcons' },
         ]" />
 
     </template>
@@ -102,6 +122,7 @@ import SelectField   from '../Fields/SelectField.vue'
 import OptionsGroup  from '../Fields/OptionsGroup.vue'
 import ColorField    from '../Fields/ColorField.vue'
 import FontField     from '../Fields/FontField.vue'
+import TextField     from '../Fields/TextField.vue'
 
 export default {
 
@@ -113,6 +134,7 @@ export default {
     OptionsGroup,
     ColorField,
     FontField,
+    TextField,
   },
 
   computed: mapState( 'endpoint', {

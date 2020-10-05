@@ -34,16 +34,24 @@ export default {
         name: 'menu',
         uuid: '',
         form: {
+          menu: '',
           options: {
             bordersBetweenItems             : false,
             arrowsForItemsWithSubmenu       : false,
             foldSubmenusForLast2ItemsToRight: false,
           },
-          replaceWithMenuIcon: {
+          useMenuIconOn: {
             label: 'Tablet & Mobile',
             value: 'tabletMobile',
           },
-          menu: '',
+          useMenuIconBelow: '',
+          textInsteadOfMenuIcon: '',
+          sideSlideMenu: {
+            show            : false,
+            showActionButton: false,
+            showIcons       : false,
+            showSocialIcons : false,
+          },
         },
         style: {
           font: {

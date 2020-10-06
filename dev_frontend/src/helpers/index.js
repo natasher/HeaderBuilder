@@ -1,3 +1,5 @@
+import _default from "vuex"
+
 /**
  * Function takes JSON object with device state, then seek for fields.
  * If field has an object as value, flatten it to primitive value (String, Boolean, etc.)
@@ -166,6 +168,12 @@ export const unifyLevel = ( vueState, fetchedState ) => {
 
   _.each(keys_to_be_added_to_backend_object, function (key) {
     fetchedState[ key ] = vueState[ key ]
+  })
+
+  _.each(fetchedState, function(fetchedStateValue, fetchedStateKey) {
+    if (! _.isObject( fetchedStateValue ) ) return
+
+    fetchedState[ fetchedStateKey ] = unifyLevel( vueState[ fetchedStateKey ], fetchedState[ fetchedStateKey ])
   })
 
   return fetchedState

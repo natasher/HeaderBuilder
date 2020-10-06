@@ -153,7 +153,13 @@ export default {
         name: 'icon',
         uuid: '',
         form: {
-          icon      : [],
+          icon      : {
+            set : {
+              label: 'Default',
+              value: 'default'
+            },
+            name: '',
+          },
           linkClass : '',
           linkTarget: {
             label: 'Default | _self',

@@ -117,7 +117,7 @@
 
 <script>
 import { mapGetters, mapActions } from 'vuex'
-import IconsList from './IconsList.js'
+import DefaultIconsList from './DefaultIconsList.js'
 import FontIcon  from '../../BaseGeneric/FontIcon.vue'
 import draggable from 'vuedraggable'
 
@@ -247,14 +247,14 @@ export default {
     },
 
     /**
-     * Grab list of icons names, stored in (external file)[./IconsList.js].
+     * Grab list of icons names, stored in (external file)[./DefaultIconsList.js].
      *
      * @getter
      * @returns {array.string} ["icon-demo",]
      * @public
      */
     icons () {
-      return IconsList
+      return DefaultIconsList
     },
 
   },

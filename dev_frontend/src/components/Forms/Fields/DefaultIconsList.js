@@ -1,4 +1,4 @@
-const IconsList = [
+const DefaultIconsList = [
   "icon-acrobat",
   "icon-address",
   "icon-adjust",
@@ -420,4 +420,4 @@ const IconsList = [
   "icon-youtube"
 ]
 
-export default IconsList
+export default DefaultIconsList

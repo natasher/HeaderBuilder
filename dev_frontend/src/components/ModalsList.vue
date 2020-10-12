@@ -12,7 +12,6 @@
     <modal-image        />
     <modal-logo         />
     <modal-menu         />
-    <modal-menu-icon    />
     <modal-social-media />
     <modal-text         />
   </section>
@@ -32,7 +31,6 @@ import ModalIcon        from './Forms/Modals/ModalIcon.vue';
 import ModalImage       from './Forms/Modals/ModalImage.vue';
 import ModalLogo        from './Forms/Modals/ModalLogo.vue';
 import ModalMenu        from './Forms/Modals/ModalMenu.vue';
-import ModalMenuIcon    from './Forms/Modals/ModalMenuIcon.vue';
 import ModalSocialMedia from './Forms/Modals/ModalSocialMedia.vue';
 import ModalText        from './Forms/Modals/ModalText.vue';
 
@@ -53,7 +51,6 @@ export default {
     ModalImage,
     ModalLogo,
     ModalMenu,
-    ModalMenuIcon,
     ModalSocialMedia,
     ModalText,
   },

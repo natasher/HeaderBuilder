@@ -152,7 +152,6 @@ export default {
       const iconsList = {
         logo    : 'wordpress',
         menu    : 'menu',
-        menuIcon: 'menu',
         extras  : 'flickr',
         social  : 'share',
         text    : 'instapaper',

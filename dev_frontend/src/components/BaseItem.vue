@@ -32,7 +32,12 @@
     <span
       class  = "title"
       v-show = "!placeholder">
-        {{ item.name | unCamelCase }}
+        {{
+          item.name === 'wpml'
+            ? 'WPML'
+            : item.name
+          | unCamelCase
+        }}
     </span>
 
   </div>
@@ -152,12 +157,15 @@ export default {
       const iconsList = {
         logo    : 'wordpress',
         menu    : 'menu',
-        extras  : 'flickr',
         social  : 'share',
         text    : 'instapaper',
         image   : 'picture',
         icon    : 'feather',
         button  : 'progress-0',
+        cart    : 'cart',
+        search  : 'search-line',
+        wpml    : 'language',
+// icon-cart, icon-search-line, icon-language
       }
 
       return iconsList[ this.item.name ]

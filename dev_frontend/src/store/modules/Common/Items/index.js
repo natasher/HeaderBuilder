@@ -73,33 +73,6 @@ export default {
         },
       },
       {
-        name: 'extras',
-        uuid: '',
-        form: {
-          shopIcon   : [],
-          searchStyle: {
-            label: 'Icon',
-            value: 'icon',
-          },
-          searchType: {
-            label: 'Default',
-            value: '',
-          },
-          wpmlStyle: {
-            label: 'Flags',
-            value: 'flags',
-          },
-          wpmlArrangement: {
-            label: 'List',
-            value: 'list',
-          },
-        },
-        style: {
-          iconColor : '#333333',
-          hoverColor: '#0095eb',
-        },
-      },
-      {
         name: 'social',
         uuid: '',
         form: {
@@ -175,6 +148,59 @@ export default {
           buttonColor     : '#f7f7f7',
           hoverTextColor  : '#ffffff',
           hoverButtonColor: '#0095eb',
+        },
+      },
+      {
+        name: 'cart',
+        uuid: '',
+        form: {
+          shopIcon : {
+            set : {
+              label: 'Default',
+              value: 'default'
+            },
+            name: '',
+          },
+        },
+        style: {
+          iconColor : '#333333',
+          hoverColor: '#0095eb',
+        },
+      },
+      {
+        name: 'search',
+        uuid: '',
+        form: {
+          searchStyle: {
+            label: 'Icon',
+            value: 'icon',
+          },
+          searchType: {
+            label: 'Default',
+            value: '',
+          },
+        },
+        style: {
+          iconColor : '#333333',
+          hoverColor: '#0095eb',
+        },
+      },
+      {
+        name: 'wpml',
+        uuid: '',
+        form: {
+          wpmlStyle: {
+            label: 'Flags',
+            value: 'flags',
+          },
+          wpmlArrangement: {
+            label: 'List',
+            value: 'list',
+          },
+        },
+        style: {
+          iconColor : '#333333',
+          hoverColor: '#0095eb',
         },
       },
     ],

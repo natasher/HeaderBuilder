@@ -187,7 +187,7 @@ export default {
     icons: function () {
       if ( this.getIconSet.value === 'default' ) {
 
-        const constructorString = '^icon-' + this.searchIcon + '(\\S+)'
+        const constructorString = '^icon-' + this.searchIcon + '(\\S+)*'
         const defaultRegExp = new RegExp( constructorString )
 
         return this.searchIcon
@@ -196,7 +196,7 @@ export default {
 
       } else {
 
-        const constructorString = '^\\w{3} fa-' + this.searchIcon + '(\\S+)'
+        const constructorString = '^\\w{3} fa-' + this.searchIcon + '(\\S+)*'
         const fontAwesomeRegExp = new RegExp( constructorString )
 
         return this.searchIcon

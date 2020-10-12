@@ -29,7 +29,8 @@
           />
 
           <input type       = "text"
-                name        = "search"
+                class       = "search-icon"
+                name        = "searchIcon"
                 placeholder = "Search..."
                 v-model     = "searchIcon" />
 

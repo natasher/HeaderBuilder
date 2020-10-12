@@ -73,19 +73,6 @@ export default {
         },
       },
       {
-        name: 'menuIcon',
-        uuid: '',
-        form: {
-          icon     : [],
-          menu: '',
-        },
-        style: {
-          iconColor      : '#333333',
-          hoverIconColor : '#0095eb',
-          backgroundColor: 'rgba(255,255,255,0)',
-        },
-      },
-      {
         name: 'extras',
         uuid: '',
         form: {

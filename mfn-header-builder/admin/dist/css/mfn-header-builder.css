@@ -358,3 +358,21 @@ ul#adminmenu a.wp-has-current-submenu::after{border-right-color:#fff}
 .v-select .dropdown-menu{overflow:auto!important;border-color:#ddd!important}
 .v-select .dropdown-menu li a{min-width:100px!important;color:#2a3846!important}
 .v-select .dropdown-menu li.highlight a{background-color:#4e6072!important;color:#fff!important}
+
+.v-select[name=iconSet] {
+  display: inline-block;
+  width: 49%;
+  margin-top: 1%;
+  margin-right: 1%;
+}
+
+.v-select[name=iconSet] > .dropdown-toggle {
+  width: 100%;
+}
+
+input.search-icon {
+  display: inline-block;
+  width: 49% !important;
+  margin-top: 1% !important;
+  margin-right: 1% !important;
+}

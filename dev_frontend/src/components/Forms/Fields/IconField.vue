@@ -10,7 +10,7 @@
         <div class = "mfn-field mfnf-icon">
 
           <input type   = "text"
-                v-model = "selectedIcon" />
+                v-model = "selectedIconName" />
 
           <button
             class = "mfn-button-generic remove"
@@ -18,11 +18,26 @@
               Remove
           </button>
 
+          <v-select
+            name     = "iconSet"
+            :options = "[
+              { label: 'Default', value: 'default' },
+              { label: 'Font Awesome', value: 'fa' },
+            ]"
+            @input   = "setIconSet"
+            :value   = "getIconSet"
+          />
+
+          <input type       = "text"
+                name        = "search"
+                placeholder = "Search..."
+                v-model     = "searchIcon" />
+
           <div class = "icon-select clearfix">
 
             <template v-for = "( icon, index ) in icons">
               <div class    = "mfn-icon"
-                  :class    = "{ active: selectedIcon === icon }"
+                  :class    = "{ active: selectedIconName === icon }"
                   :key      = "index"
                   :data-rel = "icon">
 
@@ -47,9 +62,11 @@
 
 <script>
 import { mapGetters, mapActions } from 'vuex'
-import IconsList from './IconsList.js'
+import DefaultIconsList from './DefaultIconsList.js'
+import FontAwesomeIconsList from "./FontAwesomeIconsList.js"
 import TextField from './TextField.vue'
 import FontIcon  from '../../BaseGeneric/FontIcon.vue'
+import vSelect from "vue-select";
 
 export default {
 
@@ -58,6 +75,7 @@ export default {
   components: {
     TextField,
     FontIcon,
+    vSelect,
   },
 
   props: {
@@ -78,8 +96,14 @@ export default {
     },
   },
 
+  data: function () {
+    return {
+      searchIcon: '',
+    }
+  },
+
   methods: {
-    ...mapActions( 'items', [ 'setCurrentFieldValue' ]),
+    ...mapActions( 'fields', [ 'setModalFieldValue' ]),
 
     /**
      * Invoke when icon is clicked.
@@ -90,14 +114,27 @@ export default {
      * @param {event} event
      * @public
      */
-    setIcon ( event ) {
-      this.selectedIcon = event.target.dataset.rel
+    setIcon: function ( event ) {
+      this.selectedIconName = event.target.dataset.rel
+    },
+
+    setIconSet: function ( event ) {
+      if ( event !== undefined ) {
+        this.setModalFieldValue({
+          name    : this.wpId,
+          value   : event,
+          position: 'set',
+          as      : this.as || '',
+        })
+      }
     },
 
     removeIcon: function() {
-      this.setCurrentFieldValue({
-        name : this.wpId,
-        value: '',
+      this.setModalFieldValue({
+        name    : this.wpId,
+        value   : '',
+        position: 'name',
+        as      : this.as || '',
       })
     },
 
@@ -107,33 +144,66 @@ export default {
     ...mapGetters( 'fields', [ 'getCurrentFieldValue' ]),
 
     /**
-     * Returns all icons with urls from `items.current[ wpId]`.
+     * Returns selected icon name for given icon set `items.current[ wpId ][ name ]`.
      *
      * @getter
-     * @returns {array.objects} [{ icon: "" }]
+     * @setter
+     * @returns string Name of the icon from selected icon set
      * @public
      */
-    selectedIcon: {
+    selectedIconName: {
       get () {
-        return this.getCurrentFieldValue( this.wpId )
+        return this.getCurrentFieldValue( this.wpId, 'name' )
       },
       set ( value ) {
-        this.setCurrentFieldValue({
-          name : this.wpId,
-          value: value,
+        this.setModalFieldValue({
+          name    : this.wpId,
+          value   : value,
+          position: 'name',
+          as      : this.as || '',
         })
       }
     },
 
     /**
-     * Grab list of icons names, stored in (external file)[./IconsList.js].
+     * Returns icon set to be displayed`items.current[ wpId ][ set ]`.
+     * Possible icon sets: Default WP & Font Awesome Free.
+     *
+     * @getter
+     * @returns object
+     */
+    getIconSet: function () {
+      return this.getCurrentFieldValue( this.wpId, 'set' )
+    },
+
+    /**
+     * Grab list of icons names, stored in (external file)[./DefaultIconsList.js]
+     * or (external file)[./FontAwesomeIconsList.js]
      *
      * @getter
      * @returns {array.string} ["icon-demo",]
      * @public
      */
-    icons () {
-      return IconsList
+    icons: function () {
+      if ( this.getIconSet.value === 'default' ) {
+
+        const constructorString = '^icon-' + this.searchIcon + '(\\S+)'
+        const defaultRegExp = new RegExp( constructorString )
+
+        return this.searchIcon
+          ? DefaultIconsList.filter( icon => icon.match( defaultRegExp ))
+          : DefaultIconsList
+
+      } else {
+
+        const constructorString = '^\\w{3} fa-' + this.searchIcon + '(\\S+)'
+        const fontAwesomeRegExp = new RegExp( constructorString )
+
+        return this.searchIcon
+          ? FontAwesomeIconsList.filter( icon => icon.match( fontAwesomeRegExp ))
+          : FontAwesomeIconsList
+
+      }
     },
 
   },

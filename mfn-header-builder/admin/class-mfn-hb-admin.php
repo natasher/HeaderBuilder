@@ -71,6 +71,7 @@ class Mfn_HB_Admin
 
 		// builder specific imports
 
+		wp_enqueue_style('mfn-header-fa-styles', plugins_url('dist/css/all.min.css', __FILE__), array(), MFN_HB_VERSION);
 		wp_enqueue_style('mfn-header-styles', plugins_url('dist/css/mfn-header-builder.css', __FILE__), array(), MFN_HB_VERSION);
 		wp_enqueue_style('mfn-header-component-styles', plugins_url('dist/css/app.css', __FILE__), array(), MFN_HB_VERSION);
 

@@ -9,6 +9,22 @@
       <div class = "col col-right">
         <div class = "mfn-field mfnf-icon">
 
+          <v-select
+            name     = "iconSet"
+            :options = "[
+              { label: 'Default', value: 'default' },
+              { label: 'Font Awesome', value: 'fa' },
+            ]"
+            @input   = "setIconSet"
+            :value   = "getIconSet"
+          />
+
+          <input type       = "text"
+                class       = "search-icon"
+                name        = "searchIcon"
+                placeholder = "Search..."
+                v-model     = "searchIcon" />
+
           <div class = "icon-select clearfix">
 
             <template v-for = "( icon, index ) in icons">
@@ -118,8 +134,10 @@
 <script>
 import { mapGetters, mapActions } from 'vuex'
 import DefaultIconsList from './DefaultIconsList.js'
+import FontAwesomeIconsList from "./FontAwesomeIconsList.js"
 import FontIcon  from '../../BaseGeneric/FontIcon.vue'
 import draggable from 'vuedraggable'
+import vSelect from "vue-select";
 
 const focus = {
   inserted( el ) {
@@ -134,6 +152,7 @@ export default {
   components: {
     FontIcon,
     draggable,
+    vSelect,
   },
 
   props: {
@@ -159,6 +178,8 @@ export default {
      * Local store object with temporary data.
      */
     return {
+      searchIcon   : '',
+      iconSet      : { label: 'Default', value: 'default' },
       tempIcon     : '',
       tempLink     : '',
       popupOffset  : void 0,
@@ -172,6 +193,20 @@ export default {
       'pushCurrentFieldEntry',
       'removeCurrentFieldEntry',
     ]),
+
+    /**
+     * Icon set setter.
+     *
+     * @event click
+     * @type {NativeBrowser}
+     * @param {event} event
+     * @public
+     */
+    setIconSet: function ( event ) {
+      if ( event !== undefined ) {
+        this.iconSet = event;
+      }
+    },
 
     /**
      * Invoke when icon is clicked.
@@ -247,14 +282,45 @@ export default {
     },
 
     /**
-     * Grab list of icons names, stored in (external file)[./DefaultIconsList.js].
+     * Returns icon set to be displayed`items.current[ wpId ][ set ]`.
+     * Possible icon sets: Default WP & Font Awesome Free.
+     *
+     * @getter
+     * @returns object
+     */
+    getIconSet: function () {
+      return this.iconSet
+    },
+
+    /**
+     * Grab list of icons names, stored in (external file)[./DefaultIconsList.js]
+     * or (external file)[./FontAwesomeIconsList.js]
      *
      * @getter
      * @returns {array.string} ["icon-demo",]
      * @public
      */
-    icons () {
-      return DefaultIconsList
+    icons: function () {
+      if ( this.getIconSet.value === 'default' ) {
+
+        const constructorString = '^icon-' + this.searchIcon + '(\\S+)*'
+        const defaultRegExp = new RegExp( constructorString )
+
+        return this.searchIcon
+          ? DefaultIconsList.filter( icon => icon.match( defaultRegExp ))
+          : DefaultIconsList
+
+      } else {
+
+        const constructorString = '^\\w{3} fa-' + this.searchIcon + '(\\S+)*'
+        const fontAwesomeRegExp = new RegExp( constructorString )
+
+        return this.searchIcon
+          ? FontAwesomeIconsList.filter( icon => icon.match( fontAwesomeRegExp ))
+          : FontAwesomeIconsList
+
+      }
+
     },
 
   },

@@ -76,7 +76,7 @@ export default {
         name: 'social',
         uuid: '',
         form: {
-          iconsList           : [],
+          iconsList: [],
           openLinksInNewWindow: false,
         },
         style: {

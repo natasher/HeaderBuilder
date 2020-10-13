@@ -100,6 +100,7 @@ export default {
   data: function () {
     return {
       searchIcon: '',
+      iconSet   : {},
     }
   },
 
@@ -121,12 +122,7 @@ export default {
 
     setIconSet: function ( event ) {
       if ( event !== undefined ) {
-        this.setModalFieldValue({
-          name    : this.wpId,
-          value   : event,
-          position: 'set',
-          as      : this.as || '',
-        })
+        this.iconSet = event
       }
     },
 
@@ -134,7 +130,6 @@ export default {
       this.setModalFieldValue({
         name    : this.wpId,
         value   : '',
-        position: 'name',
         as      : this.as || '',
       })
     },
@@ -154,13 +149,12 @@ export default {
      */
     selectedIconName: {
       get () {
-        return this.getCurrentFieldValue( this.wpId, 'name' )
+        return this.getCurrentFieldValue( this.wpId )
       },
       set ( value ) {
         this.setModalFieldValue({
           name    : this.wpId,
           value   : value,
-          position: 'name',
           as      : this.as || '',
         })
       }
@@ -174,7 +168,7 @@ export default {
      * @returns object
      */
     getIconSet: function () {
-      return this.getCurrentFieldValue( this.wpId, 'set' )
+      return this.iconSet
     },
 
     /**
@@ -195,7 +189,7 @@ export default {
           ? DefaultIconsList.filter( icon => icon.match( defaultRegExp ))
           : DefaultIconsList
 
-      } else {
+      } else if ( this.getIconSet.value === 'fa' ) {
 
         const constructorString = '^\\w{3} fa-' + this.searchIcon + '(\\S+)*'
         const fontAwesomeRegExp = new RegExp( constructorString )
@@ -207,6 +201,25 @@ export default {
       }
     },
 
+  },
+
+  created() {
+    const defaultRegExp     = new RegExp( '^icon-(\\S+)*' )
+    const fontAwesomeRegExp = new RegExp( '^\\w{3} fa-(\\S+)*' )
+
+    if ( this.selectedIconName.match( defaultRegExp ) ) {
+
+      this.iconSet = { label: 'Default', value: 'default' }
+
+    } else if ( this.selectedIconName.match( fontAwesomeRegExp ) ) {
+
+      this.iconSet = { label: 'Font Awesome', value: 'fa' }
+
+    } else {
+
+      this.iconSet = { label: 'Default', value: 'default' }
+
+    }
   },
 
 }

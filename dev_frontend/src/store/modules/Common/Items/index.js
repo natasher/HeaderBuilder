@@ -113,13 +113,7 @@ export default {
         name: 'icon',
         uuid: '',
         form: {
-          icon      : {
-            set : {
-              label: 'Default',
-              value: 'default'
-            },
-            name: '',
-          },
+          icon      : '',
           linkClass : '',
           linkTarget: {
             label: 'Default | _self',
@@ -154,13 +148,7 @@ export default {
         name: 'cart',
         uuid: '',
         form: {
-          shopIcon : {
-            set : {
-              label: 'Default',
-              value: 'default'
-            },
-            name: '',
-          },
+          shopIcon : '',
         },
         style: {
           iconColor : '#333333',

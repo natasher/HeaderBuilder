@@ -217,46 +217,12 @@ export default {
     },
 
     /**
-     * Check json structure for font field. If exists
-     * normalize set with icon name: Font Awesome icon
-     * must be saved with 'fa' set; Default with 'default'.
-     *
-     * @param json currentItem Copy of the current item
-     * @returns json item The item with normalized font field
-     */
-    checkIconField: function ( item ) {
-      const defaultRegExp     = /^icon-(\S+)/
-      const fontAwesomeRegExp = /^\w{3} fa-(\S+)/
-
-      _.each( item.form, function ( formValue ) {
-        if ( _.isObject( formValue ) && _.has( formValue, "name" ) && _.has( formValue, "set" )  ) {
-
-          const iconIsDefaultSet = defaultRegExp.test( formValue.name )
-          const iconIsFASet      = fontAwesomeRegExp.test( formValue.name )
-
-          if ( iconIsDefaultSet && formValue.set.value !== 'default' ) {
-
-            formValue.set = { "label": "Default", "value": "default" }
-
-          } else if ( iconIsFASet && formValue.set.value !== 'fa' ) {
-
-            formValue.set = { "label": "Font Awesome", "value": "fa" }
-
-          }
-
-        }
-      })
-
-      return item
-    },
-
-    /**
      * Before close modal hook.
      * Save modified item form, clear current item to empty object
      */
     beforeClose() {
       if (this.closeHook) {
-        const new_item = this.checkIconField( JSON.parse(JSON.stringify( this.currentItem )) )
+        const new_item = JSON.parse(JSON.stringify( this.currentItem ))
 
         this.saveForm({ new_item, priv: this.priv })
         this.setCurrentItem({})

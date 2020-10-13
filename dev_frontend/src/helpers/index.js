@@ -1,5 +1,3 @@
-import _default from "vuex"
-
 /**
  * Function takes JSON object with device state, then seek for fields.
  * If field has an object as value, flatten it to primitive value (String, Boolean, etc.)
@@ -163,6 +161,8 @@ export const unifyLevel = ( vueState, fetchedState ) => {
   const keys_to_be_removed_from_backend_object = _.difference( fetched_state_keys, vue_state_keys )
 
   _.each(keys_to_be_removed_from_backend_object, function (key) {
+    if ( _.isArray( fetchedState ) || key === 'icon' || key === 'link' ) return
+
     delete fetchedState[ key ]
   })
 

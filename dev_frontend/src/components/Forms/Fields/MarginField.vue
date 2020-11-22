@@ -9,33 +9,46 @@
       <div class = "mfn-field mfnf-margin">
 
         <div class = "container" >
-          <input
-            v-model     = "valueTop"
-            class       = "top"
-            :name       = "wpId+'Top'"
-            placeholder = "px"
-            type        = "text" />
 
-          <input
-            v-model     = "valueRight"
-            class       = "right"
-            :name       = "wpId+'Right'"
-            placeholder = "px"
-            type        = "text" />
+          <div class="margin-value-wrapper">
+            <label :for="wpId+'Top'" class="margin-value-label">TOP</label>
+            <input
+              v-model     = "valueTop"
+              class       = "top"
+              :name       = "wpId+'Top'"
+              placeholder = "px"
+              type        = "text" />
+          </div>
 
-          <input
-            v-model     = "valueBottom"
-            class       = "bottom"
-            :name       = "wpId+'Bottom'"
-            placeholder = "px"
-            type        = "text" />
+          <div class="margin-value-wrapper">
+            <label :for="wpId+'Top'" class="margin-value-label">RIGHT</label>
+            <input
+              v-model     = "valueRight"
+              class       = "right"
+              :name       = "wpId+'Right'"
+              placeholder = "px"
+              type        = "text" />
+          </div>
 
-          <input
-            v-model     = "valueLeft"
-            class       = "left"
-            :name       = "wpId+'Left'"
-            placeholder = "px"
-            type        = "text" />
+          <div class="margin-value-wrapper">
+            <label :for="wpId+'Top'" class="margin-value-label">BOTTOM</label>
+            <input
+              v-model     = "valueBottom"
+              class       = "bottom"
+              :name       = "wpId+'Bottom'"
+              placeholder = "px"
+              type        = "text" />
+          </div>
+
+          <div class="margin-value-wrapper">
+            <label :for="wpId+'Top'" class="margin-value-label">LEFT</label>
+            <input
+              v-model     = "valueLeft"
+              class       = "left"
+              :name       = "wpId+'Left'"
+              placeholder = "px"
+              type        = "text" />
+          </div>
         </div>
 
       </div>

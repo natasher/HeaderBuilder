@@ -42,7 +42,7 @@ export const prepareStateToPost = ( state ) => {
 
           })
 
-          if ( item.name == 'menu' ) {
+          if ( item.name == 'menu' || item.name == 'button') {
             _.map( item.style, ( val, key ) => {
 
               // only `font` field has nested v-select fields

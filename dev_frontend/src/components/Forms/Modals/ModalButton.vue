@@ -38,25 +38,59 @@
 
     <!-- SLOT: style -->
     <template slot="style">
-      <color-field fieldName = "Text color"
-                   default   = "#333333"
-                   wpId      = "textColor"
-                   as        = "styleForm" />
+        <font-field
+          fieldName = "Font"
+          as        = "styleForm"
+          wpId      = "font" />
 
-      <color-field fieldName = "Button color"
-                   default   = "#f7f7f7"
-                   wpId      = "buttonColor"
-                   as        = "styleForm" />
+        <margin-field
+          fieldName = "Padding"
+          as        = "styleForm"
+          wpId      = "padding"
+        />
 
-      <color-field fieldName = "Hover text color"
-                   default   = "#ffffff"
-                   wpId      = "hoverTextColor"
-                   as        = "styleForm" />
+        <text-field fieldName = "Border Width"
+                    wpId      = "borderWidth"
+                    pholder   = "px"
+                    as        = "styleForm"
+                    spread    = "narrow" />
 
-      <color-field fieldName = "Hover button color"
-                   default   = "#0095eb"
-                   wpId      = "hoverButtonColor"
-                   as        = "styleForm" />
+        <text-field fieldName = "Border Radius"
+                    wpId      = "borderRadius"
+                    pholder   = "px"
+                    as        = "styleForm"
+                    spread    = "narrow" />
+
+        <color-field fieldName = "Color Normal"
+                    default   = "#626262"
+                    wpId      = "colorNormal"
+                    as        = "styleForm" />
+
+        <color-field fieldName = "Color Hover"
+                    default   = "#626262"
+                    wpId      = "colorHover"
+                    as        = "styleForm" />
+
+        <color-field fieldName = "Background Normal"
+                    default   = "#DBDDDF"
+                    wpId      = "bgNormal"
+                    as        = "styleForm" />
+
+        <color-field fieldName = "Background Hover"
+                    default   = "#D3D3D3"
+                    wpId      = "bgHover"
+                    as        = "styleForm" />
+
+        <color-field fieldName = "Border Color Normal"
+                    default   = "#000000"
+                    wpId      = "borderColorNormal"
+                    as        = "styleForm" />
+
+        <color-field fieldName = "Border Color Hover"
+                    default   = "#000000"
+                    wpId      = "borderColorHover"
+                    as        = "styleForm" />
+
     </template>
 
   </modal-scaffold>
@@ -67,6 +101,8 @@ import ModalScaffold from '../../BaseGeneric/ModalScaffold.vue'
 import TextField     from '../Fields/TextField.vue'
 import SelectField   from '../Fields/SelectField.vue'
 import ColorField    from '../Fields/ColorField.vue'
+import FontField     from '../Fields/FontField.vue'
+import MarginField   from "../Fields/MarginField.vue";
 
 export default {
 
@@ -77,6 +113,8 @@ export default {
     TextField,
     SelectField,
     ColorField,
+    FontField,
+    MarginField,
   },
 
 }

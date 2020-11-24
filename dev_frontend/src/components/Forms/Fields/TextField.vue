@@ -105,7 +105,7 @@ export default {
   },
 
   computed: {
-    ...mapGetters( 'fields', [ 'getCurrentFieldValue', 'getRowOptionValue' ]),
+    ...mapGetters( 'fields', [ 'getCurrentFieldValue', 'getRowOptionValue', 'getStyleFieldValue' ]),
 
     textFieldValue: {
       get() {
@@ -116,6 +116,10 @@ export default {
         } else if ( this.as === 'row' ) {
 
           return this.getRowOptionValue( this.wpId, this.row )
+
+        } else if ( this.as === 'styleForm' ) {
+
+          return this.getStyleFieldValue( this.wpId )
 
         }
       },

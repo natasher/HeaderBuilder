@@ -59,7 +59,7 @@ export default {
               label: 'Roboto',
               value: 'Roboto'
             },
-            fontSize: '15',
+            fontSize: '14',
             fontStyle: '400',
             letterSpacing: 0,
           },
@@ -138,10 +138,29 @@ export default {
           },
         },
         style: {
-          textColor       : '#333333',
-          buttonColor     : '#f7f7f7',
-          hoverTextColor  : '#ffffff',
-          hoverButtonColor: '#0095eb',
+          font: {
+            fontFamily: {
+              label: 'Roboto',
+              value: 'Roboto'
+            },
+            fontSize: '14',
+            fontStyle: '400',
+            letterSpacing: 0,
+          },
+          padding: {
+            top: 12,
+            right: 20,
+            bottom: 12,
+            left: 20,
+          },
+          borderWidth     : 0,
+          borderRadius    : 0,
+          colorNormal     : '#626262',
+          colorHover      : '#626262',
+          bgNormal        : '#DBDDDF',
+          bgHover         : '#D3D3D3',
+          borderColorNormal : '#ffffff',
+          borderColorHover : '#ffffff',
         },
       },
       {

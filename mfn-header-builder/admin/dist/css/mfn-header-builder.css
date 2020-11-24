@@ -63,12 +63,17 @@ ul#adminmenu a.wp-has-current-submenu::after{border-right-color:#fff}
 .mfnf-bgimage .v-select .dropdown-toggle{width:auto}
 
 /* .mfnf-margin */
-.mfn-field.mfnf-margin .container{position:relative;width:170px;height:60px;margin:10px}
-.mfn-field.mfnf-margin input[type="text"]{position:absolute;width:56px;background:rgba(248,198,150,.05);border-color:#f8c696;text-indent:0;text-align:center}
-.mfn-field.mfnf-margin .top{left:50%;transform:translateX(-50%) translateY(-40%)}
+.mfn-field.mfnf-margin .container{position:relative;width:300px;height:70px;}
+.mfn-field.mfnf-margin input[type="text"]{width:56px;text-indent:0;text-align:center}
+.mfn-field.mfnf-margin .margin-value-wrapper {width:56px;display: inline-block;}
+.mfn-field .margin-value-label {display: block;text-align: center;width: 56px;font-size: 90%;opacity: .8;}
+.mfn-field .margin-value-wrapper > input[type="text"] {border-radius: 0;}
+.mfn-field .margin-value-wrapper > input[type="text"].top {border-radius: 5px 0 0 5px;}
+.mfn-field .margin-value-wrapper > input[type="text"].left {border-radius: 0 5px 5px 0;}
+/* .mfn-field.mfnf-margin .top{left:50%;transform:translateX(-50%) translateY(-40%)}
 .mfn-field.mfnf-margin .right{right:0;top:50%;transform:translateY(-50%) translateX(10%)}
 .mfn-field.mfnf-margin .bottom{bottom:0;left:50%;transform:translateX(-50%) translateY(40%)}
-.mfn-field.mfnf-margin .left{left:0;top:50%;transform:translateY(-50%) translateX(-10%)}
+.mfn-field.mfnf-margin .left{left:0;top:50%;transform:translateY(-50%) translateX(-10%)} */
 
 /* .mfnf-select-image */
 .mfn-field.mfnf-select-image ul{margin:0}

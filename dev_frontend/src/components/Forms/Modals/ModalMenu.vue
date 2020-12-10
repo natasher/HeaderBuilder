@@ -23,7 +23,7 @@
 
       <select-field
         fieldName = "Use menu icon on"
-        wpId      = "useMenuIconOn"
+        wpId      = "replaceWithMenuIcon"
         :opts     = "[
           {
             label: 'Tablet &amp; Mobile',

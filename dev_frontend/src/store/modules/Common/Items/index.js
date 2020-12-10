@@ -40,7 +40,7 @@ export default {
             arrowsForItemsWithSubmenu       : false,
             foldSubmenusForLast2ItemsToRight: false,
           },
-          useMenuIconOn: {
+          replaceWithMenuIcon: {
             label: 'Tablet & Mobile',
             value: 'tabletMobile',
           },

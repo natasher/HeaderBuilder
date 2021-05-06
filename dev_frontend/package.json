@@ -34,7 +34,7 @@
     "jest-nyan-reporter": "^1.0.2",
     "lodash.clonedeep": "^4.5.0",
     "lodash.merge": "^4.6.1",
-    "underscore": "^1.9.1",
+    "underscore": "^1.12.1",
     "vue-template-compiler": "^2.5.17"
   }
 }
